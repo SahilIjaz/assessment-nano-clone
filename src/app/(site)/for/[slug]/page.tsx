@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
 import { registry } from "./registry";
 
 export function generateStaticParams() {
@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const e = registry[slug];
-  if (!e) notFound();
+  if (!e) redirect("/");
   const Mod = (await e.load()).default;
   return <Mod />;
 }

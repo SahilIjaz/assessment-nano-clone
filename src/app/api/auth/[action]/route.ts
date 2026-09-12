@@ -141,6 +141,22 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ action: st
       await d.prepare("UPDATE users SET onboarding_step='done' WHERE id=?").run(u.id);
       return NextResponse.json({ ok: true });
     }
+    // ---- agency onboarding (/agency and /talent-agency): account → code → agency name ----
+    case "agency-setup": {
+      const u = await currentUser(); if (!u) return bad("Unauthorized", 401);
+      const name = String(body.agencyName || "").trim();
+      if (name.length < 2) return bad("Enter your agency name.");
+      if (u.role === "saas") {
+        const c = await ensureCompany(u, name);
+        await d.prepare("UPDATE companies SET name=?, website=?, industry=? WHERE id=?").run(name, String(body.website || "").trim() || null, "Agency", c.id);
+        await d.prepare("UPDATE users SET onboarding_step='done' WHERE id=?").run(u.id);
+        return NextResponse.json({ ok: true, next: "/brand" });
+      }
+      await upsertCreator(u);
+      await d.prepare("UPDATE creator_profiles SET display_name=?, headline=? WHERE user_id=?").run(name, `${name} · Talent agency`, u.id);
+      await d.prepare("UPDATE users SET onboarding_step='done' WHERE id=?").run(u.id);
+      return NextResponse.json({ ok: true, next: "/creator" });
+    }
     default:
       return bad("Unknown action", 404);
   }

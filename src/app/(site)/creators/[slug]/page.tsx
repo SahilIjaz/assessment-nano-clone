@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
 import { CREATORS, type Creator } from "@/data/creators";
 import { db } from "@/lib/db";
 import { fmtK, initials } from "@/lib/format";
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function CreatorProfile({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const c = await load(slug);
-  if (!c) notFound();
+  if (!c) redirect("/creators");
   const has = c.followers > 0;
   const fmtDate = (iso: string) => new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "short" });
   return (

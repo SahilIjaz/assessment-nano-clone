@@ -98,10 +98,8 @@ export default function P_help() {
               </div>
               <p className="text-[#4B5563] leading-relaxed text-lg">
                 {"Send an email to "}
-                <a href="/cdn-cgi/l/email-protection#ea83848c85aa848b8b8485c4898587" className="text-[#3B82F6] hover:text-[#2563EB] font-medium underline">
-                  <span className="__cf_email__" data-cfemail="0b62656d644b656a6a656425686466">
-                    [email protected]
-                  </span>
+                <a href="mailto:info@naano.com" className="text-[#3B82F6] hover:text-[#2563EB] font-medium underline">
+                  info@naano.com
                 </a>
                 {", or reach out to one of us on "}
                 <a href="https://www.linkedin.com/company/naanooo/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-[#3B82F6] hover:text-[#2563EB] font-medium underline">

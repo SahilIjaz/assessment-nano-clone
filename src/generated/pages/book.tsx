@@ -99,7 +99,7 @@ export default function P_book() {
                 <p style={{margin: "0", fontSize: "13px", color: "#A7A9AF"}}>
                   You'll receive a Google Calendar invite instantly.
                 </p>
-                <a href="/cdn-cgi/l/email-protection#50393e363f103e31313e3f7e333f3d" style={{display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "13.5px", fontWeight: "600", whiteSpace: "nowrap", color: "var(--accent)", textDecoration: "none"}}>
+                <a href="mailto:info@naano.com" style={{display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "13.5px", fontWeight: "600", whiteSpace: "nowrap", color: "var(--accent)", textDecoration: "none"}}>
                   Prefer email? Contact us
                   <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12" />
