@@ -178,9 +178,9 @@ export default function ChatWidget() {
         className="nnc-handle"
         data-collapsed={collapsed ? "true" : "false"}
         aria-expanded={!collapsed}
-        aria-label={collapsed ? "Open Naano assistant" : open ? "Close conversation" : "Minimize Naano assistant"}
-        title={collapsed ? "Open assistant" : open ? "Close conversation" : "Minimize"}
-        onClick={() => { if (!collapsed && open) { setOpen(false); return; } setCollapsed((c) => !c); if (collapsed) requestAnimationFrame(() => inputRef.current?.focus()); }}
+        aria-label={collapsed ? "Open Naano assistant" : "Minimize Naano assistant"}
+        title={collapsed ? "Open assistant" : "Minimize"}
+        onClick={() => { setCollapsed((c) => !c); if (collapsed) requestAnimationFrame(() => inputRef.current?.focus()); }}
       >
         <svg className="nnc-handle-chevron" width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 7.25 6 3.75l3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
         <svg className="nnc-handle-bubble" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path fillRule="evenodd" clipRule="evenodd" d="M1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.937 1.25 22.75 6.06293 22.75 12C22.75 17.937 17.937 22.75 12 22.75C10.1437 22.75 8.39536 22.2788 6.87016 21.4493L2.63727 22.2373C2.39422 22.2826 2.14448 22.2051 1.96967 22.0303C1.79485 21.8555 1.71742 21.6058 1.76267 21.3627L2.55076 17.1298C1.72113 15.6046 1.25 13.8563 1.25 12Z" fill="currentColor" /></svg>
