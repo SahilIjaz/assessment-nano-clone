@@ -1,0 +1,740 @@
+[
+ {
+  "name": "about",
+  "comp": "P_about",
+  "route": "/about",
+  "title": "About Naano: the team behind the B2B LinkedIn creator marketplace",
+  "description": "Meet Naano's founders, Thomas Marcelle (CEO), Alexis Jarre (CMO), Justine Namour (CTO), and the LinkedIn creator marketplace with flat per-post pricing.",
+  "nav": null,
+  "footer": "14774f"
+ },
+ {
+  "name": "agencies",
+  "comp": "P_agencies",
+  "route": "/agencies",
+  "title": "Naano for agencies — Brand and creator operations",
+  "description": "Choose the Naano workspace built for your agency: manage brand campaigns and budgets, or operate your creator roster.",
+  "nav": "de62d0",
+  "footer": "9c1d3e"
+ },
+ {
+  "name": "benchmarks__q2-2026",
+  "comp": "P_benchmarks__q2_2026",
+  "route": "/benchmarks/q2-2026",
+  "title": "B2B Creator-Led Growth Benchmarks Q2 2026 | Naano",
+  "description": "First-party CPL, CTR, and conversion benchmarks from 312 B2B creator-led campaigns on Naano in Q1 2026. Per-vertical and per-tier breakdowns, methodology, and sample sizes.",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "best-b2b-influencer-marketing-platforms-2026",
+  "comp": "P_best_b2b_influencer_marketing_platforms_2026",
+  "route": "/best-b2b-influencer-marketing-platforms-2026",
+  "title": "Best B2B Influencer Marketing Platforms 2026: 6 Compared",
+  "description": "Naano, Favikon, Kolsquare, Upfluence, Traackr and Skeepers compared on B2B fit, pricing and attribution — with real transacted post prices (median €117 under 10K followers), not list prices.",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog",
+  "comp": "P_blog",
+  "route": "/blog",
+  "title": "Blog | Naano",
+  "description": "Insights on creator-led growth, LinkedIn creators, sponsored-post pricing, founder-led distribution, and the LinkedIn algorithm.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__ai-search-cites-people-not-brands",
+  "comp": "P_blog__ai_search_cites_people_not_brands",
+  "route": "/blog/ai-search-cites-people-not-brands",
+  "title": "AI Search Cites People, Not Your Brand Page (2026) | Naano",
+  "description": "Reddit and LinkedIn dominate AI citations while vendor pages get skipped. I checked the SERPs for our own category today. Here is what it means for B2B.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__b2b-creator-campaign-tracking-template",
+  "comp": "P_blog__b2b_creator_campaign_tracking_template",
+  "route": "/blog/b2b-creator-campaign-tracking-template",
+  "title": "B2B Creator Campaign Tracking Template (2026) | Naano",
+  "description": "A practical B2B creator campaign tracking template: UTM naming, per-post records, funnel stages, QA checks and a weekly decision rhythm.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__b2b-creator-campaigns-europe-answers",
+  "comp": "P_blog__b2b_creator_campaigns_europe_answers",
+  "route": "/blog/b2b-creator-campaigns-europe-answers",
+  "title": "B2B creator campaigns in Europe: 15 answers (2026) | Naano",
+  "description": "Direct answers to what B2B teams in Germany, Austria and France actually ask before their first LinkedIn creator campaign: pricing, ROI, agency vs platform, contracts.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__b2b-influence-linkedin",
+  "comp": "P_blog__b2b_influence_linkedin",
+  "route": "/blog/b2b-influence-linkedin",
+  "title": "B2B influence on LinkedIn: the 2026 playbook | Naano",
+  "description": "B2B influence on LinkedIn is the practice of borrowing the trust of niche micro-creators to reach buyers organically. Here's why it outperforms ads and company pages, and how to build a program that drives pipeline.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__b2b-influencer-agency-vs-platform",
+  "comp": "P_blog__b2b_influencer_agency_vs_platform",
+  "route": "/blog/b2b-influencer-agency-vs-platform",
+  "title": "B2B influencer agency vs platform: which should you use? | Naano",
+  "description": "Should you hire a B2B influencer agency or run creator campaigns on a platform? Here is an honest breakdown of cost, control, speed, and risk for each, and how to decide based on your team and stage.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__b2b-influencer-marketing-cost",
+  "comp": "P_blog__b2b_influencer_marketing_cost",
+  "route": "/blog/b2b-influencer-marketing-cost",
+  "title": "B2B Influencer Marketing Cost in 2026: What Posts Really Sell For | Naano",
+  "description": "What B2B influencer marketing costs in 2026, from negotiated four-figure cachets to marketplace flat fees — with the median price a LinkedIn sponsored post actually transacted at: €111 under 10K followers (n=300).",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__best-b2b-creator-marketplace",
+  "comp": "P_blog__best_b2b_creator_marketplace",
+  "route": "/blog/best-b2b-creator-marketplace",
+  "title": "Best B2B creator marketplaces in 2026 (LinkedIn-first, ranked) | Naano",
+  "description": "The best B2B creator marketplaces in 2026, ranked on the only criterion that matters: can you book, brief, pay, and track a creator inside the platform? Naano, LinkedIn Creator Marketplace, Passionfroot, Upfluence, GaggleAMP, and Favikon compared.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__cpc-vs-flat-fee-b2b-creator-sponsorship",
+  "comp": "P_blog__cpc_vs_flat_fee_b2b_creator_sponsorship",
+  "route": "/blog/cpc-vs-flat-fee-b2b-creator-sponsorship",
+  "title": "CPC vs flat-fee B2B creator sponsorships: which pricing model protects your budget? | Naano",
+  "description": "Flat-fee LinkedIn sponsorships bill you before a single click lands. Cost-per-qualified-click bills you after. Here's the line-by-line comparison of how each model prices risk for B2B SaaS, and when a flat fee is still the right call.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__creator-led-growth-90-day-playbook",
+  "comp": "P_blog__creator_led_growth_90_day_playbook",
+  "route": "/blog/creator-led-growth-90-day-playbook",
+  "title": "The 90-Day Creator-Led Growth Playbook for B2B SaaS | Naano",
+  "description": "A week-by-week plan to stand up a creator-led growth motion for B2B SaaS in 90 days: from sourcing the first cohort of LinkedIn creators to a repeatable pay-per-qualified-click engine. Concrete milestones, no fluff, for founders and marketing leads.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__creator-led-growth-b2b",
+  "comp": "P_blog__creator_led_growth_b2b",
+  "route": "/blog/creator-led-growth-b2b",
+  "title": "Creator-led growth: the complete B2B playbook (2026) | Naano",
+  "description": "Creator-led growth sponsors LinkedIn micro-creators at a flat fee per post. The full B2B playbook: what it costs, how to measure it, and a practical rollout plan.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__creator-led-growth-vs-cold-outbound-b2b",
+  "comp": "P_blog__creator_led_growth_vs_cold_outbound_b2b",
+  "route": "/blog/creator-led-growth-vs-cold-outbound-b2b",
+  "title": "Creator-led growth vs cold outbound: which fits your B2B SaaS motion in 2026? | Naano",
+  "description": "Cold outbound and creator-led growth reach buyers in different ways. Compare their cost structures, measurement requirements and the situations where each channel fits.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__employee-advocacy-vs-creator-led-growth",
+  "comp": "P_blog__employee_advocacy_vs_creator_led_growth",
+  "route": "/blog/employee-advocacy-vs-creator-led-growth",
+  "title": "LinkedIn employee advocacy vs creator-led growth: where each one actually wins | Naano",
+  "description": "LinkedIn employee advocacy programs and creator-led growth marketplaces solve adjacent problems for B2B SaaS. Here's the line-by-line comparison: reach, CPL, time-to-pipeline, and the exact ICP each channel beats the other on.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__forecast-b2b-pipeline-creator-cpc",
+  "comp": "P_blog__forecast_b2b_pipeline_creator_cpc",
+  "route": "/blog/forecast-b2b-pipeline-creator-cpc",
+  "title": "How to Forecast B2B Pipeline From a Creator Click Budget (Before You Spend a Euro) | Naano",
+  "description": "A practical model for forecasting qualified clicks, opportunities, and pipeline from a creator click budget. Derive your cost per qualified click from flat per-post pricing, plug in your close rate and ACV to see what a B2B creator campaign returns, and why cost-per-qualified-click is easier to forecast than CPL.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__founder-diy-vs-hiring-creators",
+  "comp": "P_blog__founder_diy_vs_hiring_creators",
+  "route": "/blog/founder-diy-vs-hiring-creators",
+  "title": "Should B2B founders post themselves or hire creators? The decision framework | Naano",
+  "description": "Founder time on LinkedIn produces real pipeline, until it doesn't. Here's the math, the stage-by-stage framework, and the moment to layer in external creators.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__founder-led-distribution-b2b-saas",
+  "comp": "P_blog__founder_led_distribution_b2b_saas",
+  "route": "/blog/founder-led-distribution-b2b-saas",
+  "title": "Founder-led distribution for B2B SaaS: when it works, when to hire creators | Naano",
+  "description": "Founder-led distribution is the GTM motion where the founder's personal LinkedIn becomes the company's primary acquisition channel. Here's when it scales, when it stalls, and when to hire creators.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__get-paid-for-linkedin-posts-creator",
+  "comp": "P_blog__get_paid_for_linkedin_posts_creator",
+  "route": "/blog/get-paid-for-linkedin-posts-creator",
+  "title": "How to get paid for LinkedIn posts as a B2B creator (2026) | Naano",
+  "description": "A practical guide for LinkedIn creators who want sponsored posts: what B2B brands actually pay for, how much a post is worth at 2k, 10k, and 30k followers, where to find paid deals, and how to get paid without registering a company.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__how-long-b2b-creator-campaign-takes",
+  "comp": "P_blog__how_long_b2b_creator_campaign_takes",
+  "route": "/blog/how-long-b2b-creator-campaign-takes",
+  "title": "How Long a B2B Creator Campaign Takes (2026 Data) | Naano",
+  "description": "Creators accept a sponsored post offer in a median of 35 minutes, then take another 7.7 days to publish. Real timelines from 300 Naano marketplace bookings.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__how-much-charge-sponsored-linkedin-post",
+  "comp": "P_blog__how_much_charge_sponsored_linkedin_post",
+  "route": "/blog/how-much-charge-sponsored-linkedin-post",
+  "title": "How much to charge for a sponsored LinkedIn post (2026) | Naano",
+  "description": "Real 2026 rates for sponsored LinkedIn posts: a pricing formula, rate tables by follower tier, and how to justify your price to B2B sponsors.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__how-to-choose-b2b-influencer-marketing-platform",
+  "comp": "P_blog__how_to_choose_b2b_influencer_marketing_platform",
+  "route": "/blog/how-to-choose-b2b-influencer-marketing-platform",
+  "title": "How to choose a B2B influencer marketing platform (2026) | Naano",
+  "description": "A buyer's framework for choosing a B2B influencer marketing platform: the 7 criteria that matter, an evaluation checklist, demo questions, and pricing red flags.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__how-to-find-b2b-creators-linkedin",
+  "comp": "P_blog__how_to_find_b2b_creators_linkedin",
+  "route": "/blog/how-to-find-b2b-creators-linkedin",
+  "title": "How to find B2B creators on LinkedIn: a practical sourcing guide | Naano",
+  "description": "Finding the right B2B creators on LinkedIn is a sourcing problem, not a search problem. Here is the step-by-step method to build a shortlist of on-ICP micro-creators who actually drive pipeline, and how to qualify them before you pay.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__how-to-find-brand-deals-on-linkedin",
+  "comp": "P_blog__how_to_find_brand_deals_on_linkedin",
+  "route": "/blog/how-to-find-brand-deals-on-linkedin",
+  "title": "How to Find Brand Deals on LinkedIn (2026) | Naano",
+  "description": "A practical system for B2B creators to find LinkedIn brand deals: build a sponsor list, pitch useful angles, qualify briefs and protect audience trust.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__how-to-pay-b2b-creators",
+  "comp": "P_blog__how_to_pay_b2b_creators",
+  "route": "/blog/how-to-pay-b2b-creators",
+  "title": "How to pay B2B creators: contracts, approvals and platform payouts | Naano",
+  "description": "A practical workflow for paying sponsored LinkedIn creators: agree deliverables and a fixed post price, approve content, release payment and keep auditable records.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__how-to-write-b2b-sponsored-post",
+  "comp": "P_blog__how_to_write_b2b_sponsored_post",
+  "route": "/blog/how-to-write-b2b-sponsored-post",
+  "title": "How to write a B2B sponsored post that converts (with examples) | Naano",
+  "description": "A high-performing B2B sponsored LinkedIn post follows a hook-story-resolution-CTA structure and reads like a recommendation, not an ad. Here's the anatomy, the anti-patterns, and two example structures.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__launch-b2b-linkedin-creator-campaign",
+  "comp": "P_blog__launch_b2b_linkedin_creator_campaign",
+  "route": "/blog/launch-b2b-linkedin-creator-campaign",
+  "title": "Launch a B2B LinkedIn Creator Campaign in 30 Days | Naano",
+  "description": "A practical 30-day plan to select, brief and book B2B LinkedIn creators, review posts quickly and measure outcomes without invented benchmarks.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-ads-vs-creator-led-cpl",
+  "comp": "P_blog__linkedin_ads_vs_creator_led_cpl",
+  "route": "/blog/linkedin-ads-vs-creator-led-cpl",
+  "title": "LinkedIn Ads vs creator-led growth: an honest CPL framework | Naano",
+  "description": "Compare LinkedIn Ads and sponsored creator posts with the same lead definition, attribution window and pipeline cohort. Naano uses creator-set fixed post prices, not click pricing.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-algorithm-2026-creators-vs-brands",
+  "comp": "P_blog__linkedin_algorithm_2026_creators_vs_brands",
+  "route": "/blog/linkedin-algorithm-2026-creators-vs-brands",
+  "title": "How LinkedIn's algorithm rewards creators over brands in 2026 | Naano",
+  "description": "LinkedIn's algorithm distributes personal-account content to 3–5× more impressions than equivalent company-page posts. Here's the engineering reason, the 2024–2026 changes that widened the gap, and how B2B brands work with it instead of against it.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-creator-discount-trap",
+  "comp": "P_blog__linkedin_creator_discount_trap",
+  "route": "/blog/linkedin-creator-discount-trap",
+  "title": "The discount trap for LinkedIn creators (2026) | Naano",
+  "description": "Dropping your rate to win a sponsorship doesn't win it. It moves you into the band where brands don't follow through — and I have the marketplace data to show it.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-creator-marketplace-europe",
+  "comp": "P_blog__linkedin_creator_marketplace_europe",
+  "route": "/blog/linkedin-creator-marketplace-europe",
+  "title": "LinkedIn Creator Marketplace in Europe: what B2B brands can use today | Naano",
+  "description": "LinkedIn Creator Marketplace launched June 10 2026 as a US and Canada alpha, English only, with no European date. Here is what European B2B brands can use right now to run creator campaigns with payment and tracking included.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-creator-marketplace-explained",
+  "comp": "P_blog__linkedin_creator_marketplace_explained",
+  "route": "/blog/linkedin-creator-marketplace-explained",
+  "title": "LinkedIn Creator Marketplace explained: what it does and what it does not | Naano",
+  "description": "A fair explainer of LinkedIn Creator Marketplace, announced June 10 2026 in US and Canada alpha. What it does today (discovery), what it does not do yet (no payment rail, no performance tracking, English only), and where the gaps sit.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-creator-marketplace-vs-naano",
+  "comp": "P_blog__linkedin_creator_marketplace_vs_naano",
+  "route": "/blog/linkedin-creator-marketplace-vs-naano",
+  "title": "LinkedIn Creator Marketplace vs Naano: what B2B teams in Europe should know (2026) | Naano",
+  "description": "LinkedIn announced its own Creator Marketplace on June 10, 2026, an alpha discovery tool inside Campaign Manager, US and Canada only, English content only. Naano is a European end-to-end B2B creator marketplace with flat per-post pricing from €20. Here is the honest side-by-side.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-dwell-time-b2b-creators",
+  "comp": "P_blog__linkedin_dwell_time_b2b_creators",
+  "route": "/blog/linkedin-dwell-time-b2b-creators",
+  "title": "LinkedIn Dwell Time in 2026: What Affects Reach | Naano",
+  "description": "LinkedIn uses dwell time alongside skips, clicks, comments and relevance. Here is what its engineers disclose—and what B2B teams should do with it.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-engagement-rate-benchmarks",
+  "comp": "P_blog__linkedin_engagement_rate_benchmarks",
+  "route": "/blog/linkedin-engagement-rate-benchmarks",
+  "title": "LinkedIn Engagement Rate Benchmarks 2026 (By Follower Count) | Naano",
+  "description": "What's a good LinkedIn engagement rate in 2026? Benchmarks by follower tier, the two formulas that matter, and how sponsors use ER to set flat post fees.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-outbound-creator-stack",
+  "comp": "P_blog__linkedin_outbound_creator_stack",
+  "route": "/blog/linkedin-outbound-creator-stack",
+  "title": "Outbound Isn't Enough: Building a LinkedIn Growth Stack That Actually Converts | Naano",
+  "description": "Cold outreach into a cold audience converts badly. Learn how to pair LinkedIn prospecting with B2B creator marketing to warm your market before you reach out — so your outbound stops landing cold.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-sponsored-post-price-index-2026",
+  "comp": "P_blog__linkedin_sponsored_post_price_index_2026",
+  "route": "/blog/linkedin-sponsored-post-price-index-2026",
+  "title": "LinkedIn sponsored post price index 2026 | Naano",
+  "description": "Rate cards say $500–$2,500 for a sub-10K creator. Naano's transacted median was €111. Real prices from 300 bookings, by follower tier, niche and country.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-sponsored-post-usage-rights",
+  "comp": "P_blog__linkedin_sponsored_post_usage_rights",
+  "route": "/blog/linkedin-sponsored-post-usage-rights",
+  "title": "LinkedIn Sponsored Post Usage Rights (2026) | Naano",
+  "description": "A creator-side guide to LinkedIn sponsored-post usage rights: organic publication, paid amplification, edits, duration, territory and disclosure.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__linkedin-thought-leader-ads-vs-creator-posts",
+  "comp": "P_blog__linkedin_thought_leader_ads_vs_creator_posts",
+  "route": "/blog/linkedin-thought-leader-ads-vs-creator-posts",
+  "title": "LinkedIn Thought Leader Ads vs Creator Posts (2026) | Naano",
+  "description": "What LinkedIn Thought Leader Ads cost in 2026, how they compare to booking organic creator posts at a flat fee, and when a B2B team should combine both.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__measure-roi-b2b-creator-marketing-linkedin",
+  "comp": "P_blog__measure_roi_b2b_creator_marketing_linkedin",
+  "route": "/blog/measure-roi-b2b-creator-marketing-linkedin",
+  "title": "How to measure the ROI of B2B creator marketing on LinkedIn (2026) | Naano",
+  "description": "A line-by-line framework for measuring the ROI of B2B creator marketing on LinkedIn: attribution windows, CPL benchmarks, MQL→SQL conversion, and the exact metrics growth teams report to the CFO.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__micro-creator-portfolio-b2b-saas",
+  "comp": "P_blog__micro_creator_portfolio_b2b_saas",
+  "route": "/blog/micro-creator-portfolio-b2b-saas",
+  "title": "Why a portfolio of micro-creators beats one big LinkedIn name for B2B SaaS | Naano",
+  "description": "Booking one large LinkedIn creator concentrates campaign risk. Here is how to test a portfolio of micro-creators with fixed per-post fees and consistent measurement.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__modash-alternative-b2b-linkedin",
+  "comp": "P_blog__modash_alternative_b2b_linkedin",
+  "route": "/blog/modash-alternative-b2b-linkedin",
+  "title": "Modash Alternative for B2B LinkedIn (2026) | Naano",
+  "description": "Comparing Modash and Naano for B2B LinkedIn creator campaigns: discovery, booking, pricing, measurement and the situations where each tool wins.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__naano-vs-alternatives",
+  "comp": "P_blog__naano_vs_alternatives",
+  "route": "/blog/naano-vs-alternatives",
+  "title": "Naano vs alternatives: how the B2B creator marketplace compares to LinkedIn Ads, influencer platforms, and employee advocacy | Naano",
+  "description": "A side-by-side comparison of Naano against the four real alternatives B2B SaaS teams evaluate: LinkedIn Ads, classic B2B influencer platforms, employee advocacy tools, and DIY creator outreach. Pricing, CTR, time-to-launch, and where each one wins.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__naano-vs-favikon",
+  "comp": "P_blog__naano_vs_favikon",
+  "route": "/blog/naano-vs-favikon",
+  "title": "Naano vs Favikon: marketplace or analytics platform, which one do you actually need? | Naano",
+  "description": "Naano and Favikon both serve B2B brands working with LinkedIn creators, but they're different products. Naano is a CPL-priced creator marketplace that books campaigns; Favikon is a creator analytics and discovery tool that scores creators. Here's how to pick.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__naano-vs-gaggleamp",
+  "comp": "P_blog__naano_vs_gaggleamp",
+  "route": "/blog/naano-vs-gaggleamp",
+  "title": "Naano vs GaggleAMP: external creators vs employee advocacy for B2B SaaS | Naano",
+  "description": "Naano and GaggleAMP both grow B2B brands through people-led distribution, but they activate different audiences. Naano books sponsored posts from external nano-creators at a flat fee per post; GaggleAMP amplifies your employees' posts. Here's when each wins.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__naano-vs-influitive",
+  "comp": "P_blog__naano_vs_influitive",
+  "route": "/blog/naano-vs-influitive",
+  "title": "Naano vs Influitive: external creator marketplace vs B2B advocate marketing | Naano",
+  "description": "Naano and Influitive both help B2B brands grow through people-led distribution, but they activate different audiences. Naano books sponsored posts from external LinkedIn nano-creators at a flat fee per post; Influitive runs structured advocacy programs with your existing customers. Here's when to use which.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__naano-vs-kolsquare",
+  "comp": "P_blog__naano_vs_kolsquare",
+  "route": "/blog/naano-vs-kolsquare",
+  "title": "Naano vs Kolsquare: B2B creator marketplace or European influencer platform? | Naano",
+  "description": "Naano and Kolsquare are both European platforms, but they serve different jobs: Naano books LinkedIn micro-creators for B2B pipeline at a fixed price per post; Kolsquare manages multi-channel consumer influencer campaigns under an annual license. Here's how to pick.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__naano-vs-lemlist",
+  "comp": "P_blog__naano_vs_lemlist",
+  "route": "/blog/naano-vs-lemlist",
+  "title": "Naano vs Lemlist: creator-led growth vs cold outreach for B2B SaaS | Naano",
+  "description": "Naano and Lemlist are not the same product, but B2B teams often choose between them when allocating growth experiment budget. Here's how the two motions compare and when to run both.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__naano-vs-passionfroot",
+  "comp": "P_blog__naano_vs_passionfroot",
+  "route": "/blog/naano-vs-passionfroot",
+  "title": "Naano vs Passionfroot: LinkedIn creator marketplace or multi-channel creator OS? | Naano",
+  "description": "Naano and Passionfroot both help B2B teams work with creators, but they solve different jobs: Naano books vetted LinkedIn creators at fixed per-post prices with click and lead tracking; Passionfroot orchestrates AI-assisted creator campaigns across seven channels. Here's how to pick.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__naano-vs-skeepers",
+  "comp": "P_blog__naano_vs_skeepers",
+  "route": "/blog/naano-vs-skeepers",
+  "title": "Naano vs Skeepers: B2B creator marketplace or UGC and reviews engine? | Naano",
+  "description": "Skeepers runs UGC, ratings-and-reviews, and gifted micro-influencer campaigns for e-commerce brands; Naano books B2B LinkedIn creators for pipeline at a fixed price per post. Different problems, different tools — here's how to tell which one is yours.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__naano-vs-traackr",
+  "comp": "P_blog__naano_vs_traackr",
+  "route": "/blog/naano-vs-traackr",
+  "title": "Naano vs Traackr: B2B creator marketplace or enterprise influencer management? | Naano",
+  "description": "Traackr is enterprise influencer relationship management for global consumer brands; Naano is a transactional B2B LinkedIn creator marketplace with fixed per-post pricing. Here's which one fits which job, and why most B2B SaaS teams shouldn't pay for enterprise IRM.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__naano-vs-upfluence",
+  "comp": "P_blog__naano_vs_upfluence",
+  "route": "/blog/naano-vs-upfluence",
+  "title": "Naano vs Upfluence: enterprise influencer platform vs B2B LinkedIn marketplace | Naano",
+  "description": "Naano and Upfluence are both creator marketplaces, but they target opposite ends of the market. Upfluence is an enterprise multi-platform influencer platform leaning B2C; Naano is a B2B SaaS LinkedIn-only marketplace with CPL pricing. Here's the practical comparison.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__nano-vs-macro-creators-b2b-ctr",
+  "comp": "P_blog__nano_vs_macro_creators_b2b_ctr",
+  "route": "/blog/nano-vs-macro-creators-b2b-ctr",
+  "title": "Which B2B creators overperform? Audience fit beats follower count | Naano",
+  "description": "Follower count explains only part of B2B creator pricing. Use audience fit, delivery history and a measured pilot to identify creators who outperform their audience size.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__sponsored-linkedin-post-cost-b2b",
+  "comp": "P_blog__sponsored_linkedin_post_cost_b2b",
+  "route": "/blog/sponsored-linkedin-post-cost-b2b",
+  "title": "Sponsored LinkedIn post cost in 2026: B2B rate guide | Naano",
+  "description": "A sponsored LinkedIn post from a vetted B2B micro-creator costs €100–€1,500 flat in 2026. Rate table by follower tier, plus France and DACH benchmarks.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__sponsored-post-brief-to-published-playbook",
+  "comp": "P_blog__sponsored_post_brief_to_published_playbook",
+  "route": "/blog/sponsored-post-brief-to-published-playbook",
+  "title": "The 7 Days After You Accept a Sponsored Post (2026) | Naano",
+  "description": "Accepting takes minutes. Publishing takes another week. A working playbook for LinkedIn creators on the seven days that decide whether you get rebooked.",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "blog__what-is-a-b2b-creator-marketplace",
+  "comp": "P_blog__what_is_a_b2b_creator_marketplace",
+  "route": "/blog/what-is-a-b2b-creator-marketplace",
+  "title": "What Is a B2B Creator Marketplace? Definition + 2026 Prices | Naano",
+  "description": "How B2B creator marketplaces work: matching, briefing, payment and tracking — and what a sponsored LinkedIn post really costs (median €117 under 10K followers, n=239).",
+  "nav": "936ec2",
+  "footer": "8b5888"
+ },
+ {
+  "name": "book",
+  "comp": "P_book",
+  "route": "/book",
+  "title": "Book a campaign call — Naano",
+  "description": "In 30 minutes, we'll map the right creator angles, campaign format and budget for your ICP. Book a free campaign strategy call with the Naano team.",
+  "nav": null,
+  "footer": null
+ },
+ {
+  "name": "briefs",
+  "comp": "P_briefs",
+  "route": "/briefs",
+  "title": "Open LinkedIn creator campaigns — briefs | Naano",
+  "description": "Browse open campaign briefs from B2B brands looking for LinkedIn creators on Naano. Flat-fee sponsored posts, full creative control — apply as a creator or launch your own campaign.",
+  "nav": null,
+  "footer": null
+ },
+ {
+  "name": "case-studies__blogseo",
+  "comp": "P_case_studies__blogseo",
+  "route": "/case-studies/blogseo",
+  "title": "How BlogSEO turned creator marketing into a measurable acquisition channel — Naano case study",
+  "description": "After one €2,000 sponsored post returned just three sign-ups, BlogSEO rebuilt creator marketing on Naano: 150% ROAS, 1,500+ qualified leads and hundreds of sign-ups from one LinkedIn creator campaign.",
+  "nav": null,
+  "footer": null
+ },
+ {
+  "name": "creators",
+  "comp": "P_creators",
+  "route": "/creators",
+  "title": "Get paid for your LinkedIn content: Naano for creators",
+  "description": "Join Naano, the B2B LinkedIn creator marketplace. Get matched with B2B brands, publish posts in your voice, and earn a fixed fee per post at a price you set.",
+  "nav": "7286cb",
+  "footer": "981648"
+ },
+ {
+  "name": "for__devtools",
+  "comp": "P_for__devtools",
+  "route": "/for/devtools",
+  "title": "B2B Influencer Marketing for Devtools | Naano",
+  "description": "Sponsor developer creators on LinkedIn: engineering audiences, fixed per-post pricing from €20, median CPL €19 and the highest click-to-demo conversion of any vertical (Q1 2026, n=47).",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "for__fintech",
+  "comp": "P_for__fintech",
+  "route": "/for/fintech",
+  "title": "B2B Influencer Marketing for Fintech | Naano",
+  "description": "Sponsor finance and fintech creators on LinkedIn: CFO-audience voices, compliance-aware briefs, fixed per-post pricing from €20, median CPL €19 (Q1 2026, n=29 campaigns).",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "for__hr-tech",
+  "comp": "P_for__hr_tech",
+  "route": "/for/hr-tech",
+  "title": "B2B Influencer Marketing for HR-Tech | Naano",
+  "description": "Run LinkedIn creator campaigns for HR-tech: People Ops and talent-leadership creators, fixed per-post pricing from €20, median CPL €20 (Q1 2026, n=34 campaigns).",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "for__marketing-ops",
+  "comp": "P_for__marketing_ops",
+  "route": "/for/marketing-ops",
+  "title": "B2B Influencer Marketing for Martech & Marketing-Ops | Naano",
+  "description": "The cheapest vertical on Naano: martech and demand-gen creators, fixed per-post pricing from €20, median CPL €16 (Q1 2026, n=36 campaigns).",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "for__product",
+  "comp": "P_for__product",
+  "route": "/for/product",
+  "title": "B2B Influencer Marketing for Product & PM Tools | Naano",
+  "description": "Reach product managers through LinkedIn creators: PM and product-leadership voices, fixed per-post pricing from €20, median CPL €18 (Q1 2026, n=39 campaigns).",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "for__revops",
+  "comp": "P_for__revops",
+  "route": "/for/revops",
+  "title": "B2B Influencer Marketing for RevOps SaaS | Naano",
+  "description": "Reach RevOps leaders through the LinkedIn creators they already read: fixed per-post pricing from €20, median CPL €17 (Q1 2026, n=41 campaigns).",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "for__sales-tech",
+  "comp": "P_for__sales_tech",
+  "route": "/for/sales-tech",
+  "title": "B2B Influencer Marketing for Sales-Tech SaaS | Naano",
+  "description": "Run LinkedIn creator campaigns for sales-tech products: vetted SDR, AE and sales-leadership creators, fixed per-post pricing from €20, median CPL €16 (Q1 2026, n=58 campaigns).",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "for__vertical-saas",
+  "comp": "P_for__vertical_saas",
+  "route": "/for/vertical-saas",
+  "title": "B2B Influencer Marketing for Vertical SaaS | Naano",
+  "description": "Creator campaigns for niche-industry SaaS (legal-tech, construction-tech, insurance-tech): rare niche voices, fixed per-post pricing from €20, median CPL €21 (Q1 2026, n=28).",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "free-tools",
+  "comp": "P_free_tools",
+  "route": "/free-tools",
+  "title": "Free Tools for B2B Creator Marketing — Naano",
+  "description": "Free tools for B2B teams running LinkedIn creator campaigns. Start with the free LinkedIn creator search: tell us your campaign, get a hand-picked shortlist of relevant B2B creators within 48 hours. No account, no commitment.",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "free-tools__creator-campaign-budget-planner",
+  "comp": "P_free_tools__creator_campaign_budget_planner",
+  "route": "/free-tools/creator-campaign-budget-planner",
+  "title": "Creator Campaign Budget Planner (Free) — Naano",
+  "description": "Turn a budget into published LinkedIn posts, not just booked ones. Built on 300 real sponsored-post bookings: transacted medians and historical delivery rates.",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "free-tools__linkedin-creator-worth-calculator",
+  "comp": "P_free_tools__linkedin_creator_worth_calculator",
+  "route": "/free-tools/linkedin-creator-worth-calculator",
+  "title": "LinkedIn Creator Worth Calculator — Free | Naano",
+  "description": "Free calculator: enter your LinkedIn followers and engagement to see what a sponsored post is worth in euros, based on Naano marketplace flat-fee data.",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "free-tools__linkedin-engagement-rate-calculator",
+  "comp": "P_free_tools__linkedin_engagement_rate_calculator",
+  "route": "/free-tools/linkedin-engagement-rate-calculator",
+  "title": "LinkedIn Engagement Rate Calculator (Free) — Naano",
+  "description": "Free LinkedIn engagement rate calculator. Get your rate by followers and by impressions, compare it to 2026 B2B benchmarks, and see how to improve it.",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "free-tools__sponsored-post-delivery-odds-estimator",
+  "comp": "P_free_tools__sponsored_post_delivery_odds_estimator",
+  "route": "/free-tools/sponsored-post-delivery-odds-estimator",
+  "title": "Sponsored Post Delivery Odds Estimator (Free) — Naano",
+  "description": "Will your creator offer actually get published? Compare it to 300 real sponsored-post bookings: delivery rate, transacted median, and how often offers go unanswered.",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "help",
+  "comp": "P_help",
+  "route": "/help",
+  "title": "Naano Help Center: campaigns, pricing & payouts",
+  "description": "Answers to common questions about Naano: fixed-price creator campaigns, matching, payouts, and performance dashboards for B2B SaaS and creators.",
+  "nav": null,
+  "footer": "14774f"
+ },
+ {
+  "name": "index",
+  "comp": "P_index",
+  "route": "/",
+  "title": "Naano: B2B LinkedIn Creator Marketplace",
+  "description": "Naano helps B2B SaaS brands run fixed-price LinkedIn creator campaigns and trace attributed clicks and leads back to each post.",
+  "nav": "936ec2",
+  "footer": "9c1d3e"
+ },
+ {
+  "name": "linkedin-creator-marketplace",
+  "comp": "P_linkedin_creator_marketplace",
+  "route": "/linkedin-creator-marketplace",
+  "title": "LinkedIn Creator Marketplace for B2B Brands — Naano",
+  "description": "Naano is the B2B LinkedIn creator marketplace: book vetted LinkedIn creators at a fixed price per post, with payment and tracking handled — available in Europe today, unlike LinkedIn's US-only alpha.",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "meilleures-plateformes-influence-marketing-b2b-2026",
+  "comp": "P_meilleures_plateformes_influence_marketing_b2b_2026",
+  "route": "/meilleures-plateformes-influence-marketing-b2b-2026",
+  "title": "Meilleures Plateformes d'Influence Marketing B2B 2026",
+  "description": "Les 6 meilleures plateformes d'influence marketing B2B en 2026, classées : Naano, Favikon, Kolsquare, Upfluence, Traackr, Skeepers. Comparatif fonctionnalité par fonctionnalité, prix, et laquelle choisir selon votre cas.",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "pricing",
+  "comp": "P_pricing",
+  "route": "/pricing",
+  "title": "Pricing | Naano",
+  "description": "Naano pricing: Self-Serve is €0/month and each creator sets a fixed offer price. Managed Campaigns is €700/month, done for you.",
+  "nav": null,
+  "footer": "14774f"
+ },
+ {
+  "name": "reports",
+  "comp": "P_reports",
+  "route": "/reports",
+  "title": "Naano Reports: B2B LinkedIn Creator Marketing Data",
+  "description": "First-party data on B2B LinkedIn creator marketing, published by Naano: real sponsored-post prices from marketplace bookings, campaign benchmarks (CPL, CTR, time-to-launch), and methodology you can cite.",
+  "nav": null,
+  "footer": "8b5888"
+ },
+ {
+  "name": "selection",
+  "comp": "P_selection",
+  "route": "/selection",
+  "title": "Find LinkedIn Creators for B2B — Free Creator Search | Naano",
+  "description": "Find the LinkedIn creators your B2B buyers already trust. Describe your campaign and a real person at Naano hand-builds your shortlist — with pricing and audience fit — within 48 hours. Free, no account, no commitment.",
+  "nav": null,
+  "footer": "8b5888"
+ }
+]

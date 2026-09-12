@@ -1,0 +1,214 @@
+
+    #page-integrations{
+      --in-blue:#1D5BF5;
+      --in-ink:#111827;
+      --in-muted:#6B7280;
+      --in-line:#E5E7EB;
+      --in-soft:#F6F8FC;
+    }
+    #page-integrations .in-shell{width:100%;max-width:1180px;margin:0 auto;padding:0 0 72px;box-sizing:border-box}
+    #page-integrations .in-settings-layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:34px;align-items:start}
+    #page-integrations .in-settings-nav{
+      position:sticky;top:18px;display:grid;gap:4px;padding:12px;border:1px solid #E2E8F0;
+      border-radius:15px;background:rgba(255,255,255,.86);box-shadow:0 8px 24px rgba(15,23,42,.045);
+      backdrop-filter:blur(16px)
+    }
+    #page-integrations .in-settings-nav-title{padding:4px 8px 10px;color:#94A3B8;font-size:.65rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+    #page-integrations .in-settings-nav a{display:flex;align-items:center;gap:9px;min-height:40px;padding:0 10px;border:1px solid transparent;border-radius:10px;color:#64748B;font-size:.78rem;font-weight:650;line-height:1.25;text-decoration:none;transition:background .14s,border-color .14s,color .14s}
+    #page-integrations .in-settings-nav a:hover{background:#F8FAFC;color:#334155}
+    #page-integrations .in-settings-nav a.is-active{border-color:#C7D7FF;background:#EEF3FF;color:#1749D6}
+    #page-integrations .in-settings-nav a:focus-visible{outline:3px solid rgba(29,91,245,.18);outline-offset:2px}
+    #page-integrations .in-settings-nav iconify-icon{width:17px;height:17px;flex:none}
+    #page-integrations .in-settings-main{min-width:0}
+    #page-integrations .in-hero{
+      display:block;padding:4px 2px 0;margin-bottom:24px
+    }
+    #page-integrations .in-eyebrow{
+      display:block;margin:0 0 7px;color:#1D5BF5;font-size:.68rem;font-weight:800;
+      letter-spacing:.12em;text-transform:uppercase
+    }
+    #page-integrations .in-hero h1{margin:0;color:var(--in-ink);font-size:clamp(1.9rem,3vw,2.35rem);line-height:1.15;letter-spacing:-.03em;font-weight:750}
+    #page-integrations .in-hero p{max-width:680px;margin:6px 0 0;color:var(--in-muted);font-size:.9rem;line-height:1.5}
+    #page-integrations .in-panel{
+      padding:20px;border:1px solid var(--in-line);border-radius:16px;background:#fff;
+      box-shadow:0 1px 2px rgba(15,23,42,.04)
+    }
+    #page-integrations .stp-sub{color:var(--in-muted);font-size:.86rem;line-height:1.5;margin:0 0 16px}
+    #page-integrations .st-mcp-intro{display:flex;align-items:flex-start;gap:13px;margin-bottom:18px;padding:15px 16px;border:1px solid #DCE6FF;border-radius:14px;background:linear-gradient(135deg,#F1F5FF,#FBFCFF)}
+    #page-integrations .st-mcp-intro>iconify-icon{width:38px;height:38px;display:grid;place-items:center;flex:0 0 auto;border-radius:12px;background:#fff;color:var(--in-blue);font-size:21px;box-shadow:0 2px 8px rgba(29,91,245,.08)}
+    #page-integrations .st-mcp-intro b{display:block;color:var(--in-ink);font-size:.88rem}
+    #page-integrations .st-mcp-intro span{display:block;margin-top:3px;color:var(--in-muted);font-size:.78rem;line-height:1.5}
+    #page-integrations .st-mcp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    #page-integrations .st-mcp-provider{
+      display:grid;grid-template-columns:52px minmax(0,1fr);grid-template-rows:auto auto;
+      gap:12px 14px;align-items:center;padding:20px;border-radius:16px;
+      border:1px solid var(--in-line);background:var(--in-soft);min-width:0
+    }
+    #page-integrations .st-mcp-logo{
+      width:52px;height:52px;border-radius:14px;display:grid;place-items:center;grid-row:1;
+      border:1px solid #E5E7EB;background:#fff;color:#111827
+    }
+    #page-integrations .st-mcp-logo svg{width:28px;height:28px;display:block;fill:currentColor}
+    #page-integrations .st-mcp-logo.claude{background:#FFF5ED;color:#C15F3C;border-color:#F5D9C9}
+    #page-integrations .st-mcp-copy{min-width:0}
+    #page-integrations .st-mcp-copy b{display:block;font-size:1rem;color:var(--in-ink);line-height:1.25}
+    #page-integrations .st-mcp-copy span{display:block;margin-top:4px;font-size:.8rem;line-height:1.45;color:var(--in-muted)}
+    #page-integrations .st-mcp-action{
+      grid-column:1/-1;display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:12px;
+      padding-top:12px;border-top:1px solid #E5E7EB
+    }
+    #page-integrations .st-mcp-status{
+      display:inline-flex;align-items:center;min-height:22px;padding:3px 8px;
+      border-radius:999px;border:1px solid #E5E7EB;background:#fff;
+      color:#6B7280;font-size:.65rem;font-weight:750;letter-spacing:.04em;text-transform:uppercase
+    }
+    #page-integrations .st-mcp-status.access{background:#ECFDF5;border-color:#A7F3D0;color:#047857}
+    #page-integrations .st-mcp-connect{
+      min-height:44px;padding:9px 14px;border-radius:10px;border:1px solid var(--in-blue);
+      background:var(--in-blue);color:#fff;font:inherit;font-size:.8rem;font-weight:700;
+      cursor:pointer;white-space:nowrap;transition:background .15s,border-color .15s,box-shadow .15s
+    }
+    #page-integrations .st-mcp-connect:hover:not(:disabled){background:#1749D6}
+    #page-integrations .st-mcp-connect:focus-visible,
+    #page-integrations .st-mcp-setup button:focus-visible,
+    #page-integrations .st-mcp-open:focus-visible{outline:3px solid rgba(29,91,245,.24);outline-offset:2px}
+    #page-integrations .st-mcp-connect:disabled{cursor:not-allowed;background:#F3F4F6;border-color:#E5E7EB;color:#9CA3AF}
+    #page-integrations .st-mcp-capabilities{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:14px}
+    #page-integrations .st-mcp-capability{padding:17px;border:1px solid var(--in-line);border-radius:14px;background:#fff}
+    #page-integrations .st-mcp-capability-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+    #page-integrations .st-mcp-capability-head b{display:flex;align-items:center;gap:8px;color:var(--in-ink);font-size:.82rem}
+    #page-integrations .st-mcp-capability-head iconify-icon{color:var(--in-blue);font-size:18px}
+    #page-integrations .st-mcp-capability ul{display:grid;gap:7px;margin:13px 0 0;padding:0;list-style:none;color:#4B5563;font-size:.76rem;line-height:1.4}
+    #page-integrations .st-mcp-capability li{display:flex;align-items:flex-start;gap:7px}
+    #page-integrations .st-mcp-capability li:before{width:5px;height:5px;margin-top:.48em;flex:0 0 auto;border-radius:50%;background:#9CB3EA;content:""}
+    #page-integrations .st-mcp-safety{
+      display:flex;gap:10px;align-items:flex-start;margin-top:16px;padding:14px 16px;
+      border-radius:12px;background:#F8FAFC;border:1px solid #EEF1F5;
+      color:#4B5563;font-size:.8rem;line-height:1.5
+    }
+    #page-integrations .st-mcp-safety iconify-icon{flex:none;font-size:18px;color:#047857;margin-top:1px}
+    #page-integrations .st-mcp-request{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:14px;padding:14px 16px;border:1px solid #F2D6A2;border-radius:12px;background:#FFFBEB;color:#6B4F1D;font-size:.78rem;line-height:1.45}
+    #page-integrations .st-mcp-request[hidden]{display:none}
+    #page-integrations .st-mcp-request a{flex:0 0 auto;min-height:40px;display:inline-flex;align-items:center;justify-content:center;padding:8px 12px;border:1px solid #D6A84B;border-radius:9px;background:#fff;color:#7A5310;font-weight:750;text-decoration:none}
+    #page-integrations .st-mcp-setup{margin-top:16px;padding:20px;border-radius:16px;border:1px solid #C7D7FF;background:#F7F9FF}
+    #page-integrations .st-mcp-setup[hidden]{display:none}
+    #page-integrations .st-mcp-setup-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+    #page-integrations .st-mcp-setup-head h3{margin:0;color:var(--in-ink);font-size:1rem;line-height:1.35}
+    #page-integrations .st-mcp-setup-close{
+      width:44px;height:44px;display:grid;place-items:center;border:0;border-radius:10px;
+      background:transparent;color:#6B7280;cursor:pointer;font:inherit;font-size:1.1rem
+    }
+    #page-integrations .st-mcp-setup-close:hover{background:#EAF0FF;color:#1D5BF5}
+    #page-integrations .st-mcp-endpoint{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:16px}
+    #page-integrations .st-mcp-endpoint code{
+      flex:1;min-width:210px;padding:12px;border-radius:10px;background:#fff;
+      border:1px solid #DCE6FF;color:#1E3A8A;font-size:.8rem;overflow-wrap:anywhere
+    }
+    #page-integrations .st-mcp-steps{margin:16px 0 0;padding-left:20px;color:#4B5563;font-size:.82rem;line-height:1.65}
+    #page-integrations .st-mcp-setup-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+    #page-integrations .st-mcp-setup-actions button,
+    #page-integrations .st-mcp-open{
+      min-height:44px;display:inline-flex;align-items:center;justify-content:center;gap:7px;
+      border-radius:10px;padding:9px 14px;font:inherit;font-size:.8rem;font-weight:700;
+      text-decoration:none;cursor:pointer
+    }
+    #page-integrations .st-mcp-setup-actions button{background:#fff;color:#1D5BF5;border:1px solid #C7D7FF}
+    #page-integrations .st-mcp-open{background:#1D5BF5;color:#fff;border:1px solid #1D5BF5}
+    @media(max-width:980px){
+      #page-integrations .in-settings-layout{grid-template-columns:1fr;gap:18px}
+      #page-integrations .in-settings-nav{position:static;display:flex;overflow-x:auto;padding:7px}
+      #page-integrations .in-settings-nav-title{display:none}
+      #page-integrations .in-settings-nav a{flex:0 0 auto;white-space:nowrap}
+    }
+    @media(max-width:700px){
+      #page-integrations .in-hero{padding:2px}
+      #page-integrations .in-hero h1{font-size:1.45rem}
+      #page-integrations .in-panel{padding:16px}
+      #page-integrations .st-mcp-grid,#page-integrations .st-mcp-capabilities{grid-template-columns:1fr}
+      #page-integrations .st-mcp-provider{padding:16px}
+      #page-integrations .st-mcp-action{align-items:stretch;flex-direction:column}
+      #page-integrations .st-mcp-connect{width:100%}
+      #page-integrations .st-mcp-request{align-items:stretch;flex-direction:column}
+    }
+    /* MCP console — one restrained technical accent inside the light product UI. */
+    #page-integrations .in-shell{max-width:1180px;padding-top:0}
+    #page-integrations .in-hero{max-width:720px;margin:0 0 28px;padding:0}
+    #page-integrations .in-eyebrow{display:inline-flex;align-items:center;gap:8px;color:#596579;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.66rem;letter-spacing:.09em}
+    #page-integrations .in-eyebrow:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--in-blue);box-shadow:0 0 0 4px rgba(29,91,245,.1)}
+    #page-integrations .in-hero h1{max-width:650px;font-size:32px;line-height:1.2;letter-spacing:-.04em}
+    #page-integrations .in-hero p{max-width:650px;margin-top:12px;font-size:.95rem;line-height:1.65}
+    #page-integrations .in-panel{padding:0;border:0;background:transparent;box-shadow:none}
+    #page-integrations .st-mcp-intro{display:none}
+    #page-integrations .st-mcp-console{overflow:hidden;border:1px solid #1D293D;border-radius:16px;background:#0B1020;color:#D6E0F0;box-shadow:0 18px 45px rgba(11,16,32,.12)}
+    #page-integrations .st-mcp-console-bar{height:42px;display:flex;align-items:center;gap:8px;padding:0 16px;border-bottom:1px solid rgba(255,255,255,.08);background:#0E1528}
+    #page-integrations .st-mcp-console-dots{display:flex;gap:5px;margin-right:4px}
+    #page-integrations .st-mcp-console-dots i{width:6px;height:6px;border-radius:50%;background:#344057}
+    #page-integrations .st-mcp-console-label{font:650 .65rem/1 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:.06em;color:#8D9AB0;text-transform:uppercase}
+    #page-integrations .st-mcp-online{display:inline-flex;align-items:center;gap:6px;margin-left:auto;font:700 .61rem/1 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:.08em;color:#7EE2B8;text-transform:uppercase}
+    #page-integrations .st-mcp-online:before{content:"";width:5px;height:5px;border-radius:50%;background:#45D49D;box-shadow:0 0 0 3px rgba(69,212,157,.12)}
+    #page-integrations .st-mcp-online.offline{color:#F5C46B}
+    #page-integrations .st-mcp-online.offline:before{background:#E8A83E;box-shadow:0 0 0 3px rgba(232,168,62,.12)}
+    #page-integrations .st-mcp-console-body{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;padding:22px}
+    #page-integrations .st-mcp-endpoint-main{min-width:0}
+    #page-integrations .st-mcp-endpoint-main small{display:block;margin-bottom:8px;color:#77869F;font:650 .62rem/1 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:.08em;text-transform:uppercase}
+    #page-integrations .st-mcp-endpoint-main code{display:block;overflow:hidden;color:#F4F7FC;font:600 clamp(.77rem,1.6vw,.94rem)/1.45 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;text-overflow:ellipsis;white-space:nowrap}
+    #page-integrations .st-mcp-console-copy{min-height:40px;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:0 13px;border:1px solid #34425B;border-radius:9px;background:#151E32;color:#D9E5F7;font:650 .75rem/1 inherit;cursor:pointer;transition:border-color .15s ease,background .15s ease,color .15s ease}
+    #page-integrations .st-mcp-console-copy:hover{border-color:#5777B7;background:#1A2742;color:#fff}
+    #page-integrations .st-mcp-console-copy:focus-visible{outline:3px solid rgba(100,148,255,.35);outline-offset:2px}
+    #page-integrations .st-mcp-console-meta{display:flex;gap:6px;flex-wrap:wrap;padding:0 22px 18px}
+    #page-integrations .st-mcp-console-meta span{padding:5px 8px;border:1px solid rgba(255,255,255,.09);border-radius:6px;color:#8998B2;font:600 .61rem/1 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:.035em}
+    #page-integrations .st-mcp-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin:30px 0 12px}
+    #page-integrations .st-mcp-section-head h2{margin:0;color:var(--in-ink);font-size:1rem;letter-spacing:-.02em}
+    #page-integrations .st-mcp-section-head p{margin:0;color:var(--in-muted);font-size:.76rem}
+    #page-integrations .st-mcp-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+    #page-integrations .st-mcp-provider{grid-template-columns:40px minmax(0,1fr) auto;grid-template-rows:auto;gap:12px;padding:13px 14px;border-radius:12px;background:#fff;transition:border-color .15s ease,background .15s ease,transform .15s ease}
+    #page-integrations .st-mcp-provider:hover{transform:translateY(-1px);border-color:#C6D2E5;background:#FCFDFF}
+    #page-integrations .st-mcp-provider:has([aria-expanded="true"]){border-color:#9BB8FF;background:#F7F9FF}
+    #page-integrations .st-mcp-logo{width:40px;height:40px;grid-row:auto;border-radius:10px}
+    #page-integrations .st-mcp-logo svg{width:21px;height:21px}
+    #page-integrations .st-mcp-logo.claude{background:#FFF8F3}
+    #page-integrations .st-mcp-copy b{font-size:.84rem}
+    #page-integrations .st-mcp-copy span{margin-top:3px;font-size:.69rem;line-height:1.35}
+    #page-integrations .st-mcp-action{grid-column:auto;padding:0;border:0}
+    #page-integrations .st-mcp-status{display:none}
+    #page-integrations .st-mcp-connect{width:34px;min-height:34px;display:grid;place-items:center;padding:0;border-color:#E2E7EF;border-radius:9px;background:#F7F8FA;color:#475467}
+    #page-integrations .st-mcp-connect:hover:not(:disabled){border-color:#B8C9EF;background:#EEF3FF;color:#1749D6}
+    #page-integrations .st-mcp-connect span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+    #page-integrations .st-mcp-connect iconify-icon{font-size:16px}
+    #page-integrations .st-mcp-capabilities{grid-template-columns:1fr 1fr;gap:0;margin-top:30px;border-top:1px solid var(--in-line);border-bottom:1px solid var(--in-line)}
+    #page-integrations .st-mcp-capability{padding:20px 0;border:0!important;border-radius:0!important;background:transparent!important}
+    #page-integrations .st-mcp-capability+ .st-mcp-capability{padding-left:24px;border-left:1px solid var(--in-line)!important}
+    #page-integrations .st-mcp-capability-head{margin-bottom:10px}
+    #page-integrations .st-mcp-capability-head b{font-size:.8rem}
+    #page-integrations .st-mcp-capability-head .st-mcp-status{display:inline-flex;background:#F7F8FA;color:#667085}
+    #page-integrations .st-mcp-capability ul{margin:0;padding-left:18px;color:#596579;font-size:.74rem;line-height:1.75}
+    #page-integrations .st-mcp-safety{margin-top:14px;padding:0;border:0;background:transparent;color:#667085;font-size:.72rem}
+    #page-integrations .st-mcp-safety iconify-icon{font-size:16px;color:#344054}
+    #page-integrations .st-mcp-request{margin-top:14px;border-color:#F4D7A8;background:#FFF9EE;color:#8A5A16}
+    #page-integrations .st-mcp-setup{margin-top:18px;padding:22px;border-color:#D8E2F7;border-radius:14px;background:#F8FAFF}
+    #page-integrations .st-mcp-setup-head h3{font-size:1.05rem}
+    #page-integrations .st-mcp-setup .st-mcp-endpoint{display:none}
+    #page-integrations .st-mcp-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:20px 0 0;padding:0;list-style:none;counter-reset:mcp-step}
+    #page-integrations .st-mcp-steps li{position:relative;padding:28px 0 0;color:#475467;font-size:.75rem;line-height:1.55;counter-increment:mcp-step}
+    #page-integrations .st-mcp-steps li:before{content:"0" counter(mcp-step);position:absolute;top:0;left:0;color:#1D5BF5;font:700 .63rem/1 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:.08em}
+    @media(max-width:820px){
+      #page-integrations .st-mcp-grid{grid-template-columns:1fr}
+      #page-integrations .st-mcp-provider{grid-template-columns:40px minmax(0,1fr) auto;padding:13px 14px}
+      #page-integrations .st-mcp-action{align-items:center;flex-direction:row}
+      #page-integrations .st-mcp-connect{width:34px}
+    }
+    @media(max-width:640px){
+      #page-integrations .in-shell{padding-top:6px}
+      #page-integrations .in-hero h1{font-size:1.85rem}
+      #page-integrations .st-mcp-console-body{grid-template-columns:1fr;padding:18px}
+      #page-integrations .st-mcp-console-copy{width:100%}
+      #page-integrations .st-mcp-console-meta{padding:0 18px 18px}
+      #page-integrations .st-mcp-section-head{align-items:flex-start;flex-direction:column;gap:4px}
+      #page-integrations .st-mcp-capabilities{grid-template-columns:1fr}
+      #page-integrations .st-mcp-capability+ .st-mcp-capability{padding-left:0;border-top:1px solid var(--in-line)!important;border-left:0!important}
+      #page-integrations .st-mcp-steps{grid-template-columns:1fr;gap:14px}
+      #page-integrations .st-mcp-steps li{min-height:44px;padding:0 0 0 34px}
+      #page-integrations .st-mcp-steps li:before{top:4px}
+      #page-integrations .st-mcp-setup-actions>*{width:100%}
+    }
+    

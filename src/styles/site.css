@@ -1,0 +1,9 @@
+/* Small additions on top of the vendored stylesheets (cookie banner, nav dropdown states). */
+.nn-cookie{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:9999;width:min(768px,calc(100vw - 32px));background:#0f172a;color:#fff;border-radius:18px;padding:24px;display:flex;align-items:center;gap:24px;box-shadow:0 24px 60px -20px rgba(0,0,0,.5);font-family:var(--font-inter),-apple-system,sans-serif}
+.nn-cookie__title{font-size:17px;font-weight:600;margin:0 0 6px}
+.nn-cookie__text{font-size:14px;line-height:1.6;color:#cbd5e1;margin:0}
+.nn-cookie__text a{color:#93c5fd;text-decoration:underline}
+.nn-cookie__actions{display:flex;gap:10px;flex-shrink:0}
+.nn-cookie__btn{height:40px;padding:0 16px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:#fff;font-weight:600;font-size:14px;cursor:pointer;font-family:inherit}
+.nn-cookie__btn--allow{background:rgba(255,255,255,.14)}
+@media (max-width:640px){.nn-cookie{flex-direction:column;align-items:stretch}}

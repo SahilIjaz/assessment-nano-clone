@@ -1,0 +1,888 @@
+{
+ "for__fintech": [
+  {
+   "q": "How does compliance review work for fintech campaigns?",
+   "a": "Your brief carries the regulatory constraints, and you review each draft before it publishes. Review cycles run slightly longer than other verticals \u2014 factored into the timeline at match time."
+  },
+  {
+   "q": "What does a fintech creator campaign cost?",
+   "a": "Fixed pricing from \u20ac20/post, with a small creator premium for regulated content. Q1 2026 median CPL was \u20ac19 across 29 campaigns, with top-tier time-on-site on the resulting clicks."
+  },
+  {
+   "q": "Which fintech products fit creator-led growth best?",
+   "a": "B2B products bought by finance operators \u2014 spend management, billing, treasury, FP&A tooling. Consumer fintech audiences live on other channels; LinkedIn creator campaigns are built for the B2B side."
+  }
+ ],
+ "blog__ai-search-cites-people-not-brands": [
+  {
+   "q": "Which sources do AI search engines cite most?",
+   "a": "User-generated and community sources dominate. Aggregated studies of AI citations across ChatGPT, Google AI Overviews, Perplexity, Gemini and Claude put Reddit at the top by a wide margin, with YouTube, Wikipedia, LinkedIn and Forbes completing the leading group. Reddit alone accounts for roughly 46.7% of social citations on Perplexity and 21% on Google AI Overviews, according to 2026 citation-index research."
+  },
+  {
+   "q": "Why do brand pages get cited less often than forums and social posts?",
+   "a": "Because an AI answer is assembled to look independent. A vendor's own page is the least independent source available on a question about that vendor's category, so it tends to be used for facts about the company rather than as evidence in a recommendation. Community threads and named practitioners carry the perceived independence that a brand page structurally cannot."
+  },
+  {
+   "q": "Should B2B companies post on Reddit to get cited by AI?",
+   "a": "Not as a tactic in itself. Undisclosed brand participation in community threads is detectable, gets removed by moderators, and destroys the independence that made those sources citable in the first place. The durable version is to have identifiable practitioners with their own audiences discuss your product publicly under their own names."
+  },
+  {
+   "q": "Does creator-led distribution improve AI search visibility?",
+   "a": "It is a plausible and increasingly common thesis, but it is not proven for any individual company. What is measured is that the source types creators publish into \u2014 LinkedIn posts, YouTube, community threads \u2014 are heavily represented in AI citations. Whether a specific sponsored post causes a specific citation is not something current tooling can attribute."
+  },
+  {
+   "q": "Do brand pages still matter for AI search?",
+   "a": "Yes, for a different job. Owned pages are where a model retrieves concrete facts about you: what you charge, what you do, how you compare. They rarely win the recommendation, but they answer the follow-up question once your name has been surfaced by something else. Both layers are needed."
+  }
+ ],
+ "for__marketing-ops": [
+  {
+   "q": "Why is marketing-ops the cheapest vertical?",
+   "a": "Dense creator supply meets a self-selecting audience: marketers follow marketing creators to find tools. Q1 2026 median CPL was \u20ac16 across 36 campaigns, with a p10 of \u20ac10 \u2014 the platform's best."
+  },
+  {
+   "q": "Isn't marketing to marketers saturated?",
+   "a": "Ad inventory is saturated; practitioner trust isn't. A martech recommendation from an operator who shows their stack converts precisely because marketers ignore the ads."
+  },
+  {
+   "q": "What does a martech campaign cost?",
+   "a": "Fixed per-post pricing from \u20ac20 (median creator ~\u20ac150/post), no platform subscription on Self-Serve. At a \u20ac16 median CPL, a \u20ac1,000 test budget delivered ~60 qualified clicks in Q1 2026."
+  }
+ ],
+ "blog__naano-vs-passionfroot": [
+  {
+   "q": "What is the difference between Naano and Passionfroot?",
+   "a": "The scope and the transaction model. Naano is a B2B LinkedIn creator marketplace: companies browse 2,000+ vetted LinkedIn creators, see each creator's fixed per-post price before booking, and get click and lead tracking on every post \u2014 Self-Serve is \u20ac0/month. Passionfroot is a multi-channel creator marketing platform that spans X, newsletters (Beehiiv, Substack), LinkedIn, YouTube, Instagram, and TikTok, with an AI agent that recommends creators and drafts briefs, plus a separate creator-side product for managing and monetizing sponsorships."
+  },
+  {
+   "q": "Does Passionfroot support LinkedIn creator campaigns?",
+   "a": "Yes. LinkedIn is one of the seven channels Passionfroot lists, alongside X, Beehiiv, Substack, YouTube, Instagram, and TikTok. The difference is depth versus breadth: Passionfroot treats LinkedIn as one channel in a cross-platform program, while Naano is built exclusively around LinkedIn, with a vetted B2B creator pool and fixed prices shown before you book."
+  },
+  {
+   "q": "How much does a sponsored LinkedIn post cost on Naano?",
+   "a": "Each creator sets a fixed per-post price that is visible before booking. Across 239 bookings between June 14 and August 1, 2026, the Naano Index shows a median of \u20ac84 per post for creators under 5K followers, \u20ac180 at 5\u201310K, and \u20ac312 at 10\u201325K."
+  },
+  {
+   "q": "Can you use Naano and Passionfroot together?",
+   "a": "Yes, and the split is natural because they do different jobs. Teams running a multi-channel creator program \u2014 newsletters, YouTube, X \u2014 can manage it through Passionfroot, and run the LinkedIn line item through Naano when they want vetted B2B supply, a known price per post, and per-post click and lead reporting."
+  }
+ ],
+ "blog__naano-vs-skeepers": [
+  {
+   "q": "Is Skeepers good for B2B lead generation?",
+   "a": "No \u2014 and it doesn't claim to be. Skeepers is built for consumer e-commerce: UGC, ratings and reviews, and gifted micro-influencer campaigns that feed product pages and social proof. B2B lead generation on LinkedIn needs practitioner creators and per-post click attribution, which is what a B2B marketplace like Naano provides."
+  },
+  {
+   "q": "What is the main difference between Naano and Skeepers?",
+   "a": "The output. Skeepers produces consumer content volume \u2014 reviews, UGC videos, gifted posts \u2014 to lift e-commerce conversion. Naano produces qualified B2B traffic: vetted LinkedIn micro-creators publish sponsored posts at a fixed price from \u20ac20, and every post reports qualified clicks into your funnel."
+  }
+ ],
+ "index": [
+  {
+   "q": "What is Naano?",
+   "a": "Naano is a B2B LinkedIn creator marketplace: companies discover and book vetted creators for sponsored LinkedIn campaigns, each at a fixed price per post set by the creator. The marketplace spans creators from niche voices with around 1,000 followers to established B2B creators with audiences of several hundred thousand."
+  },
+  {
+   "q": "How does Naano find the right creators?",
+   "a": "Our matching engine scores every creator on audience fit, category relevance and engagement quality across LinkedIn, X and YouTube, so you rank creators by who actually reaches your buyers, not by follower count."
+  },
+  {
+   "q": "Which networks do you support?",
+   "a": "LinkedIn, X and YouTube today, with more on the way. You can compare creators and track performance across every network in one place."
+  },
+  {
+   "q": "How does per-post pricing work?",
+   "a": "Campaigns start from \u20ac20 per published post, you only pay for posts that go live, with no retainer. Prefer a hands-off setup? Done for you adds our team executing everything end to end."
+  },
+  {
+   "q": "How does attribution work?",
+   "a": "Naano places a tracking pixel at every stage of the funnel, so each click, lead, pipeline and revenue is tied back to the exact creator and post that drove it."
+  },
+  {
+   "q": "Do you handle creator payouts?",
+   "a": "Yes. Approve content and pay every creator in one click, securely via Stripe Connect, invoices and approvals are handled for you."
+  },
+  {
+   "q": "What's the difference between Free and Done for you?",
+   "a": "Free gives your team the platform to source creators and run simple campaigns yourselves. Done for you adds hands-on execution by the Naano team, sourcing, briefs, reporting and optimisation."
+  },
+  {
+   "q": "Can I upgrade or cancel anytime?",
+   "a": "Absolutely. Plans are month-to-month, you can upgrade, downgrade or cancel whenever you like."
+  }
+ ],
+ "blog__modash-alternative-b2b-linkedin": [
+  {
+   "q": "What is the best Modash alternative for B2B LinkedIn campaigns?",
+   "a": "Naano is the closer fit when the job is to book sponsored LinkedIn posts from B2B creators at a fixed price set by each creator. Modash is the stronger fit when the job is large-scale discovery, vetting and programme management across Instagram, TikTok and YouTube."
+  },
+  {
+   "q": "Does Modash support LinkedIn creator discovery?",
+   "a": "Modash's official product and help pages currently describe creator discovery across Instagram, TikTok and YouTube, not LinkedIn. Teams should verify the current network list with Modash before buying because product coverage can change."
+  },
+  {
+   "q": "Is Naano a complete replacement for Modash?",
+   "a": "No. Naano is specialised around B2B LinkedIn sponsored posts and transparent creator-set fees. It is not a substitute for Modash's broad consumer creator database, Shopify gifting, affiliate workflows or cross-network programme management."
+  },
+  {
+   "q": "How should a team compare Modash and Naano pricing?",
+   "a": "Compare the total workflow, not one headline price. Modash uses a subscription whose limits and price scale with usage. Naano exposes a fixed fee for each sponsored post, set by the creator before booking. Add the cost of sourcing, outreach, contracting, payment and measurement that remains outside either product."
+  }
+ ],
+ "blog__linkedin-sponsored-post-price-index-2026": [
+  {
+   "q": "What is the median price of a sponsored LinkedIn post in 2026?",
+   "a": "Across 300 sponsored-post bookings placed on the Naano marketplace between 14 June and 11 August 2026, the median price paid was \u20ac180 per post for a creator with 5,000\u201310,000 followers and \u20ac300 for a creator with 10,000\u201325,000 followers. Below 5,000 followers the median was \u20ac84 [Naano Index, n=300, June\u2013August 2026]."
+  },
+  {
+   "q": "Why are published influencer rate cards higher than what brands actually pay?",
+   "a": "Rate cards are asking prices published by the creators and platforms that benefit from a high anchor; transacted prices are the outcome of a negotiation between a specific brand and a specific creator. On Naano's own marketplace, the median transacted price for a sub-10,000-follower creator was \u20ac111, while widely cited 2026 rate-card guides quote $500\u2013$2,500 for the same tier. Neither number is dishonest \u2014 they measure different things, and only one of them is what leaves a bank account."
+  },
+  {
+   "q": "How much does follower count explain about a LinkedIn creator's price?",
+   "a": "Roughly 29%. Regressing listed per-post price on follower count for the 769 creators open for bookings at the snapshot time gives an R-squared of 0.289 on a log-log fit \u2014 so about 71% of the variance is not explained by follower count in this one-variable model [Naano Index snapshot, n=769, 11 August 2026 at 19:05 UTC]. The figure has been stable across two snapshots on a growing base, which is the most reassuring consistency check in the series."
+  },
+  {
+   "q": "How wide is the price spread between creators with the same audience size?",
+   "a": "Very wide. Among the 205 Naano creators with 10,000\u201325,000 followers who were open for bookings at the snapshot time, the 10th percentile asked \u20ac27 per post and the 90th percentile asked \u20ac612 \u2014 a 22.7x spread at an identical audience size [Naano Index snapshot, n=205, 11 August 2026 at 19:05 UTC]. Follower tier alone is not a pricing benchmark."
+  },
+  {
+   "q": "Do cheaper sponsored post bookings get delivered less often?",
+   "a": "In Naano's data, yes, and by a wide margin, although the relationship is correlational rather than causal and the size of it is moving. Of the bookings that reached a final state, 64.6% of those priced at \u20ac600+ per post ended in a published post, versus 30.4% of those priced under \u20ac200. A related response pattern is also visible: 41.6% of sub-\u20ac200 offers expired without the creator answering, against 19.2% of \u20ac600+ offers [Naano Index snapshot, n=279 settled offers, 11 August 2026 at 19:05 UTC]. Eight days earlier the same query returned 80.6% and 8.1%, so treat the magnitude as provisional and the direction as robust."
+  }
+ ],
+ "blog__how-to-find-brand-deals-on-linkedin": [
+  {
+   "q": "How do you find brand deals on LinkedIn?",
+   "a": "Start with products your audience already needs, identify the person responsible for creator, content or demand-generation programmes, and pitch one audience-native post angle rather than a generic media kit. Add a marketplace route if you want bookable opportunities without running all of the prospecting yourself."
+  },
+  {
+   "q": "How many followers do you need for LinkedIn brand deals?",
+   "a": "There is no universal threshold. A B2B brand can value a small, concentrated audience of relevant practitioners more than a larger general audience. Show who reads and responds to your work, what subjects you cover consistently and how a sponsor fits that context."
+  },
+  {
+   "q": "Should a creator charge per click for a LinkedIn sponsored post?",
+   "a": "A creator should price the work and rights they control: the agreed post, review scope, publication window and any amplification permission. Clicks depend on distribution, audience response and the destination, so they should be measured without turning them into a guaranteed billing unit. On Naano, each creator sets a fixed fee per sponsored post."
+  },
+  {
+   "q": "Do LinkedIn brand deals need to be disclosed?",
+   "a": "Yes. LinkedIn says content shared in exchange for money, products, services or another benefit must be labelled as a brand partnership and the commercial relationship must be clear, conspicuous and transparent. Creators should also follow the laws that apply to them and the sponsor."
+  }
+ ],
+ "blog__launch-b2b-linkedin-creator-campaign": [
+  {
+   "q": "Can a B2B team launch a LinkedIn creator campaign in 30 days?",
+   "a": "Yes, if 30 days is treated as an operating plan rather than a performance promise: define one audience and outcome, shortlist creators in week one, agree scope and fixed post prices in week two, review and publish in week three, then analyse early signals in week four."
+  },
+  {
+   "q": "How many creators should a first campaign use?",
+   "a": "Start with three to five creators when the team can review every profile, brief and draft properly. The number is a management recommendation, not a performance benchmark; use fewer if adding another creator would weaken audience fit or slow approvals."
+  },
+  {
+   "q": "How should a sponsored LinkedIn post be priced on Naano?",
+   "a": "Each creator sets a fixed fee per sponsored post, visible before booking. The brand agrees the deliverable and price before work starts; Naano does not charge per click, impression or lead."
+  },
+  {
+   "q": "What should a first creator campaign measure?",
+   "a": "Choose one primary outcome before launch, keep a unique tracked link for every creator, and review audience-fit evidence, visits and downstream conversions together. Do not change the lead definition or attribution window after seeing results."
+  }
+ ],
+ "free-tools__linkedin-engagement-rate-calculator": [
+  {
+   "q": "What is a good engagement rate on LinkedIn in 2026?",
+   "a": "It depends on audience size. As a rule of thumb for B2B accounts: under 2,000 followers, 5-8% by followers is good; 2,000-5,000 followers, 4-6%; 5,000-20,000 followers, 2.5-4%; 20,000-50,000 followers, 1.5-2.5%; and above 50,000 followers, 1-1.5%. Rates above those ranges are excellent, and rates below them usually signal a content or consistency problem rather than an audience problem."
+  },
+  {
+   "q": "Should I measure engagement rate by followers or by impressions?",
+   "a": "Use both. Engagement rate by followers ((reactions + comments + reposts) divided by followers) is the standard public metric because anyone can compute it. Engagement rate by impressions divides the same engagements by how many people actually saw the post, so it measures content quality independently of how often LinkedIn distributed it. By-impressions is the fairer metric; by-followers is the comparable one."
+  },
+  {
+   "q": "Why do micro-creators have higher engagement rates than large accounts?",
+   "a": "Smaller audiences are denser: a 3,000-follower creator is mostly followed by people who know their niche and interact regularly, while a 100,000-follower account accumulates passive followers who rarely see or touch its posts. LinkedIn also distributes posts through active commenters' networks, which favors tight communities. This is why B2B sponsors increasingly prefer several micro-creators over one large account for the same budget."
+  },
+  {
+   "q": "How do sponsors use engagement rate to set flat-fee post rates?",
+   "a": "On marketplaces like Naano, each creator sets a flat fee per sponsored post, starting from 100 euros. Sponsors compare that fee against the creator's engagement rate and audience fit: a creator with 4,000 followers and a 6% engagement rate reliably delivers more qualified attention per euro than a bigger account at 1%. A strong, documented engagement rate is the single best argument for setting a higher per-post rate."
+  }
+ ],
+ "blog__what-is-a-b2b-creator-marketplace": [
+  {
+   "q": "What is a B2B creator marketplace?",
+   "a": "A platform that connects companies with professional creators \u2014 usually niche experts on LinkedIn \u2014 and handles the four steps a brand would otherwise stitch together by hand: matching, briefing, payment, and click tracking. On Naano, brands book posts at a flat price set by each creator, and the platform pays the creator, no invoice required. The median post transacted at \u20ac117 for a creator under 10,000 followers and \u20ac312 at 10,000\u201325,000 followers [Naano Index, n=239, June\u2013August 2026]."
+  },
+  {
+   "q": "How is it different from an influencer platform?",
+   "a": "Influencer platforms (Kolsquare, Upfluence, Traackr) are databases plus campaign tooling for consumer channels; a B2B creator marketplace is transactional \u2014 booking, payment, and per-post link tracking happen inside the platform, and the creators are LinkedIn practitioners with small, high-fit professional audiences."
+  },
+  {
+   "q": "Who uses a B2B creator marketplace?",
+   "a": "On the demand side, B2B SaaS marketing and GTM teams buying qualified traffic; on the supply side, practitioners (sales leads, RevOps managers, developers) from about 1k to several hundred thousand LinkedIn followers who monetize their audience per post."
+  }
+ ],
+ "blog__naano-vs-kolsquare": [
+  {
+   "q": "Is Kolsquare good for B2B influencer marketing?",
+   "a": "Kolsquare is one of Europe's strongest influencer platforms for consumer campaigns on Instagram, TikTok, and YouTube, but it is not built around LinkedIn or B2B buying audiences. For LinkedIn-first B2B lead generation, a B2B-native marketplace like Naano is the better structural fit."
+  },
+  {
+   "q": "What is the main difference between Naano and Kolsquare?",
+   "a": "The channel and the pricing model. Naano is a transactional LinkedIn marketplace \u2014 book vetted B2B micro-creators at a fixed price from \u20ac20 per post, with qualified-click tracking. Kolsquare is a database-plus-campaign-suite for consumer social channels, sold as an annual software license."
+  }
+ ],
+ "blog__how-to-choose-b2b-influencer-marketing-platform": [
+  {
+   "q": "How do you choose a B2B influencer marketing platform?",
+   "a": "Score every candidate on seven criteria: LinkedIn-native supply, creator vetting quality, pricing-model transparency, payment and contract handling, campaign tracking, minimum budget, and EU compliance. Weight pricing transparency and vetting highest \u2014 a flat fee per post you can see before booking (from \u20ac100/post on Naano) is the most predictable model for B2B budgets."
+  },
+  {
+   "q": "What is the most predictable pricing model for B2B influencer marketing?",
+   "a": "A flat fee per post, set by the creator and visible before you book. You know the exact cost of a campaign before it starts, an underperforming post has a capped downside, and there is no retainer, no impression auction, and no agency markup hidden inside the price."
+  },
+  {
+   "q": "What is the difference between a B2B influencer platform and an agency?",
+   "a": "A platform is self-serve infrastructure \u2014 you pick and brief creators while the platform handles matching, contracts, payment, and tracking. An agency is a done-for-you service billed as a monthly retainer (typically \u20ac3,000\u2013\u20ac10,000+) on top of creator fees, and the creator relationships stay with the agency, not with you."
+  },
+  {
+   "q": "What red flags should disqualify a B2B influencer marketing platform?",
+   "a": "Pricing you can only get 'on quote', a creator catalog dominated by Instagram and TikTok lifestyle profiles, no in-platform payment (you handle creator invoices yourself), no per-post attribution, and annual licences or minimum spends that force a five-figure commitment before the first post goes live."
+  }
+ ],
+ "pricing": [
+  {
+   "q": "What's the minimum budget to start on Naano?",
+   "a": "Self-Serve is \u20ac0 per month. Creator spend depends on the offers you book, and the exact fixed price is shown before you commit."
+  },
+  {
+   "q": "How much does a single post cost?",
+   "a": "Each creator sets a fixed price for their offer. You see the amount and included deliverables before booking; there is no cost per click or impression."
+  },
+  {
+   "q": "Can I upgrade to Managed Campaigns or cancel anytime?",
+   "a": "Yes. Both plans are month-to-month with no lock-in. You can move from Self-Serve to Managed Campaigns, downgrade, or cancel whenever you like. Campaign spend is always separate from the plan fee."
+  },
+  {
+   "q": "How do creator payouts work?",
+   "a": "Creators are paid automatically through Stripe Connect once you approve their content. Invoices, approvals and payment records are handled inside the platform on both Self-Serve and Managed Campaigns."
+  },
+  {
+   "q": "What exactly is included in the \u20ac700/month Managed plan?",
+   "a": "Managed Campaigns adds a dedicated Naano team that handles campaign strategy, creator sourcing and coordination, brief creation, campaign launch, and reporting and optimisation, on top of everything in Self-Serve."
+  },
+  {
+   "q": "Do you still charge per click?",
+   "a": "No. Marketplace offers use a fixed price shown before booking, with no cost per click, impression, or lead."
+  }
+ ],
+ "blog__how-much-charge-sponsored-linkedin-post": [
+  {
+   "q": "How much should I charge for a sponsored LinkedIn post?",
+   "a": "In B2B, sponsored LinkedIn posts typically transact between \u20ac100 and \u20ac1,500 per post in 2026, depending on follower count, engagement rate, and vertical scarcity. A creator with 2k\u20135k engaged followers in a clear niche can credibly charge \u20ac100\u2013\u20ac250 per post, while creators with 20k\u201350k followers in scarce verticals like devtools or fintech command \u20ac600\u2013\u20ac1,500. Price on audience relevance and engagement, not raw follower count."
+  },
+  {
+   "q": "What is a fair rate per 1,000 LinkedIn followers?",
+   "a": "Per-follower pricing is a poor fit for B2B, because a 3,000-follower audience of RevOps managers is worth more to a sponsor than 30,000 generalists. If you need a sanity check, B2B rates in 2026 work out to roughly \u20ac30\u2013\u20ac50 per 1,000 followers for creators with above-benchmark engagement, but the honest method is to price the tier, the engagement rate, and the vertical together rather than the follower count alone."
+  },
+  {
+   "q": "Should LinkedIn creators charge per click or a flat fee per post?",
+   "a": "Charge a flat fee per post. A flat fee prices the work you control \u2014 the writing, your audience, your credibility \u2014 while per-click deals transfer the sponsor's conversion risk onto you, including their landing page and offer quality. On Naano, every post is booked at a flat fee the creator sets, starting at \u20ac100 per post, so your income is known before you write a word."
+  },
+  {
+   "q": "When should I raise my sponsored post rates?",
+   "a": "Raise your rate when demand or proof changes: you are booked more than twice a month, sponsors rebook without negotiating, your median engagement rate has risen for two consecutive months, or you can show tracked results like clicks and signups from past posts. A 20\u201330% increase on your next new sponsor is the standard step, and existing sponsors are moved to the new rate at their next booking."
+  }
+ ],
+ "selection": [
+  {
+   "q": "How do I find LinkedIn creators for a B2B campaign?",
+   "a": "Three routes. Search LinkedIn manually by job title and topic, which is free but slow and gives you no pricing or willingness-to-post signal. Use a creator database such as Favikon, which surfaces who exists but stops before booking. Or use a B2B creator marketplace, where creators have already published their price and opted in to sponsored posts. Naano's free creator search does the third route for you: describe your campaign and a real person returns a shortlist with pricing and audience fit within 48 hours."
+  },
+  {
+   "q": "Is the Naano creator search really free?",
+   "a": "Yes. There is no cost, no account required, and no payment method requested. You keep the shortlist whether or not you run a campaign with Naano, including if you decide to contact the creators directly yourself."
+  },
+  {
+   "q": "How long does it take to receive the shortlist?",
+   "a": "Within 48 hours. It is built by a member of the Naano campaign team rather than generated automatically, which is why it takes hours rather than seconds \u2014 and why every profile comes with a reason it belongs in your campaign."
+  },
+  {
+   "q": "How many creators are in the shortlist?",
+   "a": "It scales with your campaign budget rather than hitting a fixed quota, from a few hand-picked profiles to a full campaign roster. We would rather send four genuinely relevant creators than pad the list to twenty."
+  },
+  {
+   "q": "What counts as a good B2B LinkedIn creator?",
+   "a": "Audience fit over audience size. A creator with 3,000 followers who are all RevOps managers outperforms a generalist with 100,000 followers for a sales-tech company, because B2B buys relevance, not reach. The signals that matter are the job titles in their comment section, posting consistency, and whether they already write about your category."
+  },
+  {
+   "q": "What is Naano?",
+   "a": "Naano is a B2B LinkedIn creator marketplace: a curated marketplace of 2,000+ registered and vetted LinkedIn creators (from about 1,000 to 500,000 followers), where B2B companies book posts at a flat fee per post from \u20ac20. Naano pays the creator directly, so salaried experts can take part without issuing an invoice, and every post carries tracked links so spend maps to measured clicks."
+  }
+ ],
+ "blog__b2b-influencer-marketing-cost": [
+  {
+   "q": "How much does B2B influencer marketing cost in 2026?",
+   "a": "It depends on the pricing model. On a marketplace where creators publish their own flat rate, the median sponsored post transacted at \u20ac111 for a creator under 10,000 followers and \u20ac300 at 10,000\u201325,000 followers [Naano Index, n=300, June\u2013August 2026]. Directly negotiated B2B micro-creator posts run \u20ac200\u2013\u20ac2,000, macro-creator cachets \u20ac1,000\u2013\u20ac10,000, retainers \u20ac1,000\u2013\u20ac5,000+ per creator per month, and agency programmes add \u20ac3,000\u2013\u20ac10,000+ monthly retainers on top of creator fees."
+  },
+  {
+   "q": "What does \u20ac1,000 of B2B creator budget actually buy?",
+   "a": "At the current transacted median, \u20ac1,000 buys roughly six to eight sponsored posts from creators under 10,000 followers, or three posts from creators in the 10,000\u201325,000 range [Naano Index, n=300, June\u2013August 2026]. We do not publish a Naano cost-per-lead figure: only 62 of 89 completed bookings in the snapshot carry any tracked click, and none has the stored 30-second field required to reproduce the previous qualified-click definition."
+  },
+  {
+   "q": "Which pricing model is lowest-risk for a first campaign?",
+   "a": "Transparent per-post fees published by each creator: the downside of any single post is capped at one known fee, and budget flows to the creators who actually perform \u2014 versus four-figure sunk costs on negotiated deals. One caveat the data is clear about: offers priced well below a creator's listed rate are the ones that never get delivered, so 'cheap' is not the same as 'low risk'."
+  }
+ ],
+ "best-b2b-influencer-marketing-platforms-2026": [
+  {
+   "q": "What is the best B2B influencer marketing platform in 2026?",
+   "a": "For B2B teams whose audience is on LinkedIn, Naano is the best B2B influencer marketing platform in 2026: it is the only LinkedIn-native creator marketplace with flat per-post pricing set by each creator (median \u20ac117 transacted under 10,000 followers [Naano Index, n=100, June\u2013August 2026]), 2,000+ vetted B2B micro-creators, and UTM-tracked links on every post. Favikon is the best complement for creator research, while Kolsquare, Upfluence, Traackr, and Skeepers are stronger for consumer (B2C) channels."
+  },
+  {
+   "q": "What is the best influencer marketing platform for LinkedIn?",
+   "a": "Naano is the only platform in this comparison built specifically for LinkedIn: brands book vetted LinkedIn micro-creators at a flat price per post set by the creator, and every post carries UTM-tracked links. Favikon ranks LinkedIn creators but does not handle booking, payment, or attribution."
+  },
+  {
+   "q": "How much does B2B influencer marketing cost in 2026?",
+   "a": "On Naano, creators set a flat price per sponsored post and there is no monthly platform fee. The median post transacted at \u20ac117 for a creator under 10,000 followers, \u20ac312 at 10,000\u201325,000 followers and \u20ac600 at 25,000\u201350,000 followers [Naano Index, n=239, June\u2013August 2026]. Traditional influencer platforms typically charge annual software licenses or campaign minimums of \u20ac10k+, and agencies charge monthly retainers on top of creator fees."
+  },
+  {
+   "q": "Are Kolsquare, Skeepers, Upfluence, or Traackr good for B2B?",
+   "a": "They are strong platforms for consumer brands, but none of them is built around LinkedIn or B2B buying audiences: Kolsquare and Traackr focus on Instagram/TikTok/YouTube brand programs, Upfluence on e-commerce and affiliate revenue, and Skeepers on UGC and product reviews. For B2B lead generation on LinkedIn, a B2B-native marketplace like Naano is the better structural fit."
+  },
+  {
+   "q": "Should I use an agency or a platform for B2B influencer marketing?",
+   "a": "Use a platform when you want speed, transparent per-post pricing, and in-house control; use an agency when you need strategy and hands-off execution and can afford a retainer. The platform route keeps the cost of a failed test to a single post's flat fee \u2014 a median of \u20ac117 under 10,000 followers [Naano Index, n=100, June\u2013August 2026] \u2014 instead of a monthly retainer that bills whether the content lands or not."
+  },
+  {
+   "q": "What is the difference between Naano and Favikon or Upfluence?",
+   "a": "Favikon is a creator research tool (rankings and audience data, no booking or payment) and Upfluence is an e-commerce influencer database with outreach and affiliate tooling. Naano is a transactional B2B marketplace: you book a vetted LinkedIn creator at their flat per-post price, the platform handles payment, and every post carries UTM-tracked links."
+  }
+ ],
+ "blog__linkedin-dwell-time-b2b-creators": [
+  {
+   "q": "Does LinkedIn use dwell time to rank posts?",
+   "a": "Yes. LinkedIn Engineering says its feed models use dwell time and skip behaviour as passive-consumption signals. They sit inside a multi-objective ranking system alongside clicks, likes, comments, shares, relevance and creator-side feedback; LinkedIn does not describe dwell time as the single ranking factor."
+  },
+  {
+   "q": "Is 30 seconds the LinkedIn dwell-time threshold?",
+   "a": "No public universal threshold exists. LinkedIn's 2024 engineering write-up says a fixed threshold introduced bias across content types and could not adapt to changes in the feed, so its newer long-dwell modelling uses adaptive thresholds."
+  },
+  {
+   "q": "Can creators see dwell time in LinkedIn analytics?",
+   "a": "LinkedIn does not expose a post-level dwell-time metric in standard creator analytics. Use the metrics you can observe\u2014qualified comments, saves, clicks and downstream conversions\u2014rather than trying to reverse-engineer a hidden timer."
+  },
+  {
+   "q": "Does Naano charge brands for 30-second clicks?",
+   "a": "No. Naano charges a fixed fee per sponsored post, set by each creator and shown before booking. Tracked links help brands compare traffic and downstream outcomes, but the marketplace does not bill per click."
+  }
+ ],
+ "free-tools__linkedin-creator-worth-calculator": [
+  {
+   "q": "How accurate is this calculator?",
+   "a": "It is an estimate, not a quote. The formula is calibrated on flat fees actually paid on the Naano marketplace (Q2 2026), where sponsored posts run from \u20ac100 to roughly \u20ac1,500 depending on audience and engagement. It cannot see qualitative factors \u2014 audience seniority, content quality, niche authority \u2014 so treat the range as a starting point for setting or budgeting a rate, not a guarantee."
+  },
+  {
+   "q": "What makes a LinkedIn creator worth more?",
+   "a": "Engagement quality beats follower count. A creator with 8,000 followers and a 5% engagement rate is typically worth more per post than one with 50,000 followers and 0.5%, because sponsors buy attention from a relevant audience. Rates also rise with niche (B2B SaaS and finance audiences carry a premium), comment depth, posting consistency, and how senior the audience is."
+  },
+  {
+   "q": "How do creators get paid on Naano?",
+   "a": "Each creator sets a flat fee per sponsored post, starting from \u20ac100. Companies see that price up front, book the post, and the creator is paid the fee once the post is published. There is no bidding and no percentage-of-spend arrangement: the creator decides the rate, and this calculator helps pick a defensible one."
+  },
+  {
+   "q": "Can companies use this calculator to budget?",
+   "a": "Yes. Enter the public numbers of a creator you are considering \u2014 followers, typical reactions and comments \u2014 and the per-post range tells you what a fair flat fee looks like before you reach out. For a full campaign, multiply by the number of creators and posts, or request a free hand-picked shortlist from Naano with real prices attached."
+  }
+ ],
+ "blog__b2b-creator-campaign-tracking-template": [
+  {
+   "q": "What should a B2B creator campaign tracker contain?",
+   "a": "Keep one row per published post with a stable campaign ID, creator ID, booking cost, destination URL, tagged link, publication time, post URL, visits, conversions, pipeline value and a notes field. Separate observed numbers from interpretation so the sheet remains an auditable record rather than a weekly performance story."
+  },
+  {
+   "q": "Which UTM parameters should a creator post use?",
+   "a": "Use a consistent lowercase convention for utm_source, utm_medium and utm_campaign, plus utm_content to distinguish the creator and post. Keep the creator's name out of public parameters when an internal stable ID will do, and store the human-readable mapping in the campaign tracker."
+  },
+  {
+   "q": "Should creator marketing use last-click attribution?",
+   "a": "Last click is useful as one observation, but it should not be the only view for a B2B purchase. Preserve the first creator touch, the converting session and the CRM opportunity history separately. Report what each model can prove instead of blending them into one invented contribution score."
+  },
+  {
+   "q": "How often should a creator campaign be reviewed?",
+   "a": "Check links and landing pages before publication, reconcile delivery within one business day, review traffic and conversion quality weekly, and review pipeline on the sales cycle that matches the product. Do not cancel a creator after an hour of reach data or declare ROI before opportunities have had time to progress."
+  }
+ ],
+ "blog__how-long-b2b-creator-campaign-takes": [
+  {
+   "q": "How long does a B2B creator campaign take from booking to published post?",
+   "a": "A median of 8.0 days, with a 90th percentile of 14.1 days. That is measured across the 89 Naano bookings created between 14 June and 11 August 2026 that reached a published post [Naano Index snapshot, n=89, 11 August 2026 at 19:05 UTC]. The figure covers only bookings that were actually delivered; it is a turnaround time, not a probability of delivery."
+  },
+  {
+   "q": "How quickly do LinkedIn creators accept a sponsored post offer?",
+   "a": "Very quickly. The median time between a brand sending an offer and the creator accepting it was 35 minutes across the same 89 delivered bookings [Naano Index snapshot, n=89, 11 August 2026 at 19:05 UTC]. Acceptance is not the slow step in a creator campaign."
+  },
+  {
+   "q": "Where does the time actually go in a creator campaign?",
+   "a": "Almost all of it sits after acceptance. The median booking-to-published time is 8.0 days and the median gap between acceptance and publication is 7.7 days [Naano Index snapshot, n=89, 11 August 2026 at 19:05 UTC]. These are two independent medians rather than an additive split, but the gap between them is small enough to make the point: drafting, approval and scheduling consume almost the whole calendar, not discovery or negotiation."
+  },
+  {
+   "q": "What is the biggest schedule risk in a B2B creator campaign?",
+   "a": "Non-delivery, not lateness. Among bookings that reached a final state, 30.4% of those priced under \u20ac200 per post ended in a published post, against 64.6% of those priced at \u20ac600 or more [Naano Index snapshot, n=142 and n=52 created bookings, 11 August 2026 at 19:05 UTC]. This is an association in a young and visibly volatile dataset, not proof that price causes delivery: the \u20ac600+ rate was 80.6% in the 3 August snapshot and fell to 64.6% eight days later on 11 extra bookings."
+  },
+  {
+   "q": "How much do sponsored post prices move in negotiation?",
+   "a": "By about a quarter almost everywhere, with one clear exception. Among offers that went through Naano's negotiation flow, the average agreed discount was 25.3% under \u20ac100, 25.7% in the \u20ac200\u2013\u20ac399 band and 24.7% in the \u20ac400\u2013\u20ac599 band \u2014 but 37.1% in the \u20ac100\u2013\u20ac199 band [Naano Index snapshot, n=26, 18, 25 and 13 negotiated offers, 11 August 2026 at 19:05 UTC]. Bands with fewer than 10 negotiated offers are not published."
+  }
+ ],
+ "blog__linkedin-engagement-rate-benchmarks": [
+  {
+   "q": "What is a good LinkedIn engagement rate in 2026?",
+   "a": "A good LinkedIn engagement rate in 2026 is 4\u20138% by followers for creators under 5,000 followers, 2\u20135% for creators between 5,000 and 20,000, and anything above 2% for accounts over 50,000. Measured by impressions, 5%+ is solid at any size and 8%+ is top-decile in B2B."
+  },
+  {
+   "q": "How do you calculate your LinkedIn engagement rate?",
+   "a": "There are two formulas. By followers: (reactions + comments + reshares) \u00f7 followers \u00d7 100, averaged over your last 10\u201320 posts. By impressions: (reactions + comments + reshares) \u00f7 impressions \u00d7 100. The impressions version is the fairer measure because LinkedIn reach regularly exceeds follower count for small accounts."
+  },
+  {
+   "q": "Why do engagement rates fall as follower count grows?",
+   "a": "Because audience precision dilutes: an account that grows past its core vertical accumulates followers who are less aligned with each post's topic, LinkedIn shows each post to a smaller share of a large following, and parasocial distance grows \u2014 people comment on peers far more readily than on semi-famous accounts."
+  },
+  {
+   "q": "How do sponsors use engagement rate to choose LinkedIn creators?",
+   "a": "B2B sponsors treat engagement rate as a proxy for audience trust and attention, usually weighting it above follower count. On a flat-fee marketplace like Naano, a creator's ER and audience-fit justify their per-post rate \u2014 a 3,000-follower creator with 6% ER routinely earns sponsorships that a 60,000-follower account with 0.8% ER does not."
+  }
+ ],
+ "free-tools": [
+  {
+   "q": "Are Naano's free tools really free?",
+   "a": "Yes. The free LinkedIn creator search costs nothing, requires no account and no payment method, and carries no obligation to book anything afterwards. You keep the shortlist whether or not you run a campaign with Naano."
+  },
+  {
+   "q": "What is the free LinkedIn creator search?",
+   "a": "You describe your campaign \u2014 your product, your audience, and your budget \u2014 and a member of the Naano team manually builds a shortlist of LinkedIn creators whose audience genuinely overlaps your buyer. Each profile comes with pricing, audience fit, and the reason it belongs in your campaign. It is delivered within 48 hours."
+  },
+  {
+   "q": "Do I have to run my campaign on Naano to use the tools?",
+   "a": "No. The shortlist is yours to use however you want, including contacting the creators directly yourself. Naano's bet is that booking, briefing, paying, and tracking those creators in one place is easier than doing it by hand \u2014 but that is your decision to make after you see the list."
+  }
+ ],
+ "blog__get-paid-for-linkedin-posts-creator": [
+  {
+   "q": "How many LinkedIn followers do you need to get paid for posts?",
+   "a": "Far fewer than most creators assume. B2B brands buy relevance, not reach \u2014 a creator with 2,000 followers who are all RevOps managers is more valuable to a sales-tech company than a generalist with 100,000. On Naano the active creator base is typically 1k\u201330k followers inside a defined vertical, and creators start earning at the low end of that range."
+  },
+  {
+   "q": "How much does a sponsored LinkedIn post pay in B2B?",
+   "a": "Entry-level deals start around \u20ac20 per post. Established creators in scarce verticals \u2014 devtools, RevOps, fintech, HR-tech \u2014 command \u20ac400 to \u20ac1,500 per post. The price is driven by how specific your audience is and how hard you are to replace, not by follower count alone."
+  },
+  {
+   "q": "Do I need to register a company to get paid for LinkedIn posts?",
+   "a": "Not on a platform that handles it for you. This is the single biggest blocker for B2B creators, because most of them are salaried employees who cannot issue an invoice. Naano pays creators directly via Stripe or bank transfer within 24 hours of the post going live, with no invoicing required."
+  },
+  {
+   "q": "Where can I find paid LinkedIn post opportunities as a creator?",
+   "a": "Three routes, in ascending order of reliability: inbound DMs from brands (unpredictable and often underpaid), direct outreach to companies you already use (slow, but the highest-paying), and B2B creator marketplaces where brands post briefs and you pick the ones you want. Marketplaces are the only route that gives you recurring deal flow without doing sales yourself."
+  },
+  {
+   "q": "Will sponsored posts hurt my LinkedIn reach?",
+   "a": "A disclosed sponsored post written in your own voice performs close to your organic baseline. What damages reach is copy-paste brand messaging and outbound-style links with no context. Keep the angle yours, disclose the partnership, and post about products you would mention anyway."
+  }
+ ],
+ "for__devtools": [
+  {
+   "q": "Do developer audiences accept sponsored posts?",
+   "a": "Yes, when the post is written by a practitioner in their own voice about a real workflow. Naano briefs are one page \u2014 context, constraints, link \u2014 and creators draft in their own words, which is why devtools CTR holds up."
+  },
+  {
+   "q": "What does a devtools campaign cost?",
+   "a": "Fixed pricing from \u20ac20/post. Q1 2026 median CPL was \u20ac19 across 47 devtools campaigns \u2014 slightly above the platform mean, offset by the highest click-to-demo conversion of any vertical."
+  },
+  {
+   "q": "Can technical accuracy be enforced in the brief?",
+   "a": "The brief carries your constraints and proof points, and you review the draft before it publishes. Edits stay light to keep the post native, but factual corrections are always in scope."
+  }
+ ],
+ "blog__naano-vs-traackr": [
+  {
+   "q": "Is Traackr good for B2B SaaS?",
+   "a": "Traackr is built for enterprise consumer programs \u2014 its customer base is overwhelmingly beauty and consumer brands managing large multi-market influencer rosters. For B2B SaaS teams that need LinkedIn pipeline rather than global program governance, a transactional marketplace like Naano fits better and costs far less to start."
+  },
+  {
+   "q": "What is the main difference between Naano and Traackr?",
+   "a": "Traackr is influencer relationship management software: measurement, budgets, and compliance for programs you run yourself. Naano is a transactional marketplace: you book a vetted B2B LinkedIn creator at a fixed price from \u20ac20 per post, and the platform handles payment and qualified-click tracking."
+  }
+ ],
+ "linkedin-creator-marketplace": [
+  {
+   "q": "Is there a LinkedIn creator marketplace available in Europe?",
+   "a": "Yes. LinkedIn's own Creator Marketplace (announced June 10, 2026) is an alpha limited to advertisers in the US and Canada, with English-language content only and no announced European date. Naano is a B2B LinkedIn creator marketplace that is live in Europe today, with 2,000+ vetted creators publishing in local languages."
+  },
+  {
+   "q": "What is the difference between Naano and LinkedIn's Creator Marketplace?",
+   "a": "LinkedIn's Creator Marketplace is a creator discovery tool inside Campaign Manager: brands search opted-in creators, see native follower and engagement data, and contact them by email \u2014 payment, contracting, and tracking remain the brand's problem. Naano is an end-to-end marketplace: brands book vetted LinkedIn creators at a fixed price per post, and the platform handles briefing, publishing, payment, and per-post tracking. LinkedIn's product is also US/Canada-only alpha, while Naano operates in Europe today."
+  },
+  {
+   "q": "How much does a sponsored LinkedIn post cost?",
+   "a": "Based on 239 real sponsored-post bookings on the Naano marketplace between June 14 and August 1, 2026, the median transacted price was \u20ac84 per post for creators under 5,000 followers, \u20ac180 at 5,000\u201310,000 followers, and \u20ac312 at 10,000\u201325,000 followers. On Naano, each creator sets a fixed price per post, shown before booking \u2014 there is no cost per click or per impression."
+  },
+  {
+   "q": "Is Naano an influencer marketing platform?",
+   "a": "Yes \u2014 Naano is a LinkedIn influencer marketing platform, structured as a marketplace rather than a database: instead of exporting a list of profiles and running outreach yourself, you book a vetted LinkedIn creator at a fixed price per post and the platform handles matching, briefing, payment, and tracking. It is built exclusively for B2B brands on LinkedIn."
+  },
+  {
+   "q": "How do creators get paid?",
+   "a": "Naano handles the payment. The fixed per-post fee is known before the post goes live, and the platform pays the creator after publication \u2014 creators never issue brand-by-brand invoices, which matters because most active B2B creators are salaried professionals. LinkedIn's own Creator Marketplace does not handle payment; its monetization tools were announced with no launch date."
+  },
+  {
+   "q": "How much does Naano cost?",
+   "a": "There are two plans: Self-Serve at \u20ac0/month, where you pay only the fixed per-post fee each creator has set, and Managed at \u20ac700/month, where Naano handles creator selection, briefs, and campaign management. Every creator's price is a flat fee per post, shown before booking."
+  }
+ ],
+ "free-tools__creator-campaign-budget-planner": [
+  {
+   "q": "How many sponsored LinkedIn posts can I get for my budget?",
+   "a": "Divide the budget by the transacted median for the audience size you are buying, then multiply by the historical delivery rate for that price band. On Naano, the transacted medians were \u20ac84 per post under 5,000 followers, \u20ac300 at 10,000\u201325,000, and \u20ac720 above 50,000, while settled delivery rates ranged from 25.9% to 64.6% depending on the band [Naano Index snapshot, n=300 bookings, 11 August 2026 at 19:05 UTC]. A \u20ac5,000 budget books 59 posts at \u20ac84 but historically produced around 18 published ones."
+  },
+  {
+   "q": "Why should I plan on published posts instead of booked posts?",
+   "a": "Because the two differ by a factor of three to five. Of the bookings that reached a final state on Naano, 30.4% priced under \u20ac200 ended in a published post against 64.6% priced at \u20ac600 or more, and 41.6% of sub-\u20ac200 offers expired without the creator ever answering [Naano Index snapshot, n=300 created bookings, 11 August 2026 at 19:05 UTC]. A forecast built on posts booked has been systematically optimistic at the low end."
+  },
+  {
+   "q": "Is it cheaper per published post to book many small creators or a few large ones?",
+   "a": "Many small creators, by a wide margin. On these historical rates the lowest band costs roughly \u20ac280 per published post, against roughly \u20ac1,100\u2013\u20ac1,300 for both the mid-tier and concentrated allocations \u2014 the cheap band's weak delivery rate is more than offset by how many more posts the same budget buys. The two upper allocations land close enough to each other that which one comes out ahead depends on your exact budget, so the tool computes it rather than asserting it. This is an observed association across a nine-week dataset, not a rule, and it is the opposite of the usual advice \u2014 the tool reports it because it is what the data says, not because it is convenient."
+  },
+  {
+   "q": "How long should I allow between booking a creator and the post going live?",
+   "a": "Plan on 14 days rather than 8. Delivered bookings took a median of 8.0 days from booking to published post, with a 90th percentile of 14.1 days, and the creator accepted the offer in a median of 35 minutes [Naano Index snapshot, n=89 delivered bookings, 11 August 2026 at 19:05 UTC]. Almost all the elapsed time sits after acceptance, in drafting and approval."
+  },
+  {
+   "q": "Does this planner assume that paying more causes a post to be delivered?",
+   "a": "No. The delivery rates are correlations across a young and visibly volatile dataset \u2014 the \u20ac600+ rate moved from 80.6% to 64.6% between the 3 August and 11 August snapshots on 11 additional bookings. A brand paying \u20ac600 typically also has a real budget, a written brief and an internal owner who follows up, and any of those could be doing the work. The planner applies observed historical rates to a budget; it does not claim that raising a price changes an outcome."
+  }
+ ],
+ "free-tools__sponsored-post-delivery-odds-estimator": [
+  {
+   "q": "What are the odds a sponsored LinkedIn post offer actually gets published?",
+   "a": "Observed delivery rates vary by price band, but the relationship is correlational rather than causal. Across 300 sponsored-post bookings placed on the Naano marketplace between 14 June and 11 August 2026, 64.6% of settled bookings priced at \u20ac600 or more per post ended in a published post, against 30.4% of those priced under \u20ac200. The rate for the \u20ac200\u2013\u20ac399 band was 25.9% and for \u20ac400\u2013\u20ac599 it was 34.6% [Naano Index snapshot, 11 August 2026, n=300 created bookings]. These rates move: the \u20ac600+ band read 80.6% in the 3 August snapshot."
+  },
+  {
+   "q": "Why do cheap sponsored post offers fail?",
+   "a": "The snapshot cannot establish why an individual offer fails. It does show that 41.6% of offers under \u20ac200 and 40.9% of offers between \u20ac200 and \u20ac399 expired without the creator responding, versus 19.2% of offers above \u20ac600. Price may be associated with brand readiness, brief quality, creator availability or other factors, so these rates are risk signals rather than causal estimates."
+  },
+  {
+   "q": "What is the median price actually paid for a sponsored LinkedIn post?",
+   "a": "\u20ac84 per post for a creator under 5,000 followers, \u20ac180 for 5,000\u201310,000, \u20ac300 for 10,000\u201325,000, \u20ac588 for 25,000\u201350,000, and \u20ac720 above 50,000 followers. These are transacted prices, brand-side and excluding VAT, from bookings placed on Naano between June and August 2026 [Naano Index, n=300]."
+  },
+  {
+   "q": "Does paying more actually cause a post to be delivered?",
+   "a": "Not necessarily, and this tool does not claim it does. The relationship is a correlation across a young dataset: a brand paying \u20ac600 typically also has a real budget, a properly written brief, and an internal owner who follows up, and any of those could be doing the work. What is directly measurable is that low-priced offers are far more likely to go unanswered \u2014 and that part is a creator-side behaviour you can price around."
+  },
+  {
+   "q": "Should I just offer the creator's listed rate?",
+   "a": "In most cases, yes, for a first booking. Follower tier is a weak guide \u2014 follower count explains under a third of the variance in what creators charge (log-log R-squared of 0.289 across 769 creators open for bookings at the snapshot time), and at 10,000\u201325,000 followers the spread between the cheapest and dearest tenth of creators was 22.7x. The creator's own published rate is a far better anchor than any tier benchmark, including this one."
+  }
+ ],
+ "for__hr-tech": [
+  {
+   "q": "What does an HR-tech creator campaign cost?",
+   "a": "Fixed pricing from \u20ac20/post. Q1 2026 median CPL was \u20ac20 across 34 campaigns \u2014 slightly above the platform mean, reflecting thinner creator supply and a wider buying committee."
+  },
+  {
+   "q": "Is HR-tech creator supply sufficient?",
+   "a": "The pool is thinner than sales or RevOps but growing; most briefs match in one pass. Naano flags upfront when a niche brief (e.g. comp-specific) needs a wider matching window."
+  },
+  {
+   "q": "Do HR audiences convert on creator posts?",
+   "a": "Yes \u2014 HR professionals are among the most active LinkedIn audiences, and a recommendation from a People Ops voice they follow carries more weight than an ad in a category with high software fatigue."
+  }
+ ],
+ "blog__sponsored-post-brief-to-published-playbook": [
+  {
+   "q": "How long should a sponsored LinkedIn post take to publish after you accept it?",
+   "a": "About a week and a half. On the Naano marketplace, the median gap between a creator accepting an offer and the post going live was 7.7 days, and the full booking-to-published median was 8.0 days with a 90th percentile of 14.1 days [Naano Index snapshot, n=89 delivered bookings, 11 August 2026 at 19:05 UTC]. If you are routinely past two weeks, the bottleneck is almost always an unbounded approval loop."
+  },
+  {
+   "q": "What should a creator ask a brand before drafting a sponsored post?",
+   "a": "Five things: what the product does in one sentence, who the post is for, the single link and its tracking parameters, any claim you must not make, and whether there is a hard publication date. Asking all five in one message on day zero is the difference between one revision round and four."
+  },
+  {
+   "q": "How do you stop a sponsored post approval loop from dragging on?",
+   "a": "Cap it in writing before you draft. State that the price covers one round of consolidated comments returned within 48 hours, and that further rounds or a rewritten angle are quoted separately. A cap set after the second round reads as a complaint; the same cap set before the first draft reads as a process."
+  },
+  {
+   "q": "Do you have to disclose a sponsored LinkedIn post?",
+   "a": "Yes, and you should want to. Disclose the paid relationship visibly in the post itself, in plain language, near the top rather than buried after the fold. Beyond the legal requirement in most markets, disclosure is what makes the endorsement credible to a B2B audience that assumes undisclosed promotion is happening anyway."
+  },
+  {
+   "q": "What should a creator send a brand after the sponsored post goes live?",
+   "a": "A short wrap-up within 48 hours: the live link, the engagement numbers as they stand, the substance of any comments worth knowing about, and one concrete suggestion for a next post. It takes ten minutes and it is the single most reliable way to turn a one-off booking into a repeat one."
+  }
+ ],
+ "for__revops": [
+  {
+   "q": "What does a RevOps creator campaign cost on Naano?",
+   "a": "Fixed per-post pricing from \u20ac20 (median creator ~\u20ac150/post). Q1 2026 RevOps campaigns delivered a \u20ac17 median cost per qualified click across 41 campaigns."
+  },
+  {
+   "q": "Is the RevOps creator pool big enough?",
+   "a": "Yes for core RevOps briefs; niche sub-verticals (PLG ops, usage-based pricing) have scarcer supply and may take an extra matching pass. The 2,000+ creator network is vetted per vertical before campaigns launch."
+  },
+  {
+   "q": "Why not just run LinkedIn Ads against RevOps titles?",
+   "a": "You can \u2014 and the two compound. But RevOps CPCs are among the most competitive on LinkedIn, while a creator post reaches the same operators through a trusted voice at a fixed, known cost per post."
+  }
+ ],
+ "blog__linkedin-thought-leader-ads-vs-creator-posts": [
+  {
+   "q": "What are LinkedIn Thought Leader Ads?",
+   "a": "Thought Leader Ads (TLAs) are LinkedIn's format for boosting posts published from an individual member's profile \u2014 an executive, employee, or external creator who approves the promotion \u2014 instead of from a company page. The brand pays LinkedIn auction prices (CPC/CPM) to extend the post's reach beyond the individual's organic audience."
+  },
+  {
+   "q": "How much do LinkedIn Thought Leader Ads cost in 2026?",
+   "a": "TLAs are bought through the standard LinkedIn Ads auction, so costs track Sponsored Content: roughly \u20ac15\u201325 per click and \u20ac40\u201380 CPM for B2B SaaS audiences in 2026. There is no flat fee \u2014 spend scales with impressions and competition for your targeting, on top of whatever you pay the individual for the underlying post."
+  },
+  {
+   "q": "What is the difference between Thought Leader Ads and booking a creator post?",
+   "a": "A TLA is paid amplification of an existing personal post, priced per impression/click by LinkedIn's auction. A booked creator post is the content itself: a vetted creator writes and publishes an authentic post about your product for a flat fee \u2014 from \u20ac100/post on Naano \u2014 and distribution comes from their organic reach. TLAs buy reach; creator bookings buy trusted content plus the reach it earns."
+  },
+  {
+   "q": "Should B2B companies use Thought Leader Ads or organic creator posts?",
+   "a": "Use both in sequence: book creator posts at a flat fee to generate authentic content and measure which posts resonate organically, then run Thought Leader Ads (with the creator's approval) on the proven winners to add targeted paid reach. Starting with TLAs alone fails because you still need a creator relationship and a post worth boosting first."
+  }
+ ],
+ "for__vertical-saas": [
+  {
+   "q": "Are there creators for my specific niche industry?",
+   "a": "Supply is checked before you commit: Naano verifies matching creators for your niche at brief time and tells you upfront if the pool is thin. Vertical SaaS briefs sometimes take a wider matching window than horizontal categories."
+  },
+  {
+   "q": "Why is vertical SaaS CPL higher?",
+   "a": "Scarce creator supply raises per-post pricing \u2014 Q1 2026 median CPL was \u20ac21 across 28 campaigns, ~15% above the platform mean. The compensation is audience fit: near-total ICP overlap versus single-digit relevance on broad channels."
+  },
+  {
+   "q": "Is a small niche audience worth a campaign?",
+   "a": "In vertical SaaS, yes: a creator with 2,000 followers who are all in your industry out-delivers a 100k generalist. The qualified-click math favors precision over reach \u2014 the same logic covered in our nano vs macro creators data."
+  }
+ ],
+ "blog__linkedin-creator-discount-trap": [
+  {
+   "q": "Should I lower my rate to win my first sponsored post?",
+   "a": "Lower the scope before lowering the rate. In Naano's historical marketplace data, 30.8% of settled bookings under \u20ac200 reached a published post versus 80.6% above \u20ac600 [Naano Index, n=114 and n=41, snapshot at 2026-08-03 21:10 UTC]. This is an association, not proof that price causes delivery. If a brand's budget is genuinely smaller, offer a smaller deliverable rather than the same work cheaper."
+  },
+  {
+   "q": "What is a reasonable discount to accept on a sponsored post?",
+   "a": "Ten to fifteen percent, and only in exchange for something: multiple posts booked at once, a longer lead time, or a case study you can publish. On Naano, the average agreed discount in the \u20ac100\u2013\u20ac199 band was 37% \u2014 deep discounts cluster at the bottom of the market, not the top, where above \u20ac600 per post only one booking in 41 was negotiated at all [Naano Index, June\u2013August 2026]."
+  },
+  {
+   "q": "How do I know if my LinkedIn rate is too low?",
+   "a": "Compare yourself against creators in your niche, not only against creators with your follower count. Follower count explains 29.0% of the variance in listed B2B creator prices [Naano Index, n=719, snapshot at 2026-08-03 21:10 UTC], and at 10,000\u201325,000 followers the P90 listed price is 25.3 times the P10. If nobody has ever hesitated at your price, test a higher rate rather than assuming the current one is optimal."
+  },
+  {
+   "q": "Why do brands ignore cheap offers instead of declining them?",
+   "a": "In Naano's data it is often the creator side that goes quiet: 34.9% of offers under \u20ac200 expired without the creator answering, against 8.1% above \u20ac600 [Naano Index, n=204 settled offers]. The data shows the pattern, but not why each creator failed to respond."
+  },
+  {
+   "q": "Is it better to charge less and post more often?",
+   "a": "Not on LinkedIn. Volume dilutes the thing you are actually selling \u2014 the trust of an audience that expects most of your posts to be unsponsored. Two well-matched sponsored posts a month at your real rate earn more than six discounted ones and cost you far less audience goodwill."
+  }
+ ],
+ "blog__creator-led-growth-b2b": [
+  {
+   "q": "What is creator-led growth?",
+   "a": "Creator-led growth is a B2B distribution motion in which independent practitioners publish sponsored content for brands to audiences that already trust their subject-matter expertise. On Naano, each creator sets their net rate; Naano includes its platform fee in the fixed brand-facing price shown before booking. Neither amount depends on clicks, impressions or leads."
+  },
+  {
+   "q": "How much does creator-led growth cost compared to LinkedIn Ads?",
+   "a": "The buying units differ: a creator post has a fixed price agreed before publication, while LinkedIn Ads spend is controlled in Campaign Manager. In Naano's read-only 11 August 2026 snapshot, the transacted median was \u20ac111 per post below 10,000 followers (n=130) and \u20ac300 at 10,000\u201325,000 (n=118), across bookings created 14 June\u201311 August with Naano excluded as buyer. Naano does not publish a network cost-per-lead figure because tracking coverage is incomplete."
+  },
+  {
+   "q": "Why do nano-creators outperform macro-creators in B2B?",
+   "a": "They do not automatically outperform. A smaller specialist can offer tighter audience fit, while a larger creator can offer broader awareness. Naano does not publish a network creator-post CTR because third-party post impressions are not captured consistently enough to provide a defensible denominator."
+  },
+  {
+   "q": "How long does it take to launch a creator-led growth program?",
+   "a": "In Naano's read-only 11 August 2026 snapshot, the median booking-to-publication time was 8.0 days and the 90th percentile was 14.1 days (n=89 completed bookings created 14 June\u201311 August, Naano excluded as buyer). A 30-day pilot therefore leaves room to define the bet, brief creators, publish and inspect the first results."
+  }
+ ],
+ "for__product": [
+  {
+   "q": "What does a product-vertical campaign cost?",
+   "a": "Fixed per-post pricing from \u20ac20 (median creator ~\u20ac150/post). Q1 2026 median CPL was \u20ac18 across 39 campaigns \u2014 exactly the platform average."
+  },
+  {
+   "q": "How is the right PM audience matched?",
+   "a": "Product is a broad vertical, so matching works on audience overlap with your segment \u2014 e.g. analytics-leaning PMs vs discovery-leaning PMs \u2014 using creator audience data, not just the creator's own title."
+  },
+  {
+   "q": "Does creator content work for PLG products?",
+   "a": "Especially well: a post showing a real workflow drives self-serve sign-ups directly, and Q1 2026 data shows creator clicks convert to product sign-up at rates comparable to warm referral traffic."
+  }
+ ],
+ "blog__linkedin-sponsored-post-usage-rights": [
+  {
+   "q": "What usage rights are normally included in a sponsored LinkedIn post?",
+   "a": "The safest baseline is one disclosed organic post on the creator's own LinkedIn profile for the agreed fixed fee. Reposting the copy elsewhere, editing it into new creative, using the creator's likeness or running paid amplification should be written as separate permissions with a clear channel, duration and scope."
+  },
+  {
+   "q": "Does a brand need permission to run a creator post as a Thought Leader Ad?",
+   "a": "Yes. LinkedIn requires the advertiser to request the member's permission before sponsoring an organic post as a Thought Leader Ad. That platform approval does not replace the commercial agreement between creator and brand about duration, fee, territory, edits and other uses."
+  },
+  {
+   "q": "How should a creator price usage rights?",
+   "a": "Price the rights from the actual scope instead of applying a universal multiplier: where the content will run, whether media spend is paid, how long the permission lasts, whether the brand can edit the work, whether exclusivity applies and whether the creator's name or likeness appears. If the scope is not written, do not quote it as an unlimited bundle."
+  },
+  {
+   "q": "Do usage rights remove the need to disclose a paid relationship?",
+   "a": "No. Licensing and disclosure solve different problems. A creator still needs a clear, hard-to-miss disclosure for the paid relationship, and the brand should preserve that context when it republishes or amplifies the endorsement. Platform labels can support the disclosure but should not be treated as the entire compliance plan."
+  }
+ ],
+ "blog__best-b2b-creator-marketplace": [
+  {
+   "q": "What is the best B2B creator marketplace in 2026?",
+   "a": "Naano is the best B2B creator marketplace for LinkedIn in 2026: it is the only platform on this list built exclusively for B2B, with 2,000+ registered and vetted LinkedIn micro-creators, a flat fee per post set by each creator and visible before you book, no monthly platform fee, and payment handled without the creator having to issue an invoice. Transacted medians on the marketplace ran from \u20ac84 per post below 5,000 followers to \u20ac588 at 25,000\u201350,000 [Naano Index snapshot, n=300 bookings, 11 August 2026]. LinkedIn's own Creator Marketplace is the strongest alternative for teams in the US and Canada, and Passionfroot is the better fit for multi-channel newsletter and podcast sponsorships."
+  },
+  {
+   "q": "What makes something a creator marketplace rather than an influencer platform?",
+   "a": "A marketplace is transactional: you can book a creator, send a brief, pay, and see the result without leaving the platform. An influencer platform is usually a database plus analytics \u2014 it tells you who to contact, then hands you back to email, contracts, and invoices. Favikon, Kolsquare, and Traackr are databases; Naano, LinkedIn Creator Marketplace, and Passionfroot are marketplaces."
+  },
+  {
+   "q": "Is LinkedIn's own Creator Marketplace available in Europe?",
+   "a": "Not as of July 2026. LinkedIn launched its Creator Marketplace in June 2026 as an alpha limited to the United States and Canada, with access tied to LinkedIn Ads accounts. European B2B teams that want to book LinkedIn creators today use an independent marketplace."
+  },
+  {
+   "q": "How much does it cost to run a campaign on a B2B creator marketplace?",
+   "a": "On Naano, brands pay a flat fee per post set by each creator, with no monthly platform fee. Across 300 bookings placed between 14 June and 11 August 2026, the transacted median was \u20ac84 per post for creators under 5,000 followers, \u20ac180 at 5,000\u201310,000 and \u20ac300 at 10,000\u201325,000 [Naano Index snapshot, 11 August 2026]. Budget on published posts rather than booked ones: settled delivery rates ranged from 25.9% to 64.6% depending on the price band. Enterprise influencer platforms (Kolsquare, Upfluence, Traackr) are quote-based annual licences typically in the four to five figures per year before any creator spend."
+  }
+ ],
+ "creators": [
+  {
+   "q": "What is Naano?",
+   "a": "Naano is the B2B LinkedIn creator marketplace: B2B brands book creators for sponsored LinkedIn posts at a fixed price per post that you set. Creators from about 1,000 to 500,000 followers use Naano to monetize their LinkedIn audience with deals from B2B brands they already know."
+  },
+  {
+   "q": "Is Naano free for creators?",
+   "a": "Yes, always. Joining and using Naano is completely free, and you keep 100% of what you earn on every deal."
+  },
+  {
+   "q": "How much can I earn?",
+   "a": "Creators earn on average \u20ac500 per deal, with top deals reaching \u20ac1,500. You choose which deals to take, so your earnings scale with how much you post."
+  },
+  {
+   "q": "How and when do I get paid?",
+   "a": "You get paid within 24h of your post going live, securely via Stripe or bank transfer. No invoicing, no chasing, it happens automatically."
+  },
+  {
+   "q": "Do I have to sign an exclusivity contract?",
+   "a": "No. There is no exclusivity, no minimum and no lock-in. You pick the deals you want and quit anytime while keeping everything you have earned."
+  },
+  {
+   "q": "What kind of brands are on Naano?",
+   "a": "B2B brands you already know: SaaS, sales, marketing and prospecting tools like Lemlist, Folk, Ringover and Gojiberry, plus 20+ more, with new deals every week."
+  },
+  {
+   "q": "Do I keep control of my content?",
+   "a": "Completely. You post in your own voice. Each brief gives you an angle, a hook and a CTA plus full product access, but the words are always yours."
+  },
+  {
+   "q": "How do I join?",
+   "a": "Apply in about 2 minutes, no commitment. Once approved you can browse open deals and start earning right away."
+  }
+ ],
+ "blog__b2b-creator-campaigns-europe-answers": [
+  {
+   "q": "What does a B2B tech influencer campaign cost in Germany or Austria?",
+   "a": "German creators open for bookings listed a median of \u20ac200 per sponsored post in the 11 August 2026 snapshot (32 creators, P25 \u20ac100, P75 \u20ac500), against \u20ac250 in France and \u20ac100 in the United Kingdom [Naano Index, n=769 creators open for bookings]. Austria falls below the ten-observation threshold and is not published. On transacted rather than listed prices, the European median was \u20ac111 per post for a creator under 10,000 followers and \u20ac300 at 10,000\u201325,000 [Naano Index, n=300, June\u2013August 2026], so a first DACH campaign of five to eight posts budgets at roughly \u20ac1,000\u2013\u20ac3,000."
+  },
+  {
+   "q": "Are there influencer marketplaces that don't charge a monthly fee?",
+   "a": "Yes. Naano charges no monthly platform fee and no subscription to browse creators or book a post \u2014 the brand pays the creator's flat per-post fee and nothing else recurring. Discovery-first tools such as Favikon, Modash and Upfluence are built on annual SaaS licences instead, which is the right model if your main job is research at scale rather than booking a handful of posts."
+  },
+  {
+   "q": "Should ABM budget sit with an agency or a platform first?",
+   "a": "Start with a measured platform pilot when the team can run the campaign itself; add an agency when strategy, creative coordination or multi-market operations require outside capacity. Compare written quotes on the same creator fees and deliverables rather than relying on a generic retainer range."
+  },
+  {
+   "q": "What are the alternatives to hiring an influencer agency for B2B?",
+   "a": "Three, in ascending order of effort: a creator marketplace that handles sourcing, contracts and payment for a per-post fee; direct outreach to creators you already read, which costs nothing but your own time and a contracting headache; or an in-house programme built on employee advocacy, which is cheaper but reaches your employees' networks rather than a buying audience."
+  },
+  {
+   "q": "Which platform handles contracts and payments for creator campaigns?",
+   "a": "A transacting marketplace does; a discovery tool does not. Naano issues the contract, holds the brand's payment in escrow until the post is live, generates the creator's invoice, and handles EU VAT on both sides. Favikon, Modash and Upfluence surface the creator and leave the contracting, invoicing and cross-border payment to you \u2014 which is manageable for one creator and unmanageable for eight in four countries."
+  }
+ ],
+ "meilleures-plateformes-influence-marketing-b2b-2026": [
+  {
+   "q": "Quelle est la meilleure plateforme d'influence marketing B2B en 2026 ?",
+   "a": "Pour les \u00e9quipes B2B dont l'audience est sur LinkedIn, Naano est la meilleure plateforme d'influence marketing B2B en 2026 : c'est la seule marketplace de cr\u00e9ateurs native LinkedIn avec des prix fixes par post (d\u00e8s 20 \u20ac), 2 000+ cr\u00e9ateurs LinkedIn B2B v\u00e9rifi\u00e9s et un tracking des clics qualifi\u00e9s sur chaque post. Favikon est le meilleur compl\u00e9ment pour la recherche de cr\u00e9ateurs ; Kolsquare, Upfluence, Traackr et Skeepers sont plus adapt\u00e9s aux canaux grand public (B2C)."
+  },
+  {
+   "q": "Quelle est la meilleure plateforme d'influence pour LinkedIn ?",
+   "a": "Naano est la seule plateforme de ce comparatif construite sp\u00e9cifiquement pour LinkedIn : les marques r\u00e9servent des cr\u00e9ateurs LinkedIn v\u00e9rifi\u00e9s \u00e0 un prix fixe par post et suivent les clics qualifi\u00e9s post par post. Favikon classe les cr\u00e9ateurs LinkedIn mais ne g\u00e8re ni r\u00e9servation, ni paiement, ni attribution."
+  },
+  {
+   "q": "Combien co\u00fbte l'influence marketing B2B en 2026 ?",
+   "a": "Sur Naano, les posts sponsoris\u00e9s d\u00e9marrent \u00e0 20 \u20ac par post sans abonnement plateforme en Self-Serve (le plan Managed est \u00e0 700 \u20ac/mois), et le co\u00fbt moyen par clic qualifi\u00e9 \u00e9tait de 18 \u20ac au T1 2026. Les plateformes d'influence classiques facturent des licences annuelles ou des minimums de campagne de 10 k\u20ac+, et les agences ajoutent des retainers mensuels aux cachets cr\u00e9ateurs."
+  },
+  {
+   "q": "Kolsquare, Skeepers, Upfluence ou Traackr conviennent-ils au B2B ?",
+   "a": "Ce sont d'excellentes plateformes pour les marques grand public, mais aucune n'est construite autour de LinkedIn ni des audiences d'acheteurs B2B : Kolsquare et Traackr ciblent les programmes de marque sur Instagram/TikTok/YouTube, Upfluence l'e-commerce et l'affiliation, Skeepers l'UGC et les avis produits. Pour g\u00e9n\u00e9rer des leads B2B sur LinkedIn, une marketplace native B2B comme Naano est structurellement mieux adapt\u00e9e."
+  },
+  {
+   "q": "Faut-il passer par une agence ou une plateforme pour l'influence B2B ?",
+   "a": "Choisissez une plateforme pour la vitesse, des prix transparents par post et le contr\u00f4le en interne ; une agence pour la strat\u00e9gie et l'ex\u00e9cution d\u00e9l\u00e9gu\u00e9e si vous pouvez financer un retainer. La voie interm\u00e9diaire est le plan Managed de Naano (700 \u20ac/mois) : la plateforme g\u00e8re la s\u00e9lection des cr\u00e9ateurs et les briefs, en conservant des prix fixes par post."
+  },
+  {
+   "q": "Quelle diff\u00e9rence entre Naano et Favikon ou Upfluence ?",
+   "a": "Favikon est un outil de recherche de cr\u00e9ateurs (classements et donn\u00e9es d'audience, sans r\u00e9servation ni paiement) et Upfluence une base d'influenceurs orient\u00e9e e-commerce avec outreach et affiliation. Naano est une marketplace B2B transactionnelle : vous r\u00e9servez un cr\u00e9ateur LinkedIn v\u00e9rifi\u00e9 \u00e0 prix fixe, la plateforme g\u00e8re le paiement, et chaque post remonte ses clics qualifi\u00e9s."
+  }
+ ],
+ "reports": [
+  {
+   "q": "Can I cite Naano's data in an article or report?",
+   "a": "Yes \u2014 that is what these reports are for. Cite the specific report with a link, e.g. \"Naano Index, n=239 sponsored-post bookings, June\u2013August 2026 (naano.com/reports)\". Every number is published with its sample size and time period; please carry both in the citation. Claims we attribute to third parties (Edelman, LinkedIn benchmarks) should be attributed to the original source, not to Naano."
+  },
+  {
+   "q": "Where does the data come from?",
+   "a": "From anonymized, aggregated transactions and campaigns on the Naano marketplace \u2014 the B2B LinkedIn creator marketplace. No customer or creator is identifiable in any published number. Each report states its own sample, time window and known limitations; we publish the caveats alongside the findings."
+  },
+  {
+   "q": "How often are the reports updated?",
+   "a": "Each report shows its publication date, and a visible dateModified when it is genuinely refreshed with new data \u2014 we do not bump dates for freshness. New editions ship when the underlying marketplace data reaches a sample size worth publishing."
+  }
+ ],
+ "for__sales-tech": [
+  {
+   "q": "What does a sales-tech creator campaign cost on Naano?",
+   "a": "Posts are booked at a fixed price from \u20ac20 per post (median creator ~\u20ac150). In Q1 2026, sales-tech campaigns delivered a median cost per qualified click of \u20ac16 across 58 campaigns \u2014 the second-cheapest vertical on the platform."
+  },
+  {
+   "q": "Which creators cover sales-tech?",
+   "a": "SDR coaches, AE practitioners, and sales leaders with 2k\u20138k LinkedIn followers, vetted for audience fit. Their followers are predominantly quota-carrying sales professionals \u2014 the buying users of sales-tech products."
+  },
+  {
+   "q": "How fast can a sales-tech campaign launch?",
+   "a": "Median time from brief to first live post is 7 days across the platform. Sales-tech is usually faster than average because the creator pool is deep enough to match most briefs in one pass."
+  }
+ ],
+ "blog__sponsored-linkedin-post-cost-b2b": [
+  {
+   "q": "How much does a sponsored LinkedIn post cost in 2026?",
+   "a": "A sponsored post from a vetted B2B micro-creator costs a flat fee of \u20ac100\u2013\u20ac1,500 per post in 2026, depending on audience size, engagement rate, and niche. On Naano, rates start at \u20ac100/post and the marketplace median sits in the \u20ac150\u2013\u20ac300 range for creators with 3,000\u201310,000 followers."
+  },
+  {
+   "q": "How should I budget a first sponsored LinkedIn post campaign?",
+   "a": "Plan \u20ac1,000\u2013\u20ac3,000 for a first campaign: enough to book 4\u20138 micro-creator posts at \u20ac150\u2013\u20ac350 each, spread across 3\u20135 creators so you can compare performance before committing more. Because every post is a fixed fee, the budget is exact \u2014 no auction overspend, no minimum commitment."
+  },
+  {
+   "q": "What do sponsored LinkedIn posts cost in Europe \u2014 France vs Germany?",
+   "a": "French B2B micro-creators typically charge \u20ac100\u2013\u20ac400 per sponsored post, while creators in Germany, Austria, and Switzerland run 10\u201330% higher at roughly \u20ac150\u2013\u20ac600 for comparable audiences, reflecting a smaller creator supply and higher B2B deal sizes in the DACH market [Naano marketplace data, Q2 2026]."
+  },
+  {
+   "q": "Why do B2B creators charge a flat fee per post instead of per click?",
+   "a": "A flat fee compensates the creator for production and audience access regardless of algorithm variance, and it gives the brand a fully predictable cost per post. Performance still stays measurable: with tracked links on every post, you can compute an effective cost per qualified click after the fact."
+  },
+  {
+   "q": "What ROI can I expect from a sponsored LinkedIn post?",
+   "a": "A well-matched micro-creator post typically produces 20\u201360 qualified clicks, which puts the effective cost per qualified click at \u20ac5\u2013\u20ac15 for a \u20ac250\u2013\u20ac350 post \u2014 versus the \u20ac55\u2013\u20ac90 cost per lead commonly reported for LinkedIn Ads in B2B SaaS. Posts matched on vertical fit outperform posts bought on follower count."
+  }
+ ]
+}

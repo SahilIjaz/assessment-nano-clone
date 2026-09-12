@@ -1,0 +1,54 @@
+
+.nn-campaign-toolbar,.nn-results-toolbar{display:flex;align-items:end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:20px 0}
+.nn-campaign-picker{display:flex;flex-direction:column;gap:7px;min-width:220px;max-width:100%;font-size:.76rem;font-weight:650;color:var(--muted)}
+.nn-campaign-picker .select{width:100%;max-width:340px;min-height:44px;color:var(--text);background:#fff;border-radius:12px}
+.nn-campaign-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.nn-campaign-actions [hidden]{display:none!important}
+.nn-campaign-picker .select:focus-visible{outline:3px solid #A9C5FF;outline-offset:2px}
+.nn-results-detail .cpd-head{display:none}.nn-results-detail .cpd-shell{padding-top:0}
+.nn-results-detail:empty{display:none}.nn-results-detail{margin-bottom:20px}
+@media(max-width:640px){.nn-campaign-picker{width:100%;min-width:0}.nn-campaign-picker .select{max-width:none}.nn-campaign-actions{width:100%}.nn-campaign-actions .btn{flex:1;justify-content:center;min-height:44px}}
+
+/* Compact navigation headers: tables and campaign content take priority. */
+#page-collaborations .cl2-hero{margin:0 0 16px;padding:0;border:0;border-radius:0;background:none;box-shadow:none}
+#page-collaborations .cl2-hero-main{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+#page-collaborations .cl2-hero-copy h1{margin:0;font-size:1.6rem;line-height:1.2}
+#page-collaborations .cl2-hero-stats{display:flex;gap:18px;flex-wrap:wrap}
+#page-collaborations .cl2-stat{min-width:0;min-height:0;padding:0;border:0;background:none;box-shadow:none;backdrop-filter:none}
+#page-collaborations .cl2-stat .ic{display:none}
+#page-collaborations .cl2-stat>div{display:flex;align-items:baseline;gap:5px}
+#page-collaborations .cl2-stat b{font-size:.88rem}
+#page-collaborations .cl2-stat>div>span{font-size:.76rem}
+#page-collaborations .nn-campaign-toolbar{margin:14px 0}
+#page-collaborations .cl2-control-deck{margin-top:0;padding:0;border:0;background:none;box-shadow:none;backdrop-filter:none}
+.nn-heading-with-back{display:flex;align-items:center;gap:18px;min-width:0;flex-wrap:wrap}
+.nn-campaign-back{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:0 8px 0 0;border:0;background:transparent;color:var(--muted);font-size:.82rem;font-weight:600;white-space:nowrap;cursor:pointer}
+.nn-campaign-back iconify-icon{font-size:18px}.nn-campaign-back:hover{color:var(--blue)}
+.nn-campaign-back:focus-visible{outline:3px solid #A9C5FF;outline-offset:3px;border-radius:8px}
+#page-studio .nn-campaign-index-header{margin:0 0 18px}
+#page-studio .nn-campaign-index-header .ac-index-head{flex-direction:row;align-items:center;flex-wrap:wrap;gap:12px}
+#page-studio .nn-campaign-index-header .ac-index-head h1,#page-studio .nn-compact-workspace .ac-title-status h1{font-size:1.5rem;line-height:1.25;letter-spacing:-.035em}
+#page-studio .nn-campaign-index-header .ac-index-toolbar{margin:12px 0 0;padding:0;border:0}
+#page-studio .nn-campaign-index-header .ac-create{min-height:44px;box-shadow:none}
+#page-studio .ac-workspace-dock.nn-compact-workspace{position:relative;top:auto;margin:0 0 18px;padding:0 0 14px;border:0;border-bottom:1px solid var(--border);border-radius:0;background:none;box-shadow:none;backdrop-filter:none}
+#page-studio .nn-compact-workspace:before,#page-studio .nn-compact-workspace:after{display:none}
+#page-studio .nn-compact-workspace .ac-workspace-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:0 0 12px}
+#page-studio .nn-compact-workspace .ac-workspace-actions{width:auto;display:flex;flex-wrap:wrap;padding:0;border:0;border-radius:0;background:none;box-shadow:none;backdrop-filter:none}
+#page-studio .nn-compact-workspace .ac-switcher{min-width:190px}
+#page-studio .nn-compact-workspace .ac-tabs.nn-liquid-segment{min-width:0;box-shadow:none;background:#fff;border:1px solid var(--border)}
+@media(max-width:640px){#page-collaborations .cl2-hero-stats{gap:12px}#page-studio .nn-compact-workspace .ac-workspace-actions{width:100%}#page-studio .nn-compact-workspace .ac-switcher{width:100%;flex-basis:100%;min-width:0}.nn-heading-with-back{gap:10px}#page-studio .nn-compact-workspace .ac-tabs.nn-liquid-segment{width:100%}#page-studio .nn-compact-workspace .ac-tabs.nn-liquid-segment button{min-width:0;flex:1;padding:0 10px}}
+
+#nn-workspace-loading{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:24px;border:0;background:#f3f5f9;color:#101524;font-family:inherit}
+#nn-workspace-loading[open]{display:grid;place-items:center}
+#nn-workspace-loading::backdrop{background:#f3f5f9}
+.nn-workspace-loading-card{width:min(100%,400px);text-align:center}
+.nn-workspace-loading-mark{width:52px;height:52px;margin:0 auto 24px}
+.nn-workspace-loading-mark img{display:block;width:100%;height:100%;object-fit:contain}
+.nn-workspace-loading-card h1{margin:0 0 12px;font-size:25px;letter-spacing:-.03em}
+#nn-workspace-loading-company{display:block;overflow-wrap:anywhere;font-size:16px}
+#nn-workspace-loading-status{min-height:44px;margin:14px 0 24px;color:#687186;font-size:14px;line-height:1.6}
+.nn-workspace-loading-progress{overflow:hidden;height:4px;border-radius:4px;background:#dee6f7}
+.nn-workspace-loading-progress span{display:block;width:38%;height:100%;border-radius:inherit;background:#1d5bf5;animation:nnWorkspaceProgress 1.3s ease-in-out infinite alternate}
+#nn-workspace-loading-reload{margin-top:24px;border:1px solid #cdd7e9;border-radius:10px;padding:11px 18px;background:#fff;color:#101524;font:inherit;cursor:pointer}
+#nn-workspace-loading-reload:focus-visible{outline:3px solid #1d5bf5;outline-offset:4px}
+@keyframes nnWorkspaceProgress{to{transform:translateX(164%)}}
+@media(prefers-reduced-motion:reduce){.nn-workspace-loading-progress span{animation:none;width:100%;opacity:.65}}

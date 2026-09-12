@@ -1,0 +1,2 @@
+[data-dashboard-loading] > :not(.nn-dashboard-load-status) { display: none !important; }
+.nn-dashboard-load-status { display: grid; justify-items: center; gap: 12px; padding: 64px 24px; color: var(--muted, #666); text-align: center; }

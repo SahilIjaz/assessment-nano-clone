@@ -1,0 +1,65 @@
+
+    #page-integrations{--crmcp-ink:#111827;--crmcp-muted:#667085;--crmcp-line:#E3E8F0;--crmcp-soft:#F7F9FC;--crmcp-blue:#1D5BF5;--crmcp-green:#08775B}
+    #page-integrations .crmcp-shell{width:min(100%,1040px);margin:0 auto;padding:0 0 72px}
+    #page-integrations .crmcp-hero{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:24px;margin-bottom:22px}
+    #page-integrations .crmcp-eyebrow{display:block;margin-bottom:7px;color:var(--crmcp-blue);font-size:.68rem;font-weight:800;letter-spacing:.11em;text-transform:uppercase}
+    #page-integrations h1{margin:0;color:var(--crmcp-ink);font-size:clamp(1.75rem,3vw,2.25rem);line-height:1.14;letter-spacing:-.035em}
+    #page-integrations .crmcp-hero p{max-width:680px;margin:8px 0 0;color:var(--crmcp-muted);font-size:.9rem;line-height:1.55}
+    #page-integrations .crmcp-access{display:inline-flex;min-height:30px;align-items:center;gap:7px;padding:5px 10px;border:1px solid #D6DCE8;border-radius:999px;background:#fff;color:#667085;font-size:.68rem;font-weight:760;white-space:nowrap}
+    #page-integrations .crmcp-access iconify-icon{font-size:16px}
+    #page-integrations .crmcp-access.available{border-color:#A9E5D2;background:#EDFCF6;color:var(--crmcp-green)}
+    #page-integrations .crmcp-panel{padding:22px;border:1px solid var(--crmcp-line);border-radius:20px;background:#fff;box-shadow:0 10px 34px rgba(22,34,58,.045)}
+    #page-integrations .crmcp-intro{display:flex;align-items:flex-start;gap:13px;margin-bottom:20px;padding:15px 16px;border:1px solid #DCE6FF;border-radius:15px;background:linear-gradient(135deg,#F1F5FF,#FBFCFF)}
+    #page-integrations .crmcp-intro>iconify-icon{width:38px;height:38px;display:grid;place-items:center;flex:0 0 auto;border-radius:12px;background:#fff;color:var(--crmcp-blue);font-size:21px;box-shadow:0 2px 8px rgba(29,91,245,.08)}
+    #page-integrations .crmcp-intro b{display:block;color:var(--crmcp-ink);font-size:.88rem}
+    #page-integrations .crmcp-intro span{display:block;margin-top:3px;color:var(--crmcp-muted);font-size:.76rem;line-height:1.5}
+    #page-integrations .crmcp-provider-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    #page-integrations .crmcp-provider{display:grid;grid-template-columns:48px minmax(0,1fr);gap:13px;padding:17px;border:1px solid var(--crmcp-line);border-radius:16px;background:var(--crmcp-soft)}
+    #page-integrations .crmcp-provider-mark{width:48px;height:48px;display:grid;place-items:center;border:1px solid #DCE2EB;border-radius:14px;background:#fff;color:#202531;font-size:1.05rem;font-weight:800}
+    #page-integrations .crmcp-provider-mark svg{width:25px;height:25px;display:block;fill:currentColor}
+    #page-integrations .crmcp-provider-mark.claude{border-color:#F1D5C6;background:#FFF6EF;color:#B85B3B}
+    #page-integrations .crmcp-provider-mark.chatgpt{border-color:#D8DFDC;background:#F5F8F7;color:#111827}
+    #page-integrations .crmcp-provider-mark.gemini{border-color:#D5DEFF;background:#F5F7FF;color:#3567E9}
+    #page-integrations .crmcp-provider-mark.gemini svg{width:28px;height:28px}
+    #page-integrations .crmcp-provider-mark.cursor{border-color:#D7DAE0;background:#F5F5F5;color:#111}
+    #page-integrations .crmcp-provider-mark.copilot{border-color:#DCD7F4;background:#F7F5FF;color:#3F2A86}
+    #page-integrations .crmcp-provider-mark.other{border-color:#D9E2F4;background:#F7F9FF;color:var(--crmcp-blue)}
+    #page-integrations .crmcp-provider-copy{min-width:0}
+    #page-integrations .crmcp-provider-copy b{display:block;color:var(--crmcp-ink);font-size:.92rem}
+    #page-integrations .crmcp-provider-copy span{display:block;margin-top:3px;color:var(--crmcp-muted);font-size:.75rem;line-height:1.45}
+    #page-integrations .crmcp-provider-action{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:12px;border-top:1px solid #E2E7EF}
+    #page-integrations .crmcp-status{display:inline-flex;min-height:24px;align-items:center;padding:3px 8px;border:1px solid #DDE2EA;border-radius:999px;background:#fff;color:#7A8496;font-size:.62rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+    #page-integrations .crmcp-status.available{border-color:#A9E5D2;background:#EDFCF6;color:var(--crmcp-green)}
+    #page-integrations .crmcp-connect,#page-integrations .crmcp-copy,#page-integrations .crmcp-provider-link{min-height:44px;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:9px 14px;border-radius:11px;font:inherit;font-size:.76rem;font-weight:750;text-decoration:none;cursor:pointer}
+    #page-integrations .crmcp-connect{border:1px solid var(--crmcp-blue);background:var(--crmcp-blue);color:#fff}
+    #page-integrations .crmcp-connect:hover:not(:disabled),#page-integrations .crmcp-provider-link:hover{background:#1749D6}
+    #page-integrations .crmcp-connect:disabled{border-color:#E1E5EB;background:#F2F4F7;color:#98A2B3;cursor:not-allowed}
+    #page-integrations .crmcp-connect:focus-visible,#page-integrations .crmcp-copy:focus-visible,#page-integrations .crmcp-provider-link:focus-visible,#page-integrations .crmcp-close:focus-visible{outline:3px solid rgba(29,91,245,.24);outline-offset:2px}
+    #page-integrations .crmcp-capabilities{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:14px}
+    #page-integrations .crmcp-capability{padding:17px;border:1px solid var(--crmcp-line);border-radius:16px;background:#fff}
+    #page-integrations .crmcp-capability-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+    #page-integrations .crmcp-capability-head b{display:flex;align-items:center;gap:8px;color:var(--crmcp-ink);font-size:.82rem}
+    #page-integrations .crmcp-capability-head iconify-icon{color:var(--crmcp-blue);font-size:18px}
+    #page-integrations .crmcp-capability ul{display:grid;gap:7px;margin:13px 0 0;padding:0;list-style:none;color:#4B5565;font-size:.75rem;line-height:1.4}
+    #page-integrations .crmcp-capability li{display:flex;align-items:flex-start;gap:7px}
+    #page-integrations .crmcp-capability li:before{width:5px;height:5px;margin-top:.48em;flex:0 0 auto;border-radius:50%;background:#9CB3EA;content:""}
+    #page-integrations .crmcp-safety{display:flex;align-items:flex-start;gap:11px;margin-top:14px;padding:14px 15px;border:1px solid #E2E8F0;border-radius:14px;background:#FAFBFC;color:#4B5565;font-size:.76rem;line-height:1.5}
+    #page-integrations .crmcp-safety iconify-icon{flex:0 0 auto;color:var(--crmcp-green);font-size:19px}
+    #page-integrations .crmcp-setup{margin-top:16px;padding:20px;border:1px solid #C8D7FF;border-radius:17px;background:#F7F9FF}
+    #page-integrations .crmcp-setup[hidden]{display:none}
+    #page-integrations .crmcp-setup-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+    #page-integrations .crmcp-setup-head h2{margin:0;color:var(--crmcp-ink);font-size:1.02rem}
+    #page-integrations .crmcp-setup-head p{margin:4px 0 0;color:var(--crmcp-muted);font-size:.76rem;line-height:1.45}
+    #page-integrations .crmcp-close{width:44px;height:44px;display:grid;place-items:center;flex:0 0 auto;border:0;border-radius:11px;background:transparent;color:#667085;font:inherit;font-size:1.15rem;cursor:pointer}
+    #page-integrations .crmcp-close:hover{background:#EAF0FF;color:var(--crmcp-blue)}
+    #page-integrations .crmcp-endpoint{display:flex;align-items:center;gap:9px;margin-top:16px}
+    #page-integrations .crmcp-endpoint code{min-width:0;flex:1;padding:12px;border:1px solid #D8E2FB;border-radius:11px;background:#fff;color:#1F3F8F;font-size:.77rem;overflow-wrap:anywhere}
+    #page-integrations .crmcp-copy{flex:0 0 auto;border:1px solid #C5D5FF;background:#fff;color:var(--crmcp-blue)}
+    #page-integrations .crmcp-steps{margin:16px 0 0;padding-left:21px;color:#4B5565;font-size:.76rem;line-height:1.65}
+    #page-integrations .crmcp-setup-actions{display:flex;justify-content:flex-end;margin-top:16px}
+    #page-integrations .crmcp-provider-link{border:1px solid var(--crmcp-blue);background:var(--crmcp-blue);color:#fff}
+    @media(max-width:940px){#page-integrations .crmcp-provider-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:760px){#page-integrations .crmcp-hero{grid-template-columns:1fr;gap:12px}#page-integrations .crmcp-access{width:max-content}#page-integrations .crmcp-provider-grid,#page-integrations .crmcp-capabilities{grid-template-columns:1fr}#page-integrations .crmcp-panel{padding:16px}#page-integrations .crmcp-provider{padding:15px}}
+    @media(max-width:480px){#page-integrations .crmcp-provider-action,#page-integrations .crmcp-endpoint{align-items:stretch;flex-direction:column}#page-integrations .crmcp-connect,#page-integrations .crmcp-copy{width:100%}}
+    @media(prefers-reduced-motion:reduce){#page-integrations *{scroll-behavior:auto!important}}
+    

@@ -1,0 +1,66 @@
+
+/* One chronological surface. Brand color is reserved for actions and focus. */
+#page-marketplace[data-experience="ai"] #mkt-agent-history{display:grid!important;gap:24px;width:100%;overflow-anchor:none}
+#page-marketplace[data-experience="ai"] .mkt-agent-turn-selection{width:100%;min-width:0;margin:0}
+#page-marketplace[data-experience="ai"] #mkt-agent-picks{display:none!important}
+#page-marketplace[data-experience="ai"] .mkt-nao-message-content{min-width:0;max-width:72ch;color:var(--text);font-size:14px;line-height:1.65;white-space:normal}
+#page-marketplace[data-experience="ai"] .mkt-nao-message-content p{margin:0 0 8px}
+#page-marketplace[data-experience="ai"] .mkt-nao-message-content p:last-child{margin-bottom:0}
+#page-marketplace[data-experience="ai"] .mkt-nao-message-content ul{padding-left:20px;margin:8px 0}
+#page-marketplace[data-experience="ai"] .mkt-nao-message-content li{margin:6px 0}
+#page-marketplace[data-experience="ai"] .mkt-lya-selection-intro{align-items:start;gap:12px;margin:0 0 16px}
+#page-marketplace[data-experience="ai"] .mkt-agent-history-turn.is-assistant.is-reply{width:100%;grid-template-columns:56px minmax(0,1fr);gap:12px}
+#page-marketplace[data-experience="ai"] .mkt-lya-reply-cloud{width:56px;height:44px}
+#page-marketplace[data-experience="ai"] .mkt-lya-result-identity>small{display:none}
+#page-marketplace[data-experience="ai"] #mkt-agent .mkt-agent-command{position:relative;padding-top:0!important}
+#page-marketplace[data-experience="ai"] #mkt-agent .mkt-agent-command-main{min-height:56px!important;padding:8px 12px!important;border-radius:16px!important;align-items:center}
+#page-marketplace[data-experience="ai"] #mkt-agent .mkt-agent-command textarea{height:36px;min-height:36px!important;max-height:112px!important;padding:7px 156px 7px 4px!important;line-height:22px;font-size:14px!important;resize:none;overflow-y:auto}
+#page-marketplace[data-experience="ai"] #mkt-agent .mkt-lya-command-head{position:absolute!important;top:8px!important;right:64px!important;bottom:auto!important;left:auto!important;z-index:2;margin:0!important;padding:0!important}
+#page-marketplace[data-experience="ai"] #mkt-agent .mkt-lya-command-tools{position:static!important;margin:0!important;padding:0!important;width:auto!important}
+#page-marketplace[data-experience="ai"] #mkt-agent .mkt-lya-new-research{height:36px!important;min-height:36px!important;border:0!important;background:transparent!important;box-shadow:none!important}
+#page-marketplace[data-experience="ai"] #mkt-agent :is(.mkt-agent-send,.mkt-lya-stop){width:40px!important;height:40px!important;min-height:40px!important;border-radius:12px!important}
+#page-marketplace[data-experience="ai"] #mkt-agent button:focus-visible{outline:2px solid var(--blue)!important;outline-offset:3px}
+#page-marketplace[data-experience="ai"] #mkt-agent .mkt-agent-command-main{border:1px solid var(--border)!important;box-shadow:0 4px 20px rgba(25,40,70,.04)!important;transform:none!important;transition:border-color .16s ease,box-shadow .16s ease}
+#page-marketplace[data-experience="ai"] #mkt-agent .mkt-agent-command-main:has(textarea:focus){border-color:var(--blue)!important;box-shadow:none!important}
+#page-marketplace[data-experience="ai"] #mkt-agent textarea:is(:focus,:focus-visible){outline:none!important;box-shadow:none!important;border:0!important}
+#page-marketplace[data-experience="ai"] #mkt-agent .mkt-agent-command-main:has(button:focus-visible){border-color:var(--border)!important;box-shadow:none!important}
+#page-marketplace[data-experience="ai"] #mkt-agent-history>.mkt-agent-history-turn{margin:0!important}
+#page-marketplace[data-experience="ai"] #mkt-agent-history>.is-user{padding:12px 16px!important;border:0!important;border-radius:18px 18px 4px 18px!important;background:rgba(236,241,255,.92)!important;box-shadow:none!important;font-size:14px!important;line-height:1.55}
+#page-marketplace[data-experience="ai"] #mkt-agent-history>.is-assistant{padding:4px 0!important;border:0!important;background:transparent!important;box-shadow:none!important}
+#page-marketplace[data-experience="ai"] .mkt-nao-message-content{font-size:15px;line-height:1.7;font-weight:400}
+#page-marketplace[data-experience="ai"] .mkt-nao-message-content ul{padding-left:20px;margin:16px 0}
+#page-marketplace[data-experience="ai"] .mkt-nao-message-content li{padding-left:4px;margin:12px 0}
+#page-marketplace[data-experience="ai"] .mkt-nao-message-content li::marker{color:var(--blue)}
+#page-marketplace[data-experience="ai"] .mkt-lya-selection-intro .mkt-nao-message-content{font-size:14px;font-weight:500}
+#page-marketplace[data-experience="ai"] .mkt-lya-new-research{color:var(--muted)!important;font-size:12px!important;padding-inline:8px!important}
+#page-marketplace[data-experience="ai"] .mkt-lya-new-research:hover{background:var(--bg)!important;color:var(--text)!important}
+#page-marketplace[data-experience="ai"] .mkt-lya-working-copy b{font-size:14px;font-weight:500}
+#page-marketplace .mkt-experience-switch{width:min(420px,100%);padding:4px;gap:4px;border:1px solid var(--border);border-radius:14px;background:rgba(246,248,252,.95);box-shadow:none}
+#page-marketplace .mkt-experience-switch::before,#page-marketplace .mkt-experience-switch::after{display:none!important}
+#page-marketplace .mkt-experience-switch .mkt-experience-thumb{display:none!important}
+#page-marketplace .mkt-experience-switch button{border-radius:10px;min-height:40px;font-size:12px}
+#page-marketplace .mkt-experience-switch button.is-active{background:var(--card);box-shadow:0 1px 3px rgba(25,40,70,.09);color:var(--text)}
+#page-marketplace[data-experience="ai"] .mkt-agent-turn-selection .mkt-lya-result-row{animation:none!important}
+/* Welcome uses the same compact composer, before any conversation state exists. */
+#page-marketplace[data-experience="ai"] #mkt-agent:not(:is(.is-thinking,.has-result,.has-history,.has-zero,.has-error)) .mkt-agent-command-main{grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto;gap:12px}
+#page-marketplace[data-experience="ai"] #mkt-agent:not(:is(.is-thinking,.has-result,.has-history,.has-zero,.has-error)) .mkt-lya-command-head{display:none!important}
+#page-marketplace[data-experience="ai"] #mkt-agent:not(:is(.is-thinking,.has-result,.has-history,.has-zero,.has-error)) #mkt-agent-input{grid-column:1;grid-row:1;min-width:0;padding:7px 4px!important;align-self:center}
+#page-marketplace[data-experience="ai"] #mkt-agent-input::placeholder{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+#page-marketplace[data-experience="ai"] #mkt-agent:not(:is(.is-thinking,.has-result,.has-history,.has-zero,.has-error)) .mkt-agent-send{position:static;grid-column:2;grid-row:1;align-self:center;justify-self:end;transform:none}
+/* The creator identity opens LinkedIn; the arrow remains the internal profile action. */
+#page-marketplace[data-experience="ai"] .mkt-lya-result-profile{text-decoration:none;border-radius:10px;transition:background .16s ease,color .16s ease}
+#page-marketplace[data-experience="ai"] a.mkt-lya-result-profile:hover{background:#F4F7FF;color:#1F4FD0}
+#page-marketplace[data-experience="ai"] .mkt-lya-result-profile:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+#page-marketplace[data-experience="ai"] .mkt-lya-result-identity>b{grid-column:1;display:flex;align-items:center;gap:6px}
+#page-marketplace[data-experience="ai"] .mkt-lya-result-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#page-marketplace[data-experience="ai"] .mkt-lya-result-identity>b .mkt-linkedin-icon{width:16px;height:16px;display:grid;place-items:center;flex:0 0 16px;border-radius:4px;background:#0A66C2;color:#fff}
+#page-marketplace[data-experience="ai"] .mkt-lya-result-identity>b .mkt-linkedin-icon svg{width:11px;height:11px;fill:currentColor}
+/* Personalized suggestions contain one text node, not the old index/copy/action grid. */
+#page-marketplace[data-experience="ai"] #mkt-lya-starters{margin-top:24px;border:0;border-radius:0;background:transparent}
+#page-marketplace[data-experience="ai"] #mkt-lya-starters>small{display:block;margin:0 0 12px 4px}
+#page-marketplace[data-experience="ai"] #mkt-lya-starters button{grid-template-columns:minmax(0,1fr);min-height:52px;padding:12px 16px;text-align:left;white-space:normal;overflow-wrap:anywhere;font-size:14px;line-height:1.5}
+@media(max-width:700px){
+  #page-marketplace[data-experience="ai"] #mkt-agent .mkt-lya-new-research>span{display:none}
+  #page-marketplace[data-experience="ai"] #mkt-agent .mkt-agent-command textarea{padding-right:52px!important;font-size:16px!important}
+  #page-marketplace[data-experience="ai"] #mkt-agent :is(.mkt-lya-result-save,.mkt-lya-result-open,.mkt-lya-result-book,.mkt-agent-send,.mkt-lya-stop,.mkt-lya-new-research){min-width:44px!important;min-height:44px!important}
+}

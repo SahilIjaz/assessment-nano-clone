@@ -1,0 +1,1 @@
+@keyframes naanoCardReveal{0%{opacity:0;transform:translateY(18px)scale(.98)}to{opacity:1;transform:translateY(0)scale(1)}}@media (width>=640px) and (height<=1180px){.naano-card-reveal-preview{zoom:.92}}@media (width>=640px) and (height<=960px){.naano-card-reveal-preview{zoom:.82}}@media (width<=639px) and (height<=760px){.naano-card-reveal-preview{zoom:.9}}

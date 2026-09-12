@@ -1,0 +1,13 @@
+/* Additions for the React rebuild of the workspace apps. */
+.nn-avatar-initials{display:inline-flex;align-items:center;justify-content:center;font-weight:700;color:#0f1220;background:linear-gradient(135deg,#e6edff,#f5f7fb);border-radius:999px}
+.cc-av-initials{border-radius:999px;display:inline-flex;align-items:center;justify-content:center;color:#fff;font-weight:700;border:3px solid #fff;box-shadow:0 4px 14px rgba(15,18,32,.12)}
+.sidebar.is-collapsed .logo-word,.sidebar.is-collapsed .nav-item span,.sidebar.is-collapsed #nn-ws-wrap,.sidebar.is-collapsed .sb-handle{display:none!important}
+.sidebar.is-collapsed .nav-item{justify-content:center;padding-left:0;padding-right:0}
+.sidebar.is-collapsed .sb-head{justify-content:center}
+.sidebar.is-collapsed .sb-toggle svg{transform:rotate(180deg)}
+.toast.err::before{content:"!";color:#F9A8A8;font-weight:800}
+.nn-avatar-initials{color:#fff}
+.pill.st-invited{background:var(--blue-soft);color:var(--blue-d)}
+.pill.st-active{background:var(--green-soft);color:var(--green)}
+.pill.st-action{background:var(--amber-soft);color:var(--amber)}
+.pill.st-completed{background:#EEF0F5;color:var(--muted)}

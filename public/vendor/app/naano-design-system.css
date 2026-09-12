@@ -1,0 +1,1487 @@
+/*
+ * Naano product design primitives
+ * Runtime counterpart of design-system/naano/MASTER.md.
+ * Keep these classes product-agnostic: page-specific composition belongs in
+ * a scoped block such as #page-collaborations below.
+ */
+:root {
+  --nn-ink: #0f1729;
+  --nn-copy: #65738d;
+  --nn-blue: #245df5;
+  --nn-blue-deep: #1749d4;
+  --nn-sky: #dceffa;
+  --nn-sky-soft: #f3f8ff;
+  --nn-glass: rgba(255, 255, 255, 0.62);
+  --nn-glass-strong: rgba(255, 255, 255, 0.86);
+  --nn-glass-border: rgba(255, 255, 255, 0.92);
+  --nn-line: rgba(177, 199, 232, 0.7);
+  --nn-shadow-soft: 0 18px 48px rgba(30, 55, 92, 0.1);
+  --nn-shadow-control: 0 9px 24px rgba(39, 66, 102, 0.08);
+  --nn-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.nn-sky-surface {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid var(--nn-glass-border);
+  background-color: var(--nn-sky);
+  background-image:
+    linear-gradient(112deg, rgba(255, 255, 255, 0.78), rgba(245, 250, 255, 0.38) 55%, rgba(214, 235, 250, 0.27)),
+    url('/lp/brand-overview-clouds.jpg');
+  background-position: center 68%;
+  background-size: cover;
+  box-shadow: var(--nn-shadow-soft), inset 0 1px 0 #fff;
+}
+
+.nn-sky-surface::after {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: radial-gradient(circle at 84% -12%, rgba(255, 255, 255, 0.9), transparent 38%);
+  content: '';
+  pointer-events: none;
+}
+
+.nn-brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: #526785;
+  font-size: 0.69rem;
+  font-weight: 820;
+  letter-spacing: 0.115em;
+  text-transform: uppercase;
+}
+
+.nn-brand-lockup img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.nn-liquid-segment {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  overflow: hidden;
+  border: 1px solid var(--nn-glass-border);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.48);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.96), var(--nn-shadow-control);
+  backdrop-filter: blur(22px) saturate(145%);
+  -webkit-backdrop-filter: blur(22px) saturate(145%);
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+  overscroll-behavior: contain;
+}
+
+.nn-liquid-indicator {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 5px;
+  width: 0;
+  height: calc(100% - 10px);
+  border: 1px solid rgba(181, 204, 244, 0.78);
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(227, 237, 255, 0.84));
+  box-shadow: 0 8px 18px rgba(36, 93, 245, 0.13), inset 0 1px 0 #fff, inset 0 -1px 0 rgba(117, 153, 219, 0.12);
+  pointer-events: none;
+  transform: translate3d(0, 0, 0);
+  transition: transform 420ms var(--nn-spring), width 340ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 220ms ease;
+}
+
+.nn-liquid-segment.is-dragging {
+  cursor: grabbing;
+}
+
+.nn-liquid-segment.is-dragging .nn-liquid-indicator {
+  transition: none;
+  box-shadow: 0 13px 27px rgba(36, 93, 245, 0.18), inset 0 1px 0 #fff;
+  scale: 1.025;
+}
+
+.nn-liquid-segment > button {
+  position: relative;
+  z-index: 1;
+  min-height: 44px;
+  margin: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: #65738d;
+  cursor: pointer;
+  touch-action: pan-y;
+  transition: color 180ms ease, transform 300ms var(--nn-spring) !important;
+}
+
+.nn-liquid-segment > button:hover {
+  transform: translateY(-1px);
+}
+
+.nn-liquid-segment > button:active {
+  transform: scale(0.965);
+}
+
+.nn-liquid-segment > button.on {
+  color: var(--nn-blue);
+}
+
+.nn-liquid-segment > button:focus-visible {
+  outline: 3px solid rgba(36, 93, 245, 0.24);
+  outline-offset: -3px;
+}
+
+/* Collaborations header — composed exclusively from the primitives above. */
+#page-collaborations .cl2-hero {
+  margin: -4px -4px 22px;
+  padding: 28px 30px 18px;
+  border-radius: 30px;
+}
+
+#page-collaborations .cl2-hero-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 28px;
+}
+
+#page-collaborations .cl2-hero-copy h1 {
+  margin: 11px 0 6px;
+  color: var(--nn-ink);
+  font-size: clamp(2rem, 3.1vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: -0.052em;
+}
+
+#page-collaborations .cl2-hero-copy .page-sub {
+  max-width: 660px;
+  color: var(--nn-copy);
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+#page-collaborations .cl2-hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(128px, 1fr));
+  gap: 9px;
+}
+
+#page-collaborations .cl2-stat {
+  min-width: 128px;
+  min-height: 72px;
+  padding: 10px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 17px;
+  background: rgba(255, 255, 255, 0.59);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.95), 0 9px 24px rgba(38, 65, 101, 0.07);
+  backdrop-filter: blur(18px) saturate(132%);
+  -webkit-backdrop-filter: blur(18px) saturate(132%);
+}
+
+#page-collaborations .cl2-stat .ic {
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(229, 238, 252, 0.82));
+  color: #315dbe;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.88);
+}
+
+#page-collaborations .cl2-stat .ic iconify-icon {
+  font-size: 20px;
+}
+
+#page-collaborations #cl2-stat-committed .ic {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(225, 246, 237, 0.86));
+  color: #178458;
+}
+
+#page-collaborations #cl2-stat-action .ic {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(255, 241, 218, 0.88));
+  color: #b56717;
+}
+
+#page-collaborations .cl2-stat b {
+  color: var(--nn-ink);
+  font-size: 1.08rem;
+}
+
+#page-collaborations .cl2-stat > div > span {
+  color: #6e7d94;
+  font-size: 0.68rem;
+  font-weight: 650;
+}
+
+#page-collaborations .cl2-control-deck {
+  display: grid;
+  grid-template-columns: minmax(230px, 0.52fr) minmax(0, 1.48fr) auto;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+  padding: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.42);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.92), 0 10px 26px rgba(37, 66, 104, 0.06);
+  backdrop-filter: blur(22px) saturate(135%);
+  -webkit-backdrop-filter: blur(22px) saturate(135%);
+}
+
+/* Top-right control: reveal archived expired invitations (hidden by default). */
+#page-collaborations .cl2-expired-toggle {
+  justify-self: end;
+  height: 40px;
+  min-width: max-content;
+  padding: 0 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid rgba(181, 204, 244, 0.72);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.78);
+  color: #5f6d86;
+  font-size: 0.68rem;
+  font-weight: 720;
+  white-space: nowrap;
+  box-shadow: inset 0 1px 0 #fff;
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease, color 160ms ease;
+}
+#page-collaborations .cl2-expired-toggle:hover {
+  border-color: rgba(126, 159, 224, 0.88);
+  background: #fff;
+  color: #2f4f9a;
+}
+#page-collaborations .cl2-expired-toggle.is-on {
+  border-color: rgba(36, 93, 245, 0.28);
+  background: rgba(36, 93, 245, 0.1);
+  color: var(--nn-blue, #1d5bf5);
+}
+#page-collaborations .cl2-expired-toggle[hidden] {
+  display: none !important;
+}
+#page-collaborations .cl2-expired-toggle .pill {
+  min-width: 18px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(110, 125, 148, 0.12);
+  color: inherit;
+  font-size: 0.6rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 780;
+}
+#page-collaborations .cl2-expired-toggle.is-on .pill {
+  background: rgba(36, 93, 245, 0.14);
+}
+
+#page-collaborations .cl2-search {
+  min-width: 0;
+  height: 52px;
+  margin: 0;
+  border: 1px solid rgba(181, 204, 244, 0.68);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.73);
+  box-shadow: inset 0 1px 0 #fff;
+  transition: border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+#page-collaborations .cl2-search:focus-within {
+  border-color: rgba(36, 93, 245, 0.58);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 0 4px rgba(36, 93, 245, 0.09), inset 0 1px 0 #fff;
+}
+
+#page-collaborations .cl2-search input {
+  min-width: 0;
+  color: var(--nn-ink);
+  font-size: 0.83rem;
+}
+
+#page-collaborations .cl2-tabs {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  overflow-x: auto;
+  border-bottom: 0;
+  scrollbar-width: none;
+}
+
+#page-collaborations .cl2-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+#page-collaborations .cl2-tabs .tab {
+  min-width: max-content;
+  flex: 1 0 auto;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 9px;
+  border-bottom: 0;
+  border-radius: 12px;
+  color: #67758d;
+  font-size: 0.7rem;
+  font-weight: 740;
+  white-space: nowrap;
+}
+
+#page-collaborations .cl2-tabs .tab.on {
+  color: var(--nn-blue);
+}
+
+#page-collaborations .cl2-tabs .pill {
+  min-width: 20px;
+  padding: 2px 6px;
+  border: 1px solid rgba(181, 204, 244, 0.72);
+  background: rgba(236, 242, 252, 0.74);
+  color: #71809a;
+  font-size: 0.61rem;
+  font-variant-numeric: tabular-nums;
+}
+
+#page-collaborations .cl2-tabs .tab.on .pill {
+  border-color: rgba(36, 93, 245, 0.16);
+  background: rgba(36, 93, 245, 0.1);
+  color: var(--nn-blue);
+}
+
+#page-collaborations #cl2-review:not(:empty) {
+  margin-top: -5px;
+}
+
+#page-collaborations .st-table-card {
+  border-color: rgba(205, 218, 237, 0.86);
+  border-radius: 22px;
+  box-shadow: 0 18px 42px rgba(30, 55, 92, 0.07);
+}
+
+/* Collaboration detail — landscape marketplace card on the live /brand UI. */
+body:has(.cl2-overlay.open) .px-global {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* The brief sheet is intentionally opened from the collaboration detail and
+   must stack above it without closing the creator context underneath. */
+#modal-brief-sheet.open {
+  z-index: 220;
+}
+
+.cl2-overlay {
+  inset: 0 !important;
+  padding: clamp(18px, 3vw, 42px) !important;
+  background:
+    radial-gradient(circle at 14% 12%, rgba(255, 255, 255, 0.72), transparent 32%),
+    rgba(225, 234, 247, 0.72) !important;
+  backdrop-filter: blur(18px) saturate(118%) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(118%) !important;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) {
+  width: min(1060px, calc(100vw - 64px));
+  height: min(720px, calc(100vh - 64px));
+  max-height: none;
+  border-color: rgba(255, 255, 255, 0.94);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 38px 110px rgba(30, 55, 92, 0.2), inset 0 1px 0 #fff;
+  backdrop-filter: blur(24px) saturate(130%);
+  -webkit-backdrop-filter: blur(24px) saturate(130%);
+}
+
+.cl2-detail-card:not(.is-linkedin-review) > .modal-close {
+  top: 18px;
+  right: 18px;
+  width: 40px;
+  height: 40px;
+  border-color: rgba(193, 208, 231, 0.72);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 9px 24px rgba(30, 55, 92, 0.1), inset 0 1px 0 #fff;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-scroll {
+  display: grid;
+  grid-template-columns: minmax(330px, 0.88fr) minmax(0, 1.5fr);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cl2-mkt-profile {
+  position: relative;
+  min-width: 0;
+  padding: 0 26px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-color: rgba(103, 132, 176, 0.42) transparent;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  border: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.92);
+  border-radius: 29px 0 0 29px;
+  background-color: var(--sky-top, #b9dcf4);
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(247, 251, 255, 0.36) 56%, rgba(247, 251, 255, 0.66) 100%),
+    url('/lp/brand-overview-clouds.jpg');
+  background-position: center, center 68%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset -1px 0 0 rgba(166, 194, 228, 0.28);
+}
+
+.cl2-mkt-marketplace-cover {
+  position: relative;
+  width: calc(100% + 52px);
+  height: 178px;
+  flex: 0 0 178px;
+  margin: 0 -26px;
+  overflow: hidden;
+  border-radius: 29px 0 0;
+  box-shadow: none;
+}
+
+.cl2-mkt-marketplace-cover .mkt-card-naano-banner {
+  border-radius: inherit;
+  background: transparent !important;
+}
+
+.cl2-mkt-marketplace-cover .mkt-card-naano-banner::before,
+.cl2-mkt-marketplace-cover .mkt-card-naano-banner::after {
+  background: transparent !important;
+}
+
+.cl2-mkt-marketplace-cover .mkt-sky-banner > img.mkt-sky-logo {
+  width: min(46%, 154px) !important;
+  opacity: 0.88 !important;
+}
+
+.cl2-mkt-profile .cl2-mkt-avatar-wrap {
+  position: relative;
+  z-index: 3;
+  margin: -58px auto 0;
+}
+
+.cl2-mkt-profile .cl2-mkt-avatar-wrap .cav {
+  width: 112px !important;
+  height: 112px !important;
+  border: 5px solid rgba(255, 255, 255, 0.94);
+  box-shadow: 0 20px 42px rgba(36, 93, 245, 0.2), inset 0 1px 0 #fff;
+}
+
+.cl2-mkt-profile .cl2-mkt-identity {
+  padding: 17px 4px 0;
+  text-align: center;
+}
+
+.cl2-mkt-profile .cl2-mkt-identity h2 {
+  font-size: clamp(1.45rem, 2.2vw, 2rem);
+  line-height: 1.05;
+}
+
+.cl2-mkt-profile .cl2-mkt-meta {
+  margin-top: 6px;
+  color: #536681;
+  font-size: 0.84rem;
+}
+
+.cl2-mkt-profile .cl2-mkt-role {
+  margin-top: 7px;
+  color: #405578;
+  font-size: 0.78rem;
+  font-weight: 720;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.cl2-mkt-profile .cl2-mkt-status {
+  margin-top: 12px;
+}
+
+.cl2-mkt-creator-bio {
+  width: 100%;
+  margin: 13px 0 0;
+  padding: 14px 15px;
+  border: 1px solid rgba(205, 218, 238, 0.75);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.62);
+  text-align: left;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(18px) saturate(135%);
+  -webkit-backdrop-filter: blur(18px) saturate(135%);
+}
+
+.cl2-mkt-creator-bio span {
+  display: block;
+  color: #7888a1;
+  font-size: 0.57rem;
+  font-weight: 780;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+.cl2-mkt-creator-bio p {
+  margin: 7px 0 0;
+  color: #52617a;
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.cl2-mkt-creator-metrics {
+  width: 100%;
+  margin-top: 13px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.cl2-mkt-creator-metrics > div {
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid rgba(205, 218, 238, 0.72);
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(238, 245, 255, 0.66));
+  box-shadow: inset 0 1px 0 #fff, 0 7px 18px rgba(40, 68, 108, 0.05);
+}
+
+.cl2-mkt-creator-metrics span,
+.cl2-mkt-creator-metrics b {
+  display: block;
+}
+
+.cl2-mkt-creator-metrics span {
+  overflow: hidden;
+  color: #7888a1;
+  font-size: 0.57rem;
+  font-weight: 780;
+  letter-spacing: 0.065em;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.cl2-mkt-creator-metrics b {
+  margin-top: 6px;
+  color: var(--nn-ink);
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.025em;
+}
+
+.cl2-mkt-profile-actions {
+  position: relative;
+  z-index: 4;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 16px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 48px;
+  gap: 9px;
+}
+
+.cl2-mkt-profile-actions .btn {
+  width: 100%;
+  min-height: 44px;
+  justify-content: center;
+}
+
+.cl2-mkt-profile-actions .cl2-profile-message {
+  grid-column: 1 / -1;
+}
+
+.cl2-mkt-profile-actions .cl2-profile-secondary {
+  min-width: 0;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-body {
+  min-height: 0;
+  padding: 52px 32px 30px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: start;
+  gap: 14px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(142, 165, 203, 0.45) transparent;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) .cl2-application-body {
+  grid-template-columns: 50px minmax(0, 1fr);
+}
+
+.cl2-application-body .cl2-pitch-section {
+  grid-column: 2;
+}
+
+.cl2-application-body .cl2-pitch-section--full,
+.cl2-application-body .cl2-application-footer {
+  grid-column: 1 / -1;
+}
+
+.cl2-application-footer {
+  display: grid;
+  gap: 8px;
+}
+
+.cl2-application-footer .ci-application-actions--drawer {
+  grid-template-columns: minmax(0, 1.55fr) repeat(2, minmax(0, 1fr));
+}
+
+.cl2-application-footer .cl2-accept-note {
+  color: #748198;
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) .cl2-linkedin-compact,
+.cl2-mkt-profile-actions .cl2-linkedin-compact {
+  width: 48px;
+  min-width: 48px;
+  height: 48px;
+  min-height: 48px;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
+  justify-self: start;
+  border: 1px solid var(--border2);
+  border-radius: 14px;
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.cl2-linkedin-compact iconify-icon {
+  font-size: 21px;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-section,
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-stat,
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-smart {
+  border-color: rgba(196, 213, 237, 0.64);
+  background: rgba(248, 251, 255, 0.74);
+  box-shadow: inset 0 1px 0 #fff;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-section {
+  padding: 16px;
+  border-radius: 18px;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) .cl2-campaign-section,
+.cl2-detail-card:not(.is-linkedin-review) .cl2-progress-section,
+.cl2-detail-card:not(.is-linkedin-review) .cl2-payment-section {
+  grid-column: 1 / -1;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-actions {
+  align-content: start;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn {
+  position: relative;
+  isolation: isolate;
+  min-height: 46px;
+  overflow: hidden;
+  border: 1px solid rgba(190, 207, 235, 0.76) !important;
+  border-radius: 13px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(232, 240, 255, 0.74));
+  box-shadow: inset 0 1px 0 #fff, 0 10px 24px rgba(35, 64, 107, 0.08);
+  backdrop-filter: blur(18px) saturate(145%);
+  -webkit-backdrop-filter: blur(18px) saturate(145%);
+  cursor: pointer;
+  transform: translateY(0) scale(1);
+  transition: transform 360ms var(--nn-spring), border-color 180ms ease, box-shadow 220ms ease !important;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn::after {
+  position: absolute;
+  z-index: -1;
+  top: -80%;
+  bottom: -80%;
+  left: -34%;
+  width: 22%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.72), transparent);
+  content: '';
+  pointer-events: none;
+  transform: rotate(16deg) translateX(-340%);
+  transition: transform 620ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn:hover {
+  border-color: rgba(139, 170, 231, 0.86) !important;
+  box-shadow: inset 0 1px 0 #fff, 0 15px 30px rgba(35, 78, 158, 0.14);
+  transform: translateY(-1px) scale(1);
+}
+
+.cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn:hover::after {
+  transform: rotate(16deg) translateX(720%);
+}
+
+.cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn:active {
+  transform: translateY(0) scale(0.965);
+}
+
+.cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn-primary {
+  border-color: rgba(92, 137, 245, 0.86) !important;
+  background: linear-gradient(145deg, #4d7cff 0%, #245bf0 58%, #1748ce 100%);
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.34), 0 13px 28px rgba(36, 91, 240, 0.28);
+}
+
+.cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn-danger-ghost {
+  border-color: rgba(226, 152, 160, 0.56) !important;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.88), rgba(255, 239, 241, 0.78));
+  color: #c44855;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-smart,
+.cl2-detail-card:not(.is-linkedin-review) .cl2-cancel-zone,
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-body > .muted,
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-section:has(.postbox),
+.cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-section:has(textarea) {
+  grid-column: 1 / -1;
+}
+
+.cl2-detail-card:not(.is-linkedin-review) .cl2-cancel-zone {
+  margin-top: clamp(18px, 4vh, 42px);
+  padding-top: 20px;
+}
+
+.cl2-progress-section {
+  min-height: 128px;
+  overflow: visible;
+  padding: 18px 18px 16px !important;
+}
+
+.cl2-progress-section > label {
+  margin-bottom: 14px !important;
+}
+
+.cl2-progress-section .cl2-steps {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--cl2-step-count), minmax(0, 1fr));
+  gap: 0;
+  margin: 0;
+}
+
+.cl2-timeline-rail {
+  position: absolute;
+  z-index: 0;
+  top: 14px;
+  right: calc(50% / var(--cl2-step-count));
+  left: calc(50% / var(--cl2-step-count));
+  height: 2px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(185, 200, 222, 0.72);
+}
+
+.cl2-timeline-rail i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #20ad69, #2f68f5);
+  transform: scaleX(var(--cl2-progress));
+  transform-origin: left center;
+  transition: transform 620ms var(--nn-spring);
+}
+
+.cl2-progress-section .cl2-step {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+  padding: 0 6px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.cl2-progress-section .cl2-step .ck {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(197, 211, 232, 0.82);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 5px 14px rgba(40, 68, 108, 0.08), inset 0 1px 0 #fff;
+}
+
+.cl2-progress-section .cl2-step .ck iconify-icon {
+  font-size: 20px;
+}
+
+.cl2-progress-section .cl2-step b {
+  overflow: hidden;
+  font-size: 0.72rem;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+}
+
+.cl2-progress-section .cl2-step span:not(.ck) {
+  display: block;
+  margin-top: 3px;
+  color: #8290a7;
+  font-size: 0.64rem;
+  line-height: 1.3;
+}
+
+.cl2-payment-section {
+  padding: 13px 16px !important;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.cl2-payment-section > label {
+  min-width: max-content;
+  margin: 0 !important;
+}
+
+.cl2-payment-section .cl2-pay {
+  min-width: 0;
+  flex: 1;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.cl2-payment-section .cl2-pay > div {
+  min-width: 0;
+  padding-left: 14px;
+  border-left: 1px solid rgba(199, 213, 233, 0.76);
+}
+
+.cl2-payment-section .cl2-pay b {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .cl2-overlay {
+    inset: 0 !important;
+    padding: 12px !important;
+  }
+
+  .cl2-detail-card:not(.is-linkedin-review) {
+    width: calc(100vw - 24px);
+    height: calc(100vh - 24px);
+    max-height: none;
+    border-radius: 25px;
+  }
+
+  .cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-scroll {
+    display: block;
+    overflow-y: auto;
+  }
+
+  .cl2-mkt-profile {
+    min-height: 0;
+    padding: 0 20px 26px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 24px 24px 0 0;
+    overflow: visible;
+    scrollbar-gutter: auto;
+  }
+
+  .cl2-mkt-marketplace-cover {
+    width: calc(100% + 40px);
+    height: 150px;
+    flex-basis: 150px;
+    margin: 0 -20px;
+    border-radius: 24px 24px 0;
+  }
+
+  .cl2-mkt-profile .cl2-mkt-avatar-wrap {
+    margin-top: -48px;
+  }
+
+  .cl2-mkt-profile .cl2-mkt-avatar-wrap .cav {
+    width: 88px !important;
+    height: 88px !important;
+  }
+
+  .cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-body {
+    padding: 24px 18px 26px;
+    grid-template-columns: 1fr;
+    overflow: visible;
+  }
+
+  .cl2-detail-card:not(.is-linkedin-review) .cl2-mkt-body > * {
+    grid-column: 1 !important;
+  }
+
+  .cl2-detail-card:not(.is-linkedin-review) .cl2-linkedin-compact {
+    grid-column: 1 !important;
+  }
+
+  .cl2-application-footer .ci-application-actions--drawer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cl2-application-footer .ci-application-actions--drawer .btn-primary {
+    grid-column: 1 / -1;
+  }
+
+  .cl2-mkt-profile-actions {
+    margin-top: 18px;
+  }
+
+  .cl2-progress-section .cl2-steps {
+    grid-template-columns: 1fr;
+    gap: 13px;
+  }
+
+  .cl2-progress-section {
+    min-height: 0;
+  }
+
+  .cl2-timeline-rail {
+    top: 15px;
+    bottom: 15px;
+    left: 14px;
+    width: 2px;
+    height: auto;
+  }
+
+  .cl2-timeline-rail i {
+    transform: scaleY(var(--cl2-progress));
+    transform-origin: center top;
+  }
+
+  .cl2-progress-section .cl2-step {
+    grid-template-columns: 30px minmax(0, 1fr);
+    justify-items: start;
+    padding: 0;
+    text-align: left;
+  }
+
+  .cl2-progress-section .cl2-step > div {
+    padding-top: 4px;
+  }
+
+  .cl2-payment-section {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cl2-payment-section .cl2-pay > div {
+    padding: 0;
+    border-left: 0;
+  }
+}
+
+@media (max-width: 1220px) {
+  #page-collaborations .cl2-hero-main {
+    grid-template-columns: 1fr;
+  }
+
+  #page-collaborations .cl2-hero-stats {
+    width: 100%;
+  }
+
+  #page-collaborations .cl2-control-deck {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  #page-collaborations .cl2-hero {
+    margin: 0 0 18px;
+    padding: 22px 16px 14px;
+    border-radius: 24px;
+  }
+
+  #page-collaborations .cl2-hero-copy h1 {
+    font-size: 2rem;
+  }
+
+  #page-collaborations .cl2-hero-stats {
+    grid-template-columns: 1fr;
+  }
+
+  #page-collaborations .cl2-stat {
+    min-height: 62px;
+  }
+
+  #page-collaborations .cl2-control-deck {
+    margin-top: 16px;
+  }
+
+  #page-collaborations .cl2-tabs .tab {
+    min-width: 108px;
+  }
+}
+
+/* Collaboration decisions — Liquid Glass tray + compact, stable action states. */
+#page-collaborations #cl2-table {
+  min-width: 1080px;
+  table-layout: fixed;
+}
+
+#page-collaborations #cl2-table :is(th, td) {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#page-collaborations #cl2-table :is(th, td):nth-child(1) { width: 15%; }
+#page-collaborations #cl2-table :is(th, td):nth-child(2) { width: 10%; }
+/* Status needs room for full pills like "Application received" (no clip). */
+#page-collaborations #cl2-table :is(th, td):nth-child(3) { width: 15%; overflow: visible; }
+#page-collaborations #cl2-table :is(th, td):nth-child(4) { width: 14%; }
+#page-collaborations #cl2-table :is(th, td):nth-child(5) { width: 9%; }
+#page-collaborations #cl2-table :is(th, td):nth-child(6) { width: 7%; }
+#page-collaborations #cl2-table :is(th, td):nth-child(7) { width: 7%; }
+#page-collaborations #cl2-table :is(th, td):nth-child(8) { width: 23%; }
+
+/* Status pills must wrap their full label — never shrink smaller than the text. */
+#page-collaborations #cl2-table .cl2-st {
+  max-width: none;
+  width: max-content;
+  overflow: visible;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+#page-collaborations #cl2-table .cl2-st iconify-icon {
+  flex: 0 0 auto;
+}
+
+.ci-application-actions.ci-application-actions,
+.msg-offer-cta.nn-liquid-actions {
+  position: relative;
+  isolation: isolate;
+  gap: 6px;
+  padding: 5px;
+  overflow: hidden;
+  border: 1px solid rgba(195, 211, 237, 0.7);
+  border-radius: 17px;
+  background:
+    radial-gradient(circle at 14% 0%, rgba(255, 255, 255, 0.96), transparent 42%),
+    linear-gradient(145deg, rgba(248, 251, 255, 0.86), rgba(229, 238, 255, 0.68));
+  box-shadow: inset 0 1px 0 #fff, 0 12px 30px rgba(37, 67, 115, 0.09);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+}
+
+.ci-application-actions.ci-application-actions::before,
+.msg-offer-cta.nn-liquid-actions::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(118deg, rgba(255, 255, 255, 0.5), transparent 38%, rgba(102, 144, 244, 0.07));
+  content: '';
+  pointer-events: none;
+}
+
+.ci-application-actions.ci-application-actions--counter {
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+}
+
+.ci-application-actions.ci-application-actions .btn,
+.msg-offer-cta.nn-liquid-actions .btn {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+  min-height: 44px;
+  height: 44px;
+  padding: 0 13px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  overflow: hidden;
+  border: 1px solid rgba(186, 205, 235, 0.8);
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(237, 243, 253, 0.8));
+  color: #2f3d55;
+  box-shadow: inset 0 1px 0 #fff, 0 5px 14px rgba(35, 63, 106, 0.07);
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  font-weight: 760;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  transform: translateY(0) scale(1);
+  transition: transform 360ms var(--nn-spring), border-color 180ms ease, background 180ms ease, color 180ms ease, box-shadow 220ms ease;
+}
+
+.ci-application-actions.ci-application-actions .btn::after,
+.msg-offer-cta.nn-liquid-actions .btn::after {
+  position: absolute;
+  z-index: -1;
+  top: -90%;
+  bottom: -90%;
+  left: -30%;
+  width: 18%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.72), transparent);
+  content: '';
+  pointer-events: none;
+  transform: rotate(16deg) translateX(-420%);
+  transition: transform 620ms cubic-bezier(0.22, 1, 0.36, 1);
+  animation: none;
+}
+
+.ci-application-actions.ci-application-actions .btn:hover:not(:disabled),
+.msg-offer-cta.nn-liquid-actions .btn:hover:not(:disabled) {
+  border-color: rgba(126, 159, 224, 0.9);
+  box-shadow: inset 0 1px 0 #fff, 0 9px 20px rgba(35, 78, 158, 0.14);
+  transform: translateY(-1px) scale(1);
+}
+
+.ci-application-actions.ci-application-actions .btn:hover:not(:disabled)::after,
+.msg-offer-cta.nn-liquid-actions .btn:hover:not(:disabled)::after,
+.ci-application-actions.ci-application-actions .btn.is-armed::after,
+.msg-offer-cta.nn-liquid-actions .btn.is-armed::after {
+  transform: rotate(16deg) translateX(820%);
+}
+
+.ci-application-actions.ci-application-actions .btn:active:not(:disabled),
+.msg-offer-cta.nn-liquid-actions .btn:active:not(:disabled) {
+  transform: translateY(0) scale(0.965);
+}
+
+.ci-application-actions.ci-application-actions .btn:focus-visible,
+.msg-offer-cta.nn-liquid-actions .btn:focus-visible {
+  outline: 3px solid rgba(36, 91, 240, 0.26);
+  outline-offset: 2px;
+}
+
+.ci-application-actions.ci-application-actions .btn-primary,
+.msg-offer-cta.nn-liquid-actions .btn-accept {
+  border-color: rgba(91, 137, 246, 0.88);
+  background: linear-gradient(145deg, #4d7cff 0%, #245bf0 58%, #1748ce 100%);
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.36), 0 9px 21px rgba(36, 91, 240, 0.25);
+}
+
+.ci-application-actions.ci-application-actions .btn-danger-ghost,
+.msg-offer-cta.nn-liquid-actions .btn-refuse {
+  border-color: rgba(225, 145, 155, 0.58);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(255, 237, 240, 0.8));
+  color: #b93645;
+}
+
+.ci-application-actions.ci-application-actions .btn .nn-action-label,
+.msg-offer-cta.nn-liquid-actions .btn .nn-action-label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ci-application-actions.ci-application-actions .btn iconify-icon,
+.msg-offer-cta.nn-liquid-actions .btn iconify-icon {
+  flex: 0 0 auto;
+  font-size: 17px;
+}
+
+.ci-application-actions.ci-application-actions .btn.is-armed,
+.msg-offer-cta.nn-liquid-actions .btn.is-armed {
+  animation: nnActionArm 420ms var(--nn-spring) both;
+}
+
+.ci-application-actions.ci-application-actions .btn.is-armed[data-action-tone='positive'],
+.msg-offer-cta.nn-liquid-actions .btn.is-armed[data-action-tone='positive'] {
+  border-color: #8baaff;
+  background: linear-gradient(145deg, #5c86ff, #1749d5);
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.38), 0 0 0 3px rgba(36, 91, 240, 0.13), 0 11px 24px rgba(36, 91, 240, 0.25);
+}
+
+.ci-application-actions.ci-application-actions .btn.is-armed[data-action-tone='danger'],
+.msg-offer-cta.nn-liquid-actions .btn.is-armed[data-action-tone='danger'] {
+  border-color: #e3818d;
+  background: linear-gradient(145deg, #de6674, #b72e3e);
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 0 0 3px rgba(190, 49, 65, 0.12), 0 10px 22px rgba(160, 35, 51, 0.2);
+}
+
+.ci-application-actions.ci-application-actions .btn.is-busy,
+.msg-offer-cta.nn-liquid-actions .btn.is-busy {
+  cursor: wait;
+  opacity: 0.94;
+}
+
+.ci-application-actions.ci-application-actions .btn.is-busy iconify-icon,
+.msg-offer-cta.nn-liquid-actions .btn.is-busy iconify-icon {
+  animation: nnActionSpin 760ms linear infinite;
+}
+
+.ci-application-actions.ci-application-actions .btn.is-success,
+.msg-offer-cta.nn-liquid-actions .btn.is-success {
+  border-color: rgba(66, 167, 121, 0.76);
+  background: linear-gradient(145deg, #35b377, #168457);
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.34), 0 10px 22px rgba(22, 132, 87, 0.21);
+  animation: nnActionSuccess 420ms var(--nn-spring) both;
+}
+
+.ci-application-actions.ci-application-actions .btn.is-error,
+.msg-offer-cta.nn-liquid-actions .btn.is-error {
+  border-color: rgba(218, 98, 111, 0.72);
+  background: linear-gradient(145deg, rgba(255, 248, 249, 0.98), rgba(255, 225, 229, 0.9));
+  color: #ad2d3c;
+}
+
+/* Dense desktop table variant: bare buttons only (no glass tray card). */
+.ci-application-actions.ci-application-actions--row {
+  width: max-content;
+  grid-template-columns: 32px repeat(3, max-content);
+  gap: 6px;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.ci-application-actions.ci-application-actions--row::before {
+  display: none;
+}
+
+.ci-application-actions.ci-application-actions--row .btn {
+  width: auto;
+  min-width: 0;
+  min-height: 34px;
+  height: 34px;
+  padding: 0 10px;
+  gap: 0;
+  border-radius: 10px;
+  font-size: 0.66rem;
+  line-height: 1;
+  transform: none;
+  transition: border-color 180ms ease, background 180ms ease, color 180ms ease, box-shadow 180ms ease;
+}
+
+.ci-application-actions.ci-application-actions--row .btn > span,
+.ci-application-actions.ci-application-actions--row .btn .nn-action-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  line-height: 1;
+}
+
+.ci-application-actions.ci-application-actions--row .btn iconify-icon {
+  display: none;
+}
+
+.ci-application-actions.ci-application-actions--row :is(.cl2-linkedin-action, .cl2-profile-action) {
+  width: 32px;
+  min-width: 32px;
+  padding: 0;
+}
+
+.ci-application-actions.ci-application-actions--row :is(.cl2-linkedin-action, .cl2-profile-action) iconify-icon {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.ci-application-actions.ci-application-actions--row .btn::after {
+  display: none;
+}
+
+.ci-application-actions.ci-application-actions--row .btn:hover:not(:disabled),
+.ci-application-actions.ci-application-actions--row .btn:active:not(:disabled) {
+  transform: none;
+}
+
+.ci-application-actions.ci-application-actions--row .btn:hover:not(:disabled) {
+  box-shadow: inset 0 1px 0 #fff, 0 5px 12px rgba(35, 78, 158, 0.11);
+}
+
+/* Standard row actions: bare buttons only (no tray card over the row). */
+.cl2-acts.ci-table-actions {
+  width: max-content;
+  margin-left: auto;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.cl2-acts.ci-table-actions .btn {
+  min-height: 36px;
+  height: 36px;
+  padding: 0 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  overflow: hidden;
+  border: 1px solid rgba(186, 205, 235, 0.8);
+  border-radius: 10px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(237, 243, 253, 0.82));
+  color: #2f3d55;
+  box-shadow: inset 0 1px 0 #fff, 0 5px 12px rgba(35, 63, 106, 0.07);
+  font-size: 0.7rem;
+  font-weight: 760;
+  line-height: 1;
+  transform: none;
+  transition: border-color 180ms ease, background 180ms ease, color 180ms ease, box-shadow 180ms ease;
+}
+
+.cl2-acts.ci-table-actions .btn-primary {
+  border-color: rgba(91, 137, 246, 0.88);
+  background: linear-gradient(145deg, #4d7cff 0%, #245bf0 58%, #1748ce 100%);
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.36), 0 7px 17px rgba(36, 91, 240, 0.2);
+}
+
+.cl2-acts.ci-table-actions .btn-danger-ghost {
+  border-color: rgba(225, 145, 155, 0.58);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(255, 237, 240, 0.82));
+  color: #b93645;
+}
+
+.cl2-acts.ci-table-actions .cl2-row-cancel {
+  width: 36px !important;
+  min-width: 36px;
+  height: 36px !important;
+  padding: 0 !important;
+  flex: 0 0 36px !important;
+}
+
+.cl2-acts.ci-table-actions .btn:hover:not(:disabled) {
+  border-color: rgba(126, 159, 224, 0.9);
+  box-shadow: inset 0 1px 0 #fff, 0 6px 14px rgba(35, 78, 158, 0.12);
+  transform: none;
+}
+
+.cl2-acts.ci-table-actions .btn:active:not(:disabled) {
+  transform: none;
+}
+
+.cl2-acts.ci-table-actions .btn:focus-visible {
+  outline: 3px solid rgba(36, 91, 240, 0.24);
+  outline-offset: 2px;
+}
+
+@keyframes nnActionArm {
+  0% { transform: scale(0.965); }
+  68% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+@keyframes nnActionSuccess {
+  0% { transform: scale(0.965); opacity: 0.72; }
+  70% { transform: scale(1.018); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes nnActionSpin {
+  to { transform: rotate(1turn); }
+}
+
+@media (max-width: 860px) {
+  #page-collaborations #cl2-table.m-cardify {
+    min-width: 0;
+    table-layout: auto;
+  }
+
+  .ci-application-actions.ci-application-actions--row {
+    width: 100%;
+    grid-template-columns: 44px repeat(3, minmax(0, 1fr));
+  }
+
+  .ci-application-actions.ci-application-actions--row .btn {
+    min-width: 0;
+    min-height: 44px;
+    height: 44px;
+  }
+
+  .ci-application-actions.ci-application-actions--row :is(.cl2-linkedin-action, .cl2-profile-action) {
+    width: 44px;
+    min-width: 44px;
+  }
+}
+
+@media (max-width: 560px) {
+  .ci-application-actions.ci-application-actions--drawer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ci-application-actions.ci-application-actions--drawer .btn-primary {
+    grid-column: 1 / -1;
+  }
+
+  .ci-application-actions.ci-application-actions--row {
+    grid-template-columns: 44px repeat(2, minmax(0, 1fr));
+  }
+
+  .ci-application-actions.ci-application-actions--row .btn:first-child {
+    grid-column: auto;
+  }
+
+  .ci-application-actions.ci-application-actions--row .btn-danger-ghost {
+    grid-column: 2 / -1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nn-liquid-indicator,
+  .nn-liquid-segment > button,
+  #page-collaborations .cl2-search,
+  .cl2-detail-card,
+  .cl2-overlay,
+  .cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn,
+  .cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn::after,
+  .ci-application-actions.ci-application-actions .btn,
+  .ci-application-actions.ci-application-actions .btn::after,
+  .msg-offer-cta.nn-liquid-actions .btn,
+  .msg-offer-cta.nn-liquid-actions .btn::after,
+  .ci-application-actions.ci-application-actions .btn iconify-icon,
+  .msg-offer-cta.nn-liquid-actions .btn iconify-icon {
+    transition: none !important;
+    animation: none !important;
+  }
+
+  .cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn:hover,
+  .cl2-detail-card:not(.is-linkedin-review) :is(.cl2-mkt-body, .cl2-mkt-profile-actions) .btn:active {
+    transform: none;
+  }
+
+  .ci-application-actions.ci-application-actions .btn:hover,
+  .ci-application-actions.ci-application-actions .btn:active,
+  .msg-offer-cta.nn-liquid-actions .btn:hover,
+  .msg-offer-cta.nn-liquid-actions .btn:active {
+    transform: none;
+  }
+
+  .nn-liquid-segment.is-dragging .nn-liquid-indicator {
+    scale: 1;
+  }
+}

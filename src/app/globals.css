@@ -1,0 +1,8 @@
+/* Vendored production stylesheets (Tailwind v4 output + landing/system CSS) — order matters. */
+@import "../styles/vendor/chunks/1fxt04qdho09-.css";
+@import "../styles/vendor/chunks/3miz_m3gojkn7.css";
+@import "../styles/vendor/chunks/0ftqgv_a12bxx.css";
+@import "../styles/vendor/chunks/2wc8g3f3t8hbj.css";
+@import "../styles/vendor/chunks/2vk4pi2165eau.css";
+@import "../styles/site.css";
+@import "../styles/chat.css";
